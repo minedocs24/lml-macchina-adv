@@ -36,7 +36,7 @@ niente "intelligenza artificiale" nel testo; nomi dei clienti mai negli annunci.
 
 ## Come si usa
 - Ogni lunedì il Piano sceglie 3-5 idee "da provare" (o varianti delle vincenti, quando ci sono: 70% varianti, 30% nuove).
-- Ogni idea va in campo in 2 versioni (due ganci, due volti o due formati).
+- Ogni idea va in campo in 2 versioni che cambiano **almeno chi parla o il formato** (cambiare solo il gancio non basta: due pezzi con stessa persona, stesso argomento e stesso formato non stanno in campo insieme, `regole-adv.md` §18).
 - Il venerdì dopo, i Numeri dicono com'è andata; il Piano aggiorna lo stato qui, con data e motivo. Niente si cancella.
 - Le idee 19 e 20 entrano solo quando la riga corrispondente di `arya-oggi.md` diventa "vendibile" con il sì di Ivan.
 
