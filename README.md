@@ -6,26 +6,34 @@ Questo archivio è l'unico posto in cui la macchina tiene regole, conoscenza, sk
 ## Da dove partire
 | Se vuoi… | Guarda |
 |---|---|
-| le regole che valgono sempre | `CLAUDE.md` |
-| le decisioni in vigore (budget, tetti, offerta) | `regole/decisioni.md` |
+| le regole che valgono sempre e il ritmo della settimana | `CLAUDE.md` |
+| le decisioni in vigore (budget, tetti, offerta, prezzi) | `regole/decisioni.md` |
+| le regole pubblicitarie complete (3.0) | `regole/regole-adv.md` |
 | cosa Arya fa oggi e cosa si può promettere | `conoscenza/arya-oggi.md` |
+| prezzi, condizioni e offerta di lancio | `conoscenza/offerta.md` |
 | cosa abbiamo imparato finora | `conoscenza/apprendimenti.md` |
+| le idee da provare | `piano/carta-dei-messaggi.md` |
+| il modello della scheda di un reel o post | `regia/MODELLO-SCHEDA.md` |
+| come si leggono i contatti dal CRM | `numeri/collegamento-crm.md` |
 | cosa deve decidere Ivan | `direttore/da-rivedere.md` |
 | i numeri settimana per settimana | `numeri/storico.csv` |
 | ogni reel o post pubblicato e com'è andato | `regia/archivio-pezzi.md` |
 
 ## Le cartelle
-- `regole/` — decisioni in vigore e superate.
-- `conoscenza/` — scheda di Arya, apprendimenti, linguaggio dei clienti (`customer-language.md`), glossario.
+- `regole/` — decisioni in vigore e superate, regole pubblicitarie 3.0.
+- `conoscenza/` — scheda di Arya, offerta, apprendimenti, linguaggio dei clienti (`customer-language.md`), glossario.
 - `osservatorio/`, `piano/`, `regia/`, `collaudo/`, `campo/`, `numeri/` — un reparto ciascuno, file datati.
 - `direttore/` — riepiloghi e coda delle cose da rivedere.
-- `prompt/` — i testi delle automazioni.
-- `.claude/skills/` — le skill dei reparti (11, copiate da OneDrive "ADV Meta" il 7/10/2026, non modificate) e `catena-adv.md`, la mappa.
+- `prompt/` — i testi delle automazioni (vuota: le automazioni non ci sono ancora).
+- `.claude/skills/` — una skill per reparto (`osservatorio`, `piano`, `regia`, `collaudo`, `campo`, `numeri`, `direttore`)
+  e `meta-scrittura-sicura`, che usa Campo. Le 13 skill di settembre e la mappa `catena-adv.md` sono in `.claude/skills/archivio/`.
 - `archivio-lml-adv/` — il lavoro di settembre 2026 da `Company/Marketing/lml-adv/`, copiato così com'era. Si legge, non si modifica.
 
 ## Copia leggibile
 In OneDrive, `Company/Marketing/macchina-adv/`: i report da leggere e ogni lunedì gli apprendimenti.
-Le novità di Arya si scrivono in `macchina-adv/novita-arya/` usando `MODELLO-NOTA.md`.
+- `novita-arya/` — le novità di Arya (`MODELLO-NOTA.md`) e le conferme delle funzioni (`VERIFICA-FUNZIONI.md`).
+- `fondamenta/` — copia di `CLAUDE.md`, `regole/decisioni.md` e `conoscenza/arya-oggi.md`, per rileggerli dalla chat.
+- `cervello/` — copia di `regole-adv.md` 3.0, `carta-dei-messaggi.md`, `MODELLO-SCHEDA.md`, `offerta.md`, `collegamento-crm.md`.
 
 ## Cosa NON è stato copiato da `lml-adv` (7/10/2026), e perché
 | File | Motivo |
@@ -37,4 +45,5 @@ Le novità di Arya si scrivono in `macchina-adv/novita-arya/` usando `MODELLO-NO
 | tutti i `.bak`, `numeri/`, `Claude outputs/`, `storico-minedocs/` | esclusi per istruzione |
 | `CLAUDE.md`, `fase-*.md`, `RIEPILOGO-*.md`, `prompt-edge-*.md`, `.mcp.json`, `.claude/`, `montaggi/` (vuota) di `lml-adv` | non richiesti in questa fase |
 
-Questi file restano leggibili su OneDrive. Per copiarli serve una decisione di Ivan (vedi la richiesta di unione).
+Decisione di Ivan (7/10/2026): STATO-progetto-adv.md, scaletta-configurazione-adv.md e product-marketing.md **restano solo su OneDrive**.
+Regola: i nomi dei colleghi LML, nel loro ruolo, possono stare nell'archivio; quelli di persone esterne mai.

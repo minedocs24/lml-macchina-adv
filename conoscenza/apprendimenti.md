@@ -1,13 +1,13 @@
 # Apprendimenti
 
 Una riga per lezione. **Niente si cancella**: una lezione smentita diventa "superata il AAAA-MM-GG — motivo".
-- **Tipo:** *indizio* (pochi dati, o dati di altri) / *confermato* (nostri numeri, spesa sufficiente secondo `regole/decisioni.md`).
+- **Tipo:** *indizio* (visto in un solo periodo, o con dati di altri) / *confermato* (la lezione regge in **due periodi diversi**; regola in CLAUDE.md dal 7/10/2026).
 - **Spesa e tempo:** quanto abbiamo speso noi e su quanti giorni. "0 € — osservazione" = guardato il mercato, non speso.
 - Ogni lunedì questo file va copiato in OneDrive `Company/Marketing/macchina-adv/apprendimenti-AAAA-MM-GG.md`.
 
 | # | Data | Tipo | Cosa abbiamo visto (con i numeri) | Spesa e tempo | Cosa cambia | Stato | Fonte |
 |---|---|---|---|---|---|---|---|
-| 1 | 2026-09 | confermato | Su Meta Claude può scrivere (ruolo amministratore basta), non può eliminare nulla, e le campagne nascono in pausa. | 0 € — prova tecnica | Ogni errore su Meta è reversibile; irreversibili restano solo la spesa e la pubblicazione. Le regole di sicurezza restano comunque quelle di CLAUDE.md. | da archivio, settembre 2026 | regole-adv.md §32 |
+| 1 | 2026-09 | confermato | Su Meta Claude può scrivere (ruolo amministratore basta), non può eliminare nulla, e le campagne nascono in pausa. | 0 € — prova tecnica | Ogni errore su Meta è reversibile; irreversibili restano solo la spesa e la pubblicazione. Le regole di sicurezza restano comunque quelle di CLAUDE.md. | da archivio, settembre 2026 — **da riverificare** (7/10/2026: le descrizioni attuali del connettore Meta dicono che crea bozze, che lo strumento di attivazione pubblica subito e che l'eliminazione è possibile e definitiva; non provato, serve il sì di Ivan per una verifica) | regole-adv.md §32 |
 | 2 | 2026-09-17 | indizio | Aperto il settore case di software/gestionali/agenzie tecniche: tre trattative nate senza pubblicità, nessun risultato da campagne. | 0 € | Il cliente qui è anche partner: è valido chi usa Arya per sé, non chi vuole solo rivenderla. | da archivio, settembre 2026 | regole-adv.md §32 |
 | 3 | 2026-09-14 | indizio | "Non perdi più chiamate" lo usano 8 pagine concorrenti su 14 (rivenditori) e "risponde quando tu non puoi" è la promessa comune: non distingue più. | 0 € — osservazione, 1 giorno | Non basare un messaggio sulle chiamate perse; il pezzo in più è "e fa" (agisce). | da archivio, settembre 2026 | radar rivenditori 14/09 §1, §5, §12.2; panoramica 14/09 §5 |
 | 4 | 2026-09-14 | indizio | La prova gratuita (o demo/consulenza gratuita) la offrono 7 pagine su 14; un concorrente regala un setup da 2.000 €. | 0 € — osservazione | Il primo passo deve valere da solo. Da allora c'è la decisione 3 (prova 15 giorni + attivazione inclusa). | da archivio, settembre 2026 | radar rivenditori 14/09 §5, §7, §12.4; panoramica 14/09 §4, §7 |
