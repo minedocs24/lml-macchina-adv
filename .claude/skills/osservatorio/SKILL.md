@@ -120,7 +120,7 @@ In chat, alla fine: dieci righe — la riga secca, le tre cose nuove, cosa non s
 - **Meta:** solo lettura della Libreria. Non apre l'account pubblicitario, non crea, non attiva, non cambia budget.
 - **Non decide** cosa provare né quanto spendere (è il Piano), non consiglia angoli, non scrive testi di annunci.
 - **Non trasforma una novità in promessa** e non modifica `arya-oggi.md`, `regole/`, `CLAUDE.md`, `customer-language.md`.
-- **CRM:** solo in lettura e solo per le novità di Arya (prodotti, condizioni, offerte nuove), come chiede `prompt/osservatorio.md`. Mai scrivere; nessun elenco di contatti o di clienti potenziali per nome nei file.
+- **CRM:** non si apre finché non c'è un connettore di sola lettura (Ivan, 7/10/2026). Quando ci sarà: solo in lettura e solo per le novità di Arya (prodotti, condizioni, offerte nuove). Mai scrivere; nessun elenco di contatti o di clienti potenziali per nome nei file.
 - **Dati personali:** mai nomi, telefoni o email di persone esterne. Se un file o una nota di `novita-arya/` contiene dati
   di persone esterne, si salta e si segnala. L'Excel dei contatti di settembre non si usa.
 - **Niente estrazione in massa** dalla Libreria o dalle recensioni; nessun salvataggio di creatività dei concorrenti.

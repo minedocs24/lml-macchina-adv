@@ -3,7 +3,7 @@
 File di configurazione vincolante. Sta in `regole/regole-adv.md` nell'archivio `lml-macchina-adv`, accanto a `conoscenza/arya-oggi.md`.
 
 Versione 3.1 — 7 ottobre 2026
-*(3.1 — 7 ottobre 2026: risposte di Ivan alle domande sulla 3.0, decisioni 11-19 — ottobre senza campagne e Prova da metà novembre (§9); tetti per contatto valido, demo fatta e cliente (§27); stop a finestra mobile (§9, §17); vincente e perdente (§17.1); chiusura comune proposta dalla Regia (§2bis); referenza dei primi 10 (§21); connettore Meta (§24bis).)*
+*(3.1 — 7 ottobre 2026: risposte di Ivan alle domande sulla 3.0, decisioni 11-20 — canone bloccato 24 mesi (§28); — ottobre senza campagne e Prova da metà novembre (§9); tetti per contatto valido, demo fatta e cliente (§27); stop a finestra mobile (§9, §17); vincente e perdente (§17.1); chiusura comune proposta dalla Regia (§2bis); referenza dei primi 10 (§21); connettore Meta (§24bis).)*
 *(3.0 — 7 ottobre 2026: scritta partendo dalla 2.5, con le sole modifiche elencate in «Cosa cambia dalla 2.5», su istruzione di Ivan.)*
 *(2.5 — 17 settembre 2026. A: nuova §17.1, come si giudica un blocco con budget piccoli; §17 e §26 allineate — decisione di Ivan.)*
 *(2.5-B: §18 — il numero di creatività dipende dalla spesa: 3-4 per blocco sotto i 1.000 € al mese, 8-12 al mese sopra — decisione di Ivan.)*
@@ -940,7 +940,7 @@ Al contrario, ridurre l'abbandono anche di poco vale molto: passare dal 2% all'1
 
 ### Cosa protegge
 
-- **I contratti lunghi.** I contratti annuali o pluriennali riducono l'abbandono di oltre la metà rispetto al mese per mese. LML vende a 24 mesi, con recesso libero a 60 giorni di preavviso (decisione 3): è una forza, non va ceduta per chiudere più in fretta.
+- **I contratti lunghi.** I contratti annuali o pluriennali riducono l'abbandono di oltre la metà rispetto al mese per mese. LML vende a 24 mesi, con recesso libero a 60 giorni di preavviso (decisione 3) e canone bloccato per tutti i 24 mesi, solo il canone e non i consumi (decisione 20): è una forza, non va ceduta per chiudere più in fretta.
 - **I primi 90 giorni.** È lì che si decide se il cliente resta. Il prodotto deve produrre un risultato visibile nelle prime settimane (le prime chiamate gestite, i primi messaggi risposti), e il cliente deve saperlo.
 - **Un contatto umano programmato** al giorno 7, al giorno 30 e al giorno 90. Non per vendere: per verificare che stia usando il prodotto.
 

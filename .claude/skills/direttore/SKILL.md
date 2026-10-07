@@ -97,8 +97,8 @@ File letti: [nome · versione o data]
 | 4 | Il freno è tirato | Nessuna produzione. Solo righe 2, 3 e la lettura del lunedì di Numeri |
 | 5 | Da lunedì, manca la lettura della settimana di Numeri | **Numeri, lettura della settimana** (il Piano ne ha bisogno) |
 | 6 | Da lunedì, manca `osservatorio/AAAA-MM-GG.md` della settimana | **Osservatorio** |
-| 7 | Da lunedì, ci sono numeri e mercato ma manca `piano/AAAA-MM-GG-piano-settimana.md` | **Piano** |
-| 8 | C'è il piano ma manca `regia/AAAA-MM-GG-argomenti.md` | **Regia**; poi controlla che ci sia la riga del cancello **pacchetto** (scadenza martedì alle 12) |
+| 7 | Da lunedì, c'è il mercato ma manca `piano/AAAA-MM-GG-piano-settimana.md` | **Piano e, nello stesso giro, gli argomenti della Regia**: per la regola del lavoro unico contano come un lavoro solo (Ivan, 7/10/2026) |
+| 8 | C'è il piano ma manca `regia/AAAA-MM-GG-argomenti.md` (o, da martedì, mancano le schede) | **Regia** (argomenti, poi schede); poi controlla che ci sia la riga del cancello **pacchetto** (scadenza martedì alle 12) |
 | 9 | Martedì dopo le 12, argomenti senza bocciatura scritta | Stato `scaduto: si gira`; se c'è una bocciatura, la Regia mette la riserva. Nessuna produzione |
 | 10 | Da giovedì, ci sono pezzi consegnati alla Regia senza verbale di Collaudo | **Collaudo** |
 | 11 | Collaudo fatto, pacchetto senza il sì scritto di Ivan | Non esegue. Riga cancello **pacchetto** se manca: "senza il sì, venerdì Campo non prepara niente" |

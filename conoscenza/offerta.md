@@ -14,6 +14,7 @@ Il contratto dura 24 mesi, ma puoi uscire quando vuoi con 60 giorni di preavviso
 - **Messa in servizio** (il lavoro per farlo partire: conoscenza, catalogo, regole, prove, primo mese di taratura): si paga una volta,
   **anche in 3 rate**.
 - **Canone mensile**: assistenza LML, aggiornamenti, linee e caselle comprese. Non include il consumo.
+  **Il canone resta bloccato per tutti i 24 mesi**; il blocco vale solo per il canone, non per i consumi (decisione 20).
 - **Consumo**: si paga solo quando Arya ha chiuso la richiesta da sola. Nessun minimo, nessun volume incluso.
 - **Tetto di spesa**: lo imposta il cliente dal pannello; vede il conteggio in ogni momento.
 - **Pacchetti prepagati**: sconto del 15% per chi vuole una cifra fissa (dai listini).
@@ -101,11 +102,10 @@ I tre PDF in `Company/Commerciale/Prodotti/Suite ARYA/` dicono cose superate dal
 | 5 | La messa in servizio non si sconta oltre il lancio | **Inclusa per i primi 10 clienti Arya** | decisione 3 |
 | 6 | Obiezione "24 mesi sono troppi": "chi preferisce sottoscrive a listino con 12 mesi" | Non vale più: la risposta è il recesso libero a 60 giorni | decisione 3 |
 | 7 | Collegamento su misura 1.200 € a listino, 900 € al lancio | 900 € (colonna lancio) + 79 € al mese | Ivan, 7/10/2026 (regola 1) |
-| 8 | Il prezzo di lancio si concede "solo contro 24 mesi e referenza" (logo, mezz'ora registrata, referenza telefonica), canone bloccato 24 mesi, verifica a 90 giorni | La referenza completa (logo, caso studio con mezz'ora registrata, referenza telefonica, verifica a 90 giorni) si chiede **solo ai primi 10 clienti Arya**; per tutti gli altri la clausola standard. Il canone bloccato 24 mesi non è stato toccato dalle decisioni: da chiarire | decisione 14 |
+| 8 | Il prezzo di lancio si concede "solo contro 24 mesi e referenza" (logo, mezz'ora registrata, referenza telefonica), canone bloccato 24 mesi, verifica a 90 giorni | La referenza completa (logo, caso studio con mezz'ora registrata, referenza telefonica, verifica a 90 giorni) si chiede **solo ai primi 10 clienti Arya**; per tutti gli altri la clausola standard. Il canone bloccato per 24 mesi resta, per tutti, e vale solo per il canone, non per i consumi | decisioni 14 e 20 |
 | 9 | ARYA Voice, obiezione "è un robot": "risponde in meno di un secondo" | Non si promette (riga 6 di `arya-oggi.md`) finché non è misurato e chiarito | arya-oggi.md |
 
 I PDF originali non si modificano da qui: li aggiorna chi ne è responsabile.
 
 ## Cosa non so
-- Se il "canone bloccato per 24 mesi" dei PDF resta nel contratto.
 - Se i pacchetti prepagati scontati del 15% restano in vendita.

@@ -8,7 +8,7 @@ Questo archivio è l'unico posto in cui la macchina tiene regole, conoscenza, sk
 |---|---|
 | le regole che valgono sempre e il ritmo della settimana | `CLAUDE.md` |
 | le decisioni in vigore (budget, tetti, offerta, prezzi) | `regole/decisioni.md` |
-| le regole pubblicitarie complete (3.0) | `regole/regole-adv.md` |
+| le regole pubblicitarie complete (3.1) | `regole/regole-adv.md` |
 | cosa Arya fa oggi e cosa si può promettere | `conoscenza/arya-oggi.md` |
 | prezzi, condizioni e offerta di lancio | `conoscenza/offerta.md` |
 | cosa abbiamo imparato finora | `conoscenza/apprendimenti.md` |
@@ -20,7 +20,7 @@ Questo archivio è l'unico posto in cui la macchina tiene regole, conoscenza, sk
 | ogni reel o post pubblicato e com'è andato | `regia/archivio-pezzi.md` |
 
 ## Le cartelle
-- `regole/` — decisioni in vigore e superate, regole pubblicitarie 3.0.
+- `regole/` — decisioni in vigore e superate, regole pubblicitarie 3.1.
 - `conoscenza/` — scheda di Arya, offerta, apprendimenti, linguaggio dei clienti (`customer-language.md`), glossario.
 - `osservatorio/`, `piano/`, `regia/`, `collaudo/`, `campo/`, `numeri/` — un reparto ciascuno, file datati.
 - `direttore/` — riepiloghi e coda delle cose da rivedere.

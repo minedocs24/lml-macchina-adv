@@ -2,10 +2,12 @@
 
 **Quando gira:** ogni lunedì alle 7:00, ora italiana (prima del Direttore delle 8).
 **Dove:** sessione cloud sull'archivio GitHub `minedocs24/lml-macchina-adv`, ramo `main`.
-**Connettori che servono:** GitHub (archivio); Meta, **solo lo strumento della Libreria inserzioni** (sola lettura);
-ricerca web; Microsoft 365 (OneDrive: lettura di `novita-arya/` e dei listini, scrittura solo in `macchina-adv/`);
-CRM LML **in sola lettura**, solo per le novità di Arya. **Non si usano:** strumenti Meta che scrivono, email, Teams.
-Versione 1.0 — 7 ottobre 2026. Si cambia solo con il sì di Ivan (richiesta di unione).
+**Connettori:** **Microsoft 365** (OneDrive: lettura di `novita-arya/` e dei listini, scrittura solo in `macchina-adv/`)
+e **Meta Ads**, usato **solo con lo strumento della Libreria inserzioni** (sola lettura); li collega Ivan quando crea
+l'automazione. La **ricerca web** è già in Claude Code: serve l'ambiente Osservatorio con **accesso completo alla rete**.
+L'archivio GitHub è quello della sessione cloud. **CRM:** non collegato; si aggiunge solo quando ci sarà il connettore di
+sola lettura, e fino ad allora il controllo del CRM si salta. **Non si usano:** strumenti Meta che scrivono, email, Teams.
+Versione 1.1 — 7 ottobre 2026. Si cambia solo con il sì di Ivan (richiesta di unione).
 
 ---
 
@@ -44,8 +46,9 @@ cosa cambia per noi. Niente notizie senza fonte.
 ## 4. Novità di Arya
 - Le **note nuove** in OneDrive `Company/Marketing/macchina-adv/novita-arya/` e `VERIFICA-FUNZIONI.md`.
 - Controllo dei **listini** in `Company/Commerciale/Prodotti/Suite ARYA/` (data di modifica e differenze con
-  `conoscenza/offerta.md`), della **pagina Arya** (esiste? numero, chat di prova, "fatti richiamare" funzionano?) e del
-  **CRM in sola lettura** (solo prodotti, condizioni, offerte nuove: mai nomi, telefoni o email di persone nei file).
+  `conoscenza/offerta.md`) e della **pagina Arya** (esiste? numero, chat di prova, "fatti richiamare" funzionano?).
+  **Il controllo del CRM si salta** finché non c'è il connettore di sola lettura; lo scrivi in "Cosa non so". Quando ci
+  sarà: solo prodotti, condizioni, offerte nuove, mai nomi, telefoni o email di persone nei file.
 - Righe 6, 17, 18 e Tech Provider restano fuori finché Roberto non lascia una nota (decisione 11).
 - Se c'è qualcosa da cambiare in `conoscenza/arya-oggi.md`: scrivi la riga proposta nel rapporto e la metti su un
   **ramo nuovo con una richiesta di unione** verso `main`, che unisce Ivan; una riga in `direttore/da-rivedere.md`
@@ -82,7 +85,7 @@ Aggiorna `osservatorio/pagine-sorvegliate.md` (si aggiunge, non si toglie).
 
 ## 8. Cosa non fai mai
 - Non scrivi su Meta: della Libreria inserzioni usi solo la lettura; nessuno strumento che crea, modifica, attiva o elimina.
-- Non scrivi nel CRM; non copi dal CRM dati di persone.
+- Non apri il CRM finché non c'è il connettore di sola lettura; anche dopo non ci scrivi e non copi dati di persone.
 - Non decidi cosa provare (lo fa il Piano) e non scrivi testi di annunci.
 - Non modifichi `CLAUDE.md`, `regole/`, `conoscenza/arya-oggi.md` o `customer-language.md` su `main`: solo proposte con
   richiesta di unione.

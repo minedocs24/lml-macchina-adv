@@ -2,9 +2,10 @@
 
 **Quando gira:** giorni feriali (lunedì-venerdì) alle 8:00, ora italiana.
 **Dove:** sessione cloud sull'archivio GitHub `minedocs24/lml-macchina-adv`, ramo `main`.
-**Connettori che servono:** GitHub (archivio), Microsoft 365 (OneDrive, per leggere `novita-arya/` e scrivere le copie
-in `macchina-adv/`). **Non servono e non si usano:** Meta, CRM, email, Teams.
-Versione 1.0 — 7 ottobre 2026. Si cambia solo con il sì di Ivan (richiesta di unione).
+**Connettori:** **solo Microsoft 365** (OneDrive, per leggere `novita-arya/` e scrivere le copie in `macchina-adv/`);
+li collega Ivan quando crea l'automazione. L'archivio GitHub è quello della sessione cloud. **Non si usano:** Meta,
+CRM, email, Teams.
+Versione 1.1 — 7 ottobre 2026. Si cambia solo con il sì di Ivan (richiesta di unione).
 
 ---
 
@@ -32,13 +33,14 @@ Fa eccezione la scadenza per bocciare gli argomenti (martedì alle 12): passata 
 citando la regola. Non è un'approvazione.
 
 ## 3. Chi tocca oggi — al massimo **un** lavoro
-Segui il ritmo della settimana di `CLAUDE.md`. Fai al massimo un lavoro fra **Piano**, **schede della Regia** o
-**Collaudo**, usando la skill del reparto; se non c'è niente da fare, non inventi lavoro.
+Segui il ritmo della settimana di `CLAUDE.md`. Fai al massimo un lavoro fra **Piano**, **Regia** o **Collaudo**,
+usando la skill del reparto; se non c'è niente da fare, non inventi lavoro. **Il lunedì il Piano e gli argomenti della
+Regia si fanno nello stesso giro e contano come un lavoro solo** (Ivan, 7/10/2026).
 
 | Giorno | Lavoro, se manca | Skill |
 |---|---|---|
-| lunedì | il piano della settimana (`piano/AAAA-MM-GG-piano-settimana.md`), dopo l'Osservatorio delle 7 | `piano` |
-| martedì | argomenti della settimana e schede di una pagina (`regia/`), se il piano c'è | `regia` |
+| lunedì | il piano della settimana (`piano/AAAA-MM-GG-piano-settimana.md`), dopo l'Osservatorio delle 7, **e** gli argomenti della Regia (`regia/AAAA-MM-GG-argomenti.md`, con un argomento di riserva e la riga del cancello "pacchetto": Ivan può bocciarne uno **entro martedì alle 12**) | `piano`, poi `regia` |
+| martedì | le schede di una pagina (`regia/`) per gli argomenti della lista e per la riserva; dopo le 12, se c'è una bocciatura, la riserva prende il posto dell'argomento bocciato | `regia` |
 | mercoledì | niente da produrre (riprese della persona social e del cast); solo controlli | — |
 | giovedì | collaudo dei pezzi montati (`collaudo/`) | `collaudo` |
 | venerdì | niente da produrre: Ivan approva il pacchetto e attiva la spesa; Campo non gira in automatico | — |
@@ -76,7 +78,8 @@ Poi:
   `conoscenza/apprendimenti.md`) li **salvi su `main`**: un commit per lavoro, messaggio in italiano che dice cosa e
   perché (es. "piano: settimana 16-22 novembre, 4 idee, 3 volti").
 - Le modifiche a **`CLAUDE.md`, `regole/` e `conoscenza/arya-oggi.md`** non vanno su `main`: le metti su un ramo nuovo
-  e apri una **richiesta di unione** (pull request) verso `main`, che unisce Ivan. Una riga in `da-rivedere.md`.
+  e apri una **richiesta di unione** (pull request) verso `main`, che unisce Ivan. Una riga in `da-rivedere.md`. Se la
+  sessione non riesce ad aprire la richiesta, scrivi nel rapporto il nome del ramo e cosa contiene.
 - Se il salvataggio non riesce, lo scrivi nel rapporto e non dichiari fatto il lavoro.
 
 ## 6. Cosa non fai mai
