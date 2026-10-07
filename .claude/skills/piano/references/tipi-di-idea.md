@@ -30,7 +30,8 @@ Il "e fa" vale solo con funzioni **vendibili** di `arya-oggi.md`. "Il caso" serv
 un caso di un altro mestiere si può citare come "lo abbiamo già fatto", non come "per uno come te".
 
 ## Cosa NON è un'idea nuova
-- Un gancio, un titolo o un'immagine diversi con lo stesso messaggio: è una **versione** o una **variante**.
+- Un gancio, un titolo o un'immagine diversi con lo stesso messaggio: è una **variante**, non un'idea nuova. E da solo
+  non basta a fare la seconda versione: le 2 versioni cambiano almeno chi parla o il formato.
 - "Innovazione", "trasformazione digitale", "intelligenza artificiale per la tua azienda": parole da evitare.
   La sola parola "intelligenza artificiale" abbassa fiducia e intenzione d'acquisto (Cicek, Gursoy, Lu, 2024).
 - Una promessa che non è "vendibile": non è un'idea, è un'idea "in attesa della conferma di Roberto".

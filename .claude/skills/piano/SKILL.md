@@ -21,8 +21,8 @@ Sempre:
 Del reparto:
 3. `piano/carta-dei-messaggi.md` — le idee e il loro stato.
 4. `conoscenza/arya-oggi.md` — **solo le righe "vendibile"** possono diventare promesse.
-5. `conoscenza/offerta.md` — prezzi e offerta. **Se non c'è**, si usano la decisione 3 e la sezione "Prezzi e offerta"
-   di `arya-oggi.md`, e si scrive che il file manca.
+5. `conoscenza/offerta.md` — prezzi e offerta (decisioni 3 e 10). Se non si apre, si usano le decisioni 3 e 10
+   e si scrive che il file manca.
 6. `regole/regole-adv.md` (3.0): §0.1, §1, §2bis, §3.1, §5.1, §9, §15, §17, §17.1, §18, §21, §23, §26, §27.
 7. L'ultimo `osservatorio/AAAA-MM-GG-mercato.md` e, se recente, l'ultimo `-voce.md`; `conoscenza/customer-language.md`.
 8. I numeri, **solo dai file di Numeri**: l'ultimo report in `numeri/` e `numeri/storico.csv` (spesa, contatti, demo,

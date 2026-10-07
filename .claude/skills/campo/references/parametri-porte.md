@@ -1,7 +1,7 @@
 # Parametri del connettore Meta — per le due porte
 
 **Letti il 7/10/2026 dalle descrizioni degli strumenti del connettore Meta Ads, senza nessuna chiamata.** I parametri per
-WhatsApp di settembre sono in `.claude/skills/lml-montaggio-campagna/references/parametri.md` (verificati il 13/09/2026).
+WhatsApp di settembre sono in `.claude/skills/archivio/lml-montaggio-campagna/references/parametri.md` (verificati il 13/09/2026).
 Se il connettore cambia, questo file si rilegge e si ridata con un file nuovo. **Non fidarsi della memoria.**
 
 ## Regole per ogni chiamata

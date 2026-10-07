@@ -19,8 +19,8 @@ Sempre:
 
 Per questo reparto:
 3. `conoscenza/arya-oggi.md` — **l'unica fonte delle promesse**: solo le righe "vendibile".
-4. `conoscenza/offerta.md` — cosa si può dire dell'offerta e cosa no. **Al 7/10/2026 il file non esiste**: finché manca,
-   valgono la decisione 3 e "Prezzi e offerta" di `arya-oggi.md`, e nel verbale si scrive in "Cosa non so".
+4. `conoscenza/offerta.md` — prezzi, condizioni, offerta di lancio e "Cosa non si promette" (decisioni 3 e 10). Se manca o
+   non si apre, valgono le decisioni 3 e 10, e nel verbale si scrive in "Cosa non so".
 5. `regole/regole-adv.md` 3.0: §1, §2bis (segni distintivi), §3.1, §5.1, §8, §9, §13, §18, §21, §23, §24bis, §26.
 6. `conoscenza/customer-language.md` e `conoscenza/glossario.md`.
 7. La scheda di ogni pezzo, `regia/AAAA-MM-GG-<titolo-breve>.md` (modello `regia/MODELLO-SCHEDA.md`: promessa ammessa
