@@ -24,7 +24,7 @@ Del reparto:
 5. `conoscenza/offerta.md` — prezzi e offerta (decisioni 3 e 10). Se non si apre, si usano le decisioni 3 e 10
    e si scrive che il file manca.
 6. `regole/regole-adv.md` (3.0): §0.1, §1, §2bis, §3.1, §5.1, §9, §15, §17, §17.1, §18, §21, §23, §26, §27.
-7. L'ultimo `osservatorio/AAAA-MM-GG-mercato.md` e, se recente, l'ultimo `-voce.md`; `conoscenza/customer-language.md`.
+7. L'ultimo `osservatorio/AAAA-MM-GG.md` (con la voce dei clienti se è del primo lunedì del mese); `conoscenza/customer-language.md`.
 8. I numeri, **solo dai file di Numeri**: l'ultimo report in `numeri/` e `numeri/storico.csv` (spesa, contatti, demo,
    clienti nuovi, costo per cliente). Il Piano non apre Meta né il CRM.
 9. `regia/archivio-pezzi.md` (chi ha parlato, in che formato, con che esito) e `direttore/da-rivedere.md` (risposte di

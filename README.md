@@ -24,7 +24,7 @@ Questo archivio è l'unico posto in cui la macchina tiene regole, conoscenza, sk
 - `conoscenza/` — scheda di Arya, offerta, apprendimenti, linguaggio dei clienti (`customer-language.md`), glossario.
 - `osservatorio/`, `piano/`, `regia/`, `collaudo/`, `campo/`, `numeri/` — un reparto ciascuno, file datati.
 - `direttore/` — riepiloghi e coda delle cose da rivedere.
-- `prompt/` — i testi delle automazioni (vuota: le automazioni non ci sono ancora).
+- `prompt/` — i testi delle automazioni in cloud: `direttore.md` (feriali alle 8) e `osservatorio.md` (lunedì alle 7).
 - `.claude/skills/` — una skill per reparto (`osservatorio`, `piano`, `regia`, `collaudo`, `campo`, `numeri`, `direttore`)
   e `meta-scrittura-sicura`, che usa Campo. Le 13 skill di settembre e la mappa `catena-adv.md` sono in `.claude/skills/archivio/`.
 - `archivio-lml-adv/` — il lavoro di settembre 2026 da `Company/Marketing/lml-adv/`, copiato così com'era. Si legge, non si modifica.

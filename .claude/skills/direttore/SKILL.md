@@ -96,7 +96,7 @@ File letti: [nome · versione o data]
 | 3 | C'è spesa attiva e Numeri oggi non ha ancora girato (**finché le campagne non sono partite, Numeri si salta**: ottobre senza campagne, la Prova parte da metà novembre, decisione 12) | **Numeri, semaforo.** È un controllo in sola lettura: non conta come produzione |
 | 4 | Il freno è tirato | Nessuna produzione. Solo righe 2, 3 e la lettura del lunedì di Numeri |
 | 5 | Da lunedì, manca la lettura della settimana di Numeri | **Numeri, lettura della settimana** (il Piano ne ha bisogno) |
-| 6 | Da lunedì, manca `osservatorio/AAAA-MM-GG-mercato.md` della settimana | **Osservatorio** |
+| 6 | Da lunedì, manca `osservatorio/AAAA-MM-GG.md` della settimana | **Osservatorio** |
 | 7 | Da lunedì, ci sono numeri e mercato ma manca `piano/AAAA-MM-GG-piano-settimana.md` | **Piano** |
 | 8 | C'è il piano ma manca `regia/AAAA-MM-GG-argomenti.md` | **Regia**; poi controlla che ci sia la riga del cancello **pacchetto** (scadenza martedì alle 12) |
 | 9 | Martedì dopo le 12, argomenti senza bocciatura scritta | Stato `scaduto: si gira`; se c'è una bocciatura, la Regia mette la riserva. Nessuna produzione |
