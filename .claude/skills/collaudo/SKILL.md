@@ -83,8 +83,9 @@ scheda, è un difetto del pezzo. I controlli si fanno in quest'ordine (i primi f
      Arya non ha (regolamento europeo sull'AI). Nessuna finta conversazione presentata come vera.
    - **Dichiarazione dell'assistente automatico**: nella prima frase (voce) o nel primo messaggio (chat) di ARYA deve dire
      che risponde un assistente automatico (§3.1; articolo 50 del Regolamento UE 2024/1689). Se manca: rosso.
-   - Pagina e modulo: consenso a essere contattati, separato e non preselezionato, con l'informativa; nel modulo il campo
-     "Come ci hai conosciuto?" a testo libero (§13). Se il pezzo porta lì e manca: rosso.
+   - Pagina e modulo: consenso a essere contattati, separato e non preselezionato, con l'informativa: se manca, rosso.
+     Il campo "Come ci hai conosciuto?" a testo libero (§13) se manca è giallo: la §13 lo vuole, la §3.1 vuole il modulo
+     più corto possibile, e decide Ivan.
    - Coerenza annuncio → porta: quello che il pezzo promette deve essere quello che si trova sulla pagina Arya o nel modulo.
 5. **Lingua (medio; grave se ricorre in tutto il pezzo).** Test che viene prima di tutti: **la scriverebbe un cliente in
    una recensione?** Se no, si riscrive.
