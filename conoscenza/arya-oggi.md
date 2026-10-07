@@ -1,76 +1,89 @@
 # Arya oggi — la scheda
 
-**Unica fonte per descrivere Arya** (vedi CLAUDE.md). Prima stesura: 7/10/2026.
-Ricavata da `.agents/product-marketing.md` v1.3 (14/09/2026, letto su OneDrive), con l'aiuto di
-`conoscenza/glossario.md` e `archivio-lml-adv/regole-adv.md` v2.5 (17/09/2026).
-`product-marketing.md` non è stato copiato nel repository: contiene nomi di persone esterne (vedi README).
+**Unica fonte per descrivere Arya** (vedi CLAUDE.md). Prima stesura: 7/10/2026. Aggiornata con le risposte di Ivan del 7/10/2026.
+Ricavata da `.agents/product-marketing.md` v1.3 (14/09/2026, letto su OneDrive, resta solo lì), da
+`conoscenza/glossario.md` e da `archivio-lml-adv/regole-adv.md` v2.5 (17/09/2026).
 
-**Stati:** **vendibile** = si può promettere negli annunci · **in prova** = esiste ma senza prove sufficienti, non si promette ·
-**in arrivo** = non c'è ancora · **da verificare con Ivan** = non è certo, non si promette finché Ivan non conferma.
-Negli annunci entrano solo le righe **vendibili**. Al 7/10/2026 **nessuna riga è "vendibile" senza riserve**: tutte
-aspettano la conferma di Ivan (prima domanda aperta del README).
+## La regola (decisione 8)
+- Lo stato di ogni funzione lo decidono **Roberto e Fabio** (LML); **Ivan approva**.
+- **Vendibile** solo se funziona **oggi** per un cliente vero o in una demo che si ripete uguale, **e Roberto lo conferma per iscritto**.
+- Finché non c'è la conferma: **nessuna funzione è vendibile e niente va negli annunci.**
+- Le conferme si raccolgono in OneDrive `Company/Marketing/macchina-adv/novita-arya/VERIFICA-FUNZIONI.md`
+  (colonna "conferma Roberto"). Quando una riga è confermata, qui si aggiorna lo stato, con data e fonte.
+
+**Stati:** **vendibile** (confermata da Roberto, approvata da Ivan) · **da confermare** (c'è una prova possibile, manca la conferma) ·
+**in arrivo** (non c'è ancora) · **non si promette** (c'è un limite noto).
+**Al 7/10/2026 nessuna funzione è vendibile.**
+
+**Prove disponibili da far verificare** (nomi dei clienti mai negli annunci, decisione 2):
+- **Mr. Toner** — cliente vero, WhatsApp.
+- **Timeo & Dimarco** — cliente vero, telefono, **dal 30 ottobre 2026**.
+- **Tenant dimostrativo Ecoross** — demo ripetibile: voce, chat, appuntamenti su Google Calendar.
 
 ## 1. Cosa fa, per canale
 
 ### Telefono — ARYA Voice ("l'assistente telefonico")
-| Funzione | Cosa fa | Stato | Prova |
+| Funzione | Cosa fa | Stato | Prova possibile |
 |---|---|---|---|
-| Risponde al telefono | Capisce la richiesta in italiano parlato e risponde | da verificare con Ivan (probabile vendibile) | Nessun cliente voce indicato in produzione nei file; demo "con la voce vera" disponibile |
-| Ordini e appuntamenti | Prende ordini d'asporto e appuntamenti | da verificare con Ivan | Integrazione con un gestionale per ristoranti (canale partner); studi odontoiatrici: "demo in corso" |
-| Riconosce chi richiama | Riconosce chi ha già chiamato | da verificare con Ivan | nessuna prova nei file |
-| Passa a una persona | Passa la chiamata a una persona solo quando serve | da verificare con Ivan | nessuna prova nei file |
-| Risposta in meno di un secondo | "al massimo 700 millisecondi" | in prova — **non si promette** | Non misurato in produzione: il file chiede di strumentarlo come metrica fissa; "il giorno che sale a due secondi, il claim si toglie" |
+| Risponde al telefono | Capisce la richiesta in italiano parlato e risponde | da confermare | Ecoross (demo voce); Timeo & Dimarco dal 30/10 |
+| Fissa appuntamenti | Prende l'appuntamento e lo scrive in agenda (Google Calendar) | da confermare | Ecoross (appuntamenti su Google Calendar); Timeo & Dimarco dal 30/10 |
+| Prende ordini d'asporto | Prende l'ordine al telefono | da confermare | nessuna prova indicata (integrazione con un gestionale per ristoranti citata a settembre) |
+| Riconosce chi richiama | Riconosce chi ha già chiamato | da confermare | nessuna prova indicata |
+| Passa a una persona | Passa la chiamata a una persona solo quando serve | da confermare | nessuna prova indicata |
+| Risposta in meno di un secondo | "al massimo 700 millisecondi" | non si promette | Va misurata in produzione come metrica fissa; "il giorno che sale a due secondi, il claim si toglie" |
 
 ### Chat e WhatsApp — Arya Customer Care (nome "ARYA Care" non definitivo)
-| Funzione | Cosa fa | Stato | Prova |
+| Funzione | Cosa fa | Stato | Prova possibile |
 |---|---|---|---|
-| Risponde su WhatsApp, chat del sito, Telegram | Stesso "cervello" del modulo voce; qualsiasi e-commerce | vendibile per il caso in produzione; da verificare con Ivan per la formulazione | Primo cliente in produzione: rivenditore di consumabili in Puglia (~10 persone), contratto 24 mesi. **Numeri del cliente: non ancora raccolti** |
-| Assistenza tecnica sul numero del negozio | Risponde alle domande di assistenza anche a negozio chiuso | vendibile (stesso caso) — da verificare con Ivan | come sopra |
-| Primo contatto ai nuovi contatti e appuntamento | Un secondo numero contatta per primo chi arriva dalle campagne e fissa un appuntamento telefonico | vendibile (stesso caso) — da verificare con Ivan | come sopra |
-| Ricontatto e promozioni | Ricontatta i clienti dopo N giorni e invia promozioni (su WhatsApp serve un template approvato) | da verificare con Ivan | come sopra |
-| Agisce nei programmi del cliente | Con i collegamenti (connettori) mette l'ordine, fissa l'appuntamento, controlla la spedizione: "rispondiamo e facciamo" | da verificare con Ivan | È il differenziatore n. 1 nei file; serve un caso reale da citare. Collegamenti inclusi: 0 Base, 2 Pro, 5+ Scale |
-| Voce e immagini in chat | Disponibili da fascia Pro in su | da verificare con Ivan | nessuna prova nei file |
-| Passaggio a operatore | Passa la conversazione a una persona con tutto il contesto | da verificare con Ivan | nessuna prova nei file |
-| Stesso numero su WhatsApp Business e Arya (coesistenza) | Tiene il numero e lo storico chat (180 giorni) | **in arrivo** — non si promette | Richiede l'accreditamento Tech Provider Meta (chiesto a settembre 2026, esito da verificare) |
-| Collegamento del numero da soli dal pannello (Embedded Signup) | Il cliente collega il suo numero WhatsApp senza passare da LML | in arrivo — da verificare con Ivan | — |
+| Risponde su WhatsApp | Risponde ai clienti, anche a negozio chiuso | da confermare | Mr. Toner |
+| Risponde in chat sul sito | Stesso "cervello" del modulo voce | da confermare | Ecoross (demo chat) |
+| Risponde su Telegram | — | da confermare | nessuna prova indicata |
+| Assistenza tecnica sul numero del negozio | Risponde alle domande di assistenza | da confermare | Mr. Toner |
+| Primo contatto ai nuovi contatti e appuntamento | Un secondo numero scrive per primo a chi arriva dalle campagne e fissa un appuntamento telefonico | da confermare | Mr. Toner |
+| Ricontatto e promozioni | Ricontatta i clienti dopo N giorni e invia promozioni (su WhatsApp serve un template approvato) | da confermare | Mr. Toner |
+| Fissa appuntamenti in chat | Appuntamento scritto in Google Calendar | da confermare | Ecoross |
+| Agisce nei programmi del cliente | Con i collegamenti mette l'ordine, fissa l'appuntamento, controlla la spedizione ("rispondiamo e facciamo") | da confermare | Ecoross per l'agenda; serve un caso con gestionale |
+| Voce e immagini in chat | Da fascia Pro in su | da confermare | nessuna prova indicata |
+| Passaggio a operatore | Passa la conversazione a una persona con tutto il contesto | da confermare | nessuna prova indicata |
+| Stesso numero su WhatsApp Business e Arya (coesistenza) | Tiene numero e storico chat (180 giorni) | in arrivo | Richiede l'accreditamento Tech Provider Meta (esito da verificare) |
+| Collegamento del numero da soli (Embedded Signup) | Il cliente collega il suo numero dal pannello | in arrivo | — |
 
-Nota: WhatsApp per i clienti parte solo dopo la verifica dell'azienda su Meta (al 14/09/2026: non ancora ottenuta).
+Nota: WhatsApp per i nuovi clienti parte solo dopo la verifica dell'azienda su Meta (al 14/09/2026: non ancora ottenuta).
 
 ### Email — a-Mail ("la casella che si svuota da sola")
-| Funzione | Cosa fa | Stato | Prova |
+| Funzione | Cosa fa | Stato | Prova possibile |
 |---|---|---|---|
-| Legge, smista, risponde e inoltra le email | Con agenti AI; si paga per email elaborata, non per casella (fasce Start / Crescita / Impresa) | da verificare con Ivan | `product-marketing.md` non dà funzioni, stato, clienti o numeri. Nessuna prova nei file |
+| Legge, smista, risponde e inoltra le email | Con agenti AI; si paga per email elaborata, non per casella (fasce Start / Crescita / Impresa) | da confermare | nessuna prova indicata |
 
-### Prezzi e offerta (da leggere insieme a `regole/decisioni.md`)
-- Customer care: fasce Base / Pro / Scale a 98 / 189 / 290 €/mese, più una tantum di attivazione e quota per conversazione risolta.
-- **Offerta di lancio in vigore: decisione 3** (prova di 15 giorni e attivazione inclusa per i primi clienti). Prevale su
-  "nessuna prova gratuita" e sull'una tantum "volutamente alta" scritti a settembre in `product-marketing.md` e `glossario.md`.
-- Contratti a 24 mesi (settembre 2026): **da verificare con Ivan** se valgono anche con l'offerta di lancio.
+### Prezzi e offerta (decisione 3)
+- Customer care: fasce Base / Pro / Scale a 98 / 189 / 290 €/mese, più quota per conversazione risolta.
+- **Listino:** contratto 24 mesi con recesso libero a 60 giorni di preavviso; attivazione a pagamento, fino a 3 rate.
+- **Offerta di lancio, solo per i primi 10 clienti Arya:** prova gratuita di 15 giorni prima della firma e attivazione inclusa;
+  contratto sempre 24 mesi con recesso a 60 giorni. Si rivede al controllo di fine dicembre 2026.
+  Prevale su "nessuna prova gratuita", scritto a settembre in `product-marketing.md`.
 
 ## 2. Cosa Arya NON fa (o non si può dire)
 - Non dice "intelligenza artificiale" negli annunci: è una scelta (le prove dicono che abbassa la fiducia). Nella chat invece
   **deve** dire al primo contatto che risponde una macchina (Regolamento UE 2024/1689, art. 50).
-- Non ha capacità che non ha: mai attribuirle funzioni non in questa scheda (EU AI Act).
+- Non ha capacità che non ha: mai attribuirle funzioni che non sono in questa scheda (EU AI Act).
 - Non promette la risposta in 700 ms finché non è misurata in produzione.
 - Non promette la coesistenza del numero WhatsApp finché Meta non accredita LML come Tech Provider.
 - Non lavora senza un flusso di richieste in entrata: senza clienti che scrivono o chiamano "non ha niente da fare".
 - Non vende pacchetti di conversazioni (le vecchie fasce a conversazioni incluse sono superate).
 - Non usa come propri i numeri di mercato (70-80% risolte senza persona, gradimento 4,1/5…): sono dei fornitori.
-  Le stime sul costo del problema sono di mercato, non dei clienti LML.
 - Non ha ancora testimonianze registrate né numeri di un cliente da mostrare.
 - Non fa riconciliazione bancaria (modulo in sviluppo con un partner, **non in vendita**).
 - "Chiamate perse" non è più un messaggio solo nostro (lo usa un concorrente): serve il pezzo in più, "e fa".
 - Nomi dei clienti mai negli annunci (decisione 2).
 
-## 3. Da verificare con Ivan (riassunto)
-1. Quali righe passano a "vendibile" oggi, e con quale prova.
-2. ARYA Voice: c'è almeno un cliente voce in produzione? Le funzioni ordini/appuntamenti/riconoscimento sono attive?
-3. a-Mail: funzioni attive, clienti, numeri.
-4. Esito di Tech Provider e verifica dell'azienda su Meta.
-5. Il nome definitivo del modulo customer care.
-6. Contratti a 24 mesi e una tantum: come convivono con l'offerta di lancio.
+## 3. Ancora da chiarire
+1. La conferma scritta di Roberto, riga per riga (VERIFICA-FUNZIONI.md).
+2. a-Mail: c'è una prova (cliente o demo)?
+3. Esito di Tech Provider e verifica dell'azienda su Meta.
+4. Il nome definitivo del modulo customer care.
 
 ## Registro delle modifiche
 | Data | Cosa | Fonte | Sì di Ivan |
 |---|---|---|---|
-| 7/10/2026 | Prima stesura | product-marketing.md v1.3, glossario.md, regole-adv.md v2.5 | in attesa (richiesta di unione) |
+| 7/10/2026 | Prima stesura | product-marketing.md v1.3, glossario.md, regole-adv.md v2.5 | — |
+| 7/10/2026 | Regola della vendibilità, prove disponibili, listino e offerta di lancio | risposte di Ivan del 7/10/2026 | sì (risposte 7/10/2026) |

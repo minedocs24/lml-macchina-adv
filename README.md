@@ -20,12 +20,15 @@ Questo archivio è l'unico posto in cui la macchina tiene regole, conoscenza, sk
 - `osservatorio/`, `piano/`, `regia/`, `collaudo/`, `campo/`, `numeri/` — un reparto ciascuno, file datati.
 - `direttore/` — riepiloghi e coda delle cose da rivedere.
 - `prompt/` — i testi delle automazioni.
-- `.claude/skills/` — le skill dei reparti (11, copiate da OneDrive "ADV Meta" il 7/10/2026, non modificate) e `catena-adv.md`, la mappa.
+- `.claude/skills/` — le skill dei reparti (11 su 14 della catena, copiate da OneDrive "ADV Meta" il 7/10/2026, non modificate) e `catena-adv.md`, la mappa.
+  Mancano `lml-direttore-adv`, `collaudo-testi-adv` e `meta-scrittura-sicura`: non sono in `Company/Prompt e Skills/`.
 - `archivio-lml-adv/` — il lavoro di settembre 2026 da `Company/Marketing/lml-adv/`, copiato così com'era. Si legge, non si modifica.
 
 ## Copia leggibile
 In OneDrive, `Company/Marketing/macchina-adv/`: i report da leggere e ogni lunedì gli apprendimenti.
-Le novità di Arya si scrivono in `macchina-adv/novita-arya/` usando `MODELLO-NOTA.md`.
+Le novità di Arya si scrivono in `macchina-adv/novita-arya/` usando `MODELLO-NOTA.md`; le conferme delle funzioni
+vendibili in `novita-arya/VERIFICA-FUNZIONI.md` (colonna "conferma Roberto").
+In `macchina-adv/fondamenta/` c'è una copia di `CLAUDE.md`, `regole/decisioni.md` e `conoscenza/arya-oggi.md`, per rileggerli dalla chat.
 
 ## Cosa NON è stato copiato da `lml-adv` (7/10/2026), e perché
 | File | Motivo |
@@ -37,4 +40,5 @@ Le novità di Arya si scrivono in `macchina-adv/novita-arya/` usando `MODELLO-NO
 | tutti i `.bak`, `numeri/`, `Claude outputs/`, `storico-minedocs/` | esclusi per istruzione |
 | `CLAUDE.md`, `fase-*.md`, `RIEPILOGO-*.md`, `prompt-edge-*.md`, `.mcp.json`, `.claude/`, `montaggi/` (vuota) di `lml-adv` | non richiesti in questa fase |
 
-Questi file restano leggibili su OneDrive. Per copiarli serve una decisione di Ivan (vedi la richiesta di unione).
+Decisione di Ivan (7/10/2026): STATO-progetto-adv.md, scaletta-configurazione-adv.md e product-marketing.md **restano solo su OneDrive**.
+Regola: i nomi dei colleghi LML, nel loro ruolo, possono stare nell'archivio; quelli di persone esterne mai.
