@@ -236,3 +236,194 @@ Contro un canone Pro di 189 €/mese. **Stima.**
 
 ---
 
+## 5. Il partner
+
+Qui il passo si capovolge: **la software house è il partner.** La §22.1 dice che quando esiste un fornitore con parco clienti installato, passare da lui batte la pubblicità. Una software house **è** quel fornitore. Una campagna in questo settore non raggiunge i clienti uno per uno: cerca **chi ha già dentro molti clienti**.
+
+- **Esiste un partner con parco clienti in questo settore?** Tre aziende si sono fatte avanti da sole: **Aton, 2Bit, Sysgrow.** Trattative aperte (Ivan, 16/09).
+- **Chiesto ai partner dell'accordo quadro?** Non serve nella forma solita: **l'accordo quadro vale anche per loro** (Ivan, 16/09). `[DA CHIEDERE A IVAN: fra i partner che hanno già firmato l'accordo quadro, qualcuno è una software house o ne conosce?]`
+- **Le quattro cose che servono a un canale partner (§22.1):**
+
+| Cosa serve | Stato |
+|---|---|
+| Una condizione economica chiara | **c'è: 10% su canone e una tantum.** Coincide con la provvigione del glossario. **Ma è una decisione aperta** — vedi sotto |
+| Materiale di vendita pronto per il partner | `[DA CHIEDERE A IVAN]` |
+| Una persona di riferimento in LML | `[DA CHIEDERE A IVAN]` |
+| Casi da mostrare ai loro clienti | **no** (passo 4) |
+
+**Decisione aperta — la condizione al partner.** Il mercato, nelle inserzioni lette il 16/09, dichiara:
+
+| Chi | Cosa lascia |
+|---|---|
+| Ambrogio | 1.500-4.000 € una tantum per contratto segnalato, più l'installazione pagata a parte |
+| DeepAgent | 20% dal primo cliente, fino al 60% — **programma spento dopo un giorno** |
+| Framework360 | fino al 50% ricorrente — l'unica con inserzioni che durano da 85 giorni |
+| Yourang | prezzo libero, "ti tieni il margine" — cifra non dichiarata |
+
+**LML oggi: 10%.** In un'inserzione rivolta ai partner, accanto a queste cifre, il 10% perde. Tre strade, **la scelta è di Ivan**:
+- **cosa cambia:** alzare la percentuale / tenere il 10% e non nominarlo in inserzione, puntando sull'uso interno / aggiungere un pagamento per la messa in servizio fatta dal partner (come fa Ambrogio);
+- **quanto costa:** ogni punto in più al partner è un punto in meno di margine sul canone (§27: il tetto per cliente dipende dal margine);
+- **cosa succede se non si decide:** la condizione **non entra in nessuna inserzione** e il partner la scopre in trattativa.
+
+**Decisione Meta come supporto o a pieno regime:** `[DA CHIEDERE A IVAN]`. Nota: il radar osserva che il canale naturale per raggiungere le software house è probabilmente **LinkedIn**, che però oggi è riservato al personal brand di Ivan (§6). Se si apre questo settore, va deciso **a quale fronte appartiene** la campagna.
+
+---
+
+## 6. Concorrenti e alternative
+
+| Chi | Promessa più ripetuta | Cosa regala | Dove casca rispetto a noi |
+|---|---|---|---|
+| **Yourang** (assistente telefonico, marchio bianco) | "Il cliente vede solo te; sotto ci siamo noi" | formazione tecnica e commerciale | non nomina nessun mestiere; non parla dei tecnici sommersi; nessuna prova. Unico canale rivenditori acceso da settimane (38 giorni) |
+| **Ambrogio** (centralino + assistente) | "1.500-4.000 € a segnalazione, tu non vendi" | 30 giorni di prova al cliente | parla ai **sistemisti** del tempo commerciale, non dell'assistenza; **esclude Puglia, Basilicata, Calabria, Campania e Sicilia** |
+| **DkR / DataTalk** (domande ai dati del gestionale) | "Il tuo cliente ti chiede l'AI nel gestionale" | niente | non risponde al telefono né all'assistenza: è un altro prodotto. Parla però **esattamente** al nostro pubblico |
+| **Uniwaba** (WhatsApp da innestare nel software) | "Metti fine alle lamentele dei clienti", "in poche ore" | consulenza gratuita | è un canale, non un assistente. **Possibile partner, non concorrente** (radar §10) |
+| **Framework360** (piattaforma per agenzie) | "Rivendilo col tuo marchio, fino al 50% ricorrente" | prova gratuita | parla alle web agency, non a chi fa assistenza |
+| **DeepAgent** (agente vocale) | "commissione a vita, fino al 60%" | account partner gratis | **ha spento il programma dopo un giorno** |
+
+**Nessuno dei sei** usa l'argomento dei tecnici occupati dalle richieste, nessuno propone l'uso interno come primo passo, nessuno affronta il dubbio del bot.
+
+| Alternativa che sembra ragionevole | La frase che la smonta |
+|---|---|
+| un tecnico di assistenza in più | copre l'orario d'ufficio; i clienti chiedono le 24 ore (Ivan). Dalla voce: *"Assistenza inesistente nel fine settimana"* |
+| help desk esterno | chi risponde non conosce il programma. Dalla voce: *"richieste di supporto vanno inoltrate ad aziende che rispondono tramite terzi, più facile lavorare con un ministero"* |
+| il sistema delle richieste con la risposta automatica | prende la richiesta e basta. Dalla voce (produttore): *"Il nostro team ti ricontatterà quanto prima"* — e dal cliente: *"passano anche 7 giorni"* |
+| togliere il telefono, solo mail o modulo | dalla voce: *"Non hanno numeri di telefono ma solo mail"* · *"sembra di partecipare a una caccia al tesoro"* |
+| il chatbot già dentro il programma | dalla voce: *"ti ritrovi solo a chiedere supporto all'AI che ti risponde pure sbagliato"* — **attenzione: questa frase smonta anche noi, se non rispondiamo al dubbio (7bis)** |
+| costruirselo in casa | nessuna frase nella voce. Dal radar (DkR): *"mesi di sviluppo interno"*. Per noi: il collegamento lo fa LML in poche ore (Ivan, 16/09) |
+
+---
+
+## 7. Le obiezioni di questo settore
+
+| Obiezione (frase esatta) | Chi la dice | Risposta LML | Regge qui? |
+|---|---|---|---|
+| *"ti ritrovi solo a chiedere supporto all'AI che ti risponde pure sbagliato"* | cliente di un gestionale | la configurazione la facciamo noi (differenziatore n. 2) | **in parte.** Manca la risposta su cosa fa ARYA quando non sa (domanda 1 a Roberto) |
+| *"Il bot è scandaloso mi rifà 5 volte le stesse domande e devo reinserire ogni volta nome, da dove chiamo, mail ecc"* | cliente di un gestionale | riconosce il cliente dal sistema collegato | **sì, se collegata.** Senza prova in questo settore |
+| *"Chatta con un esperto, dice la livechat poi gli fai domande e dice che devi parlare con un esperto"* | cliente di un gestionale | passa al tecnico con tutto il contesto | **sì in orario d'ufficio; fuori orario solo la richiesta** |
+| *"la chat non viene gestita con sistemi virtuali ma è presidiata da operatori specializzati"* | **un produttore di gestionali** che si difende dall'accusa di usare un bot | **nessuna nei materiali LML** | **no — vedi 7bis** |
+| *"risposte inizialmente generiche"* | cliente di un gestionale | le istruzioni le scriviamo con la software house | in parte, come la prima riga |
+| "Se rivendo una cosa che non so spiegare mi brucio i clienti" (dal radar, Yourang) | chi rivende | la messa in servizio la può fare LML (Ivan, 16/09) | **sì**; manca il materiale per il partner |
+| "Chi fa l'assistenza quando si rompe?" (dal radar) | chi rivende | `[DA CHIEDERE A IVAN: chi risponde al partner, e in quanto tempo?]` | non ancora |
+| "Prima di rivenderlo voglio usarlo io" (dal radar e dalle tre trattative) | chi rivende | è esattamente quello che chiedono Aton, 2Bit e Sysgrow | **sì, ma** va chiarito come si concilia con "nessuna prova gratuita" (7bis) |
+| "24 mesi sono tanti" | generica, product-marketing | è la prova che restiamo | `[DA VERIFICARE: il contratto a 24 mesi vale anche per il partner?]` |
+
+**Obiezioni senza risposta nei materiali LML:** *"se metto un bot davanti ai miei clienti si arrabbiano"*; *"chi fa l'assistenza al partner quando qualcosa non va"*.
+
+---
+
+## 7bis. Il dubbio del bot: "se metto un bot davanti ai miei clienti si arrabbiano"
+
+### Perché è il dubbio più importante del settore
+
+Il titolare di una software house **legge le recensioni del suo prodotto**. Nella voce ci sono due frasi dure in due mesi — *"all'AI che ti risponde pure sbagliato"*, *"Il bot è scandaloso"* — e un produttore che scrive in pubblico, per difendersi, che la sua chat *"non viene gestita con sistemi virtuali"*. Per quel titolare **un assistente automatico è un rischio per la reputazione**, prima che un risparmio. Nessun concorrente del radar ne parla. Nessun materiale LML ci risponde.
+
+### Che cosa dà fastidio, esattamente
+
+Le frasi della voce non se la prendono con l'automatico in sé. Nominano **quattro difetti precisi**:
+
+| Difetto | Frase |
+|---|---|
+| **non sa chi sei** | *"mi rifà 5 volte le stesse domande e devo reinserire ogni volta nome, da dove chiamo, mail"* |
+| **risponde sbagliato** | *"ti risponde pure sbagliato"* · *"risposte inizialmente generiche"* |
+| **non ti fa arrivare a una persona** | *"dice che devi parlare con un esperto"* |
+| **si nasconde** (è il timore del titolare) | *"la chat non viene gestita con sistemi virtuali"* |
+
+E dall'altra parte, quello che premiano: *"Basta un messaggio o una chiamata e tutto viene risolto"* · *"ogni volta che li contatto rispondono subito"*. **Premiano la velocità e la soluzione, non dicono "una persona".** Questo è un indizio, non una prova: da 41 frasi non si può concludere che accetterebbero un assistente automatico.
+
+### Cosa possiamo rispondere oggi, con prove vere
+
+| Difetto | Cosa rispondiamo | Su cosa poggia | Quanto è solido |
+|---|---|---|---|
+| non sa chi sei | ARYA riconosce il cliente dal sistema della software house e non gli richiede i dati | capacità dichiarata da Ivan (14/09); collegamento fatto da LML in poche ore (16/09) | **medio:** capacità dichiarata, nessuna prova in questo settore |
+| risponde sbagliato | le istruzioni le scriviamo noi con la software house, partendo dalle domande vere dei suoi clienti | differenziatore n. 2 di product-marketing | **medio.** Diventa forte solo con la risposta di Roberto su cosa fa ARYA quando non sa |
+| non ti fa arrivare a una persona | passa al tecnico e il tecnico trova già tutto | dichiarazione di Ivan; glossario | **forte in orario d'ufficio.** Fuori orario va detto chiaro: passa la richiesta, non la persona |
+| si nasconde | **non si nasconde, per legge:** dice subito di essere un assistente automatico | §3.1 e articolo 50 del Regolamento UE 2024/1689 | **forte.** E ribalta il timore: il cliente sa con chi parla, e sa che la persona c'è |
+| è lento | risponde in meno di un secondo | 700 ms, misurato (product-marketing) | **forte, alla condizione** che il monitoraggio continuo esista (non verificato) |
+
+### La risposta che non promette niente: **provalo prima sui tuoi clienti**
+
+È la richiesta stessa delle tre aziende: **usarlo per sé prima di rivenderlo.** La risposta onesta al dubbio non è "i tuoi clienti non si arrabbieranno". È:
+
+> *"Non te lo diciamo noi. Lo metti sulla tua assistenza, e lo guardi sui tuoi clienti, con i tuoi numeri, prima di proporlo a chiunque."*
+
+I numeri da guardare sono quelli della formula (passo 2bis), più tre: **quante richieste si chiudono senza tecnico, quante passano al tecnico, quante lamentele arrivano sull'assistente.**
+
+⚠️ **Un conflitto da sciogliere:** product-marketing dice **"nessuna prova gratuita"**. L'uso interno è a canone normale, a condizione partner, o altro? `[DA CHIEDERE A IVAN]`. Finché non è deciso, "provalo prima" non va in nessun materiale.
+
+### Cosa non possiamo dire
+
+- "i tuoi clienti non se ne accorgono" — **vietato** (legge);
+- "i tuoi clienti non si arrabbiano" o "sono contenti" — **nessuna misura nostra**;
+- "risolve l'X% delle richieste senza tecnico" — **nessun numero nostro.** Il 70-80% di mercato viene dai fornitori e non si cita;
+- il gradimento 4,1 o 4,6 su 5 — dati di fornitori, **non nostri**;
+- "risolve i problemi" — ARYA risponde e prende in carico, non ripara.
+
+### Cosa manca perché la risposta diventi forte
+
+1. **La risposta di Roberto** su cosa fa ARYA quando non sa (passo 3, domanda 1).
+2. **I cinque numeri del rivenditore** — soprattutto "percentuale risolte senza persona" — anche se è un altro settore, è lo stesso lavoro di assistenza tecnica.
+3. **Una registrazione vera** in cui ARYA riconosce un cliente, risponde, e passa a un tecnico con il contesto.
+4. **Il primo uso interno misurato** in una delle tre software house.
+5. **Le frasi esatte dei tre titolari** su questo dubbio: lo hanno detto? con quali parole?
+
+---
+
+## 8. Il formato
+
+- **Sopravvissute nel radar** (rivolte a questo pubblico): 9 voci, tutte di **una sola pagina** (Framework360). Formato, destinazione e faccia **non misurati**. Il campione non dice niente sul mercato.
+- **Sulle inserzioni più recenti** (non sopravvissute): video per Yourang (1 minuto), DkR (1 minuto), Uniwaba (5-56 secondi, più immagini); immagine con testo lungo per Ambrogio. Destinazione: modulo dentro Meta 1, sito 4, prenotazione di una consulenza 1, **WhatsApp 0**.
+- **Risorse nostre già pronte:** `[DA CHIEDERE A IVAN: esiste una registrazione della voce di ARYA? video di Ivan su questo tema?]`
+- **Scelta di partenza:** **Ivan che parla in prima persona, video verticale sotto i 30 secondi** (§18, formato naturale di LML). Motivo: a un titolare di software house parla meglio un altro titolare, e qui la sfiducia verso i "bot" è il freno principale (§5: la faccia di Ivan è lo strumento di riduzione del rischio). *La decide la spesa, non questa scheda.*
+
+---
+
+## 9. Prezzo e qualificazione
+
+- **Fascia di prezzo da dire in inserzione:** `[DA CHIEDERE A IVAN]`. Nota: qui serve almeno un collegamento, quindi la fascia minima sembra **Pro (189 €)**, non Base (98 €). **La condizione al partner non va in inserzione** (decisione aperta, passo 5).
+- **La domanda che qualifica**, adattata: *"Quante richieste di assistenza ricevete in un giorno?"* — **soglia proposta: 6 al giorno** — **stima:** il canone Pro (189 €) vale circa 7,6 ore di un tecnico a 25 €/ora; con 12 minuti a richiesta sono circa 38 richieste al mese, cioè poco meno di 2 al giorno lavorativo; se una richiesta su tre non ha bisogno di un tecnico (ipotesi, non misurata), servono circa 6 richieste al giorno in tutto. Il conto **non include** i clienti trattenuti né il fuori orario, che lo abbassano. `[DA CONFERMARE A IVAN]`
+- **Le tre domande della chat** (§3.1), proposta — servono a rifare la formula con i numeri del titolare:
+  1. Quante richieste di assistenza vi arrivano in un giorno, e quante la sera o nel fine settimana?
+  2. Quanti clienti usano il vostro programma?
+  3. Vi serve per la vostra assistenza, per offrirlo ai vostri clienti, o per tutte e due?
+
+---
+
+## 10. I cancelli
+
+| Condizione | Stato | Note |
+|---|---|---|
+| Radar da meno di 30 giorni | **sì** | 16/09/2026 |
+| Voce fatta | **in parte** | fatta il 16/09, ma **nella cartella sbagliata** e **senza le frasi dei titolari**: la voce B ha 5 frasi, nessuna sul problema centrale |
+| Cosa fa ARYA: confermato | **in parte** | Ivan il 14 e il 16/09; Roberto non interpellato; 5 domande aperte (passo 3) |
+| Almeno una prova del settore, o decisione di partire senza | **in parte** | dal 17/09 c'è una prova in forma anonima (passo 4), senza numeri |
+| Partner verificato (§22.1) | **in parte** | il settore **è** il canale partner: tre trattative aperte, accordo quadro pronto; mancano materiale, persona di riferimento, casi, e la decisione sulla condizione |
+| Settore riconosciuto nella §10.1 | **sì** — dal 17/09, nono settore (`regole-adv.md` v2.4) · *nota precedente:* | serve una modifica approvata da Ivan, con una definizione di contatto valido per chi rivende. Nota: product-marketing dice di **non presidiare la categoria "software house"** — si riferisce a come LML si presenta (non vogliamo essere cercati come software house), non a chi può comprare da noi. Va comunque letto prima di decidere |
+| Chi risponde ai contatti e in quanto tempo (§11) | **in parte** | **deciso da Ivan (17/09):** dopo ARYA rispondono i commerciali, Brian compreso, nella fascia pomeridiana; l'archivio contatti è visibile a tutti. Resta da fare la prova del ricontatto di ARYA con 20 contatti finti (§3.1, §26) |
+| Massimo due campagne attive (§0.1) | **sì** | zero campagne su lml-adv (report del 15/09; non riverificato oggi) |
+| **In più per questo settore:** fronte della campagna deciso (§6, §8) | **sì** | prodotti ARYA (Ivan, 17/09) |
+
+**Esito: BOZZA.** Aggiornato il 17/09: su nove caselle, quattro "sì", cinque "in parte", nessun "no". Resta BOZZA finché non si decide di confermarla (mancano le frasi dei titolari e le risposte di Roberto).
+
+---
+
+## 11. Da segnalare a Ivan
+
+1. **Il dubbio del bot è il nodo del settore, e oggi non abbiamo una risposta completa.** La più onesta è "provalo prima sui tuoi clienti" (7bis), ma si scontra con "nessuna prova gratuita": va deciso come si fa l'uso interno.
+2. **Il momento d'ingresso principale — i tecnici sommersi — è libero ma senza parole.** Nessun concorrente lo usa; nessuna fonte pubblica lo scrive. Servono le frasi esatte di Aton, 2Bit e Sysgrow, scritte da chi le ha sentite.
+3. **La condizione al partner (10%) è sotto il mercato dichiarato (20-60%, o 1.500-4.000 € a segnalazione).** Decisione aperta: non entra in nessuna inserzione finché non è presa.
+4. **Il fuori orario è libero** (nessun concorrente lo nomina) ed è il motivo dichiarato delle tre richieste. Ma **ARYA risponde fuori orario, non ripara**: ogni materiale deve dirlo in modo che il cliente non si aspetti un tecnico alle 23.
+5. **Qui "il cliente può collegarsi?" ha quasi sempre risposta sì**: il sistema da collegare è della software house stessa. È un vantaggio che negli altri settori non c'è.
+6. **Il settore non è nella §10.1 e non ha un fronte.** Aprirlo su Meta vuol dire decidere se una campagna che cerca partner sta nel fronte ARYA, e cosa è un contatto valido per un partner. Il radar segnala che il canale naturale è LinkedIn, oggi riservato al personal brand.
+7. **La voce del settore è nella cartella sbagliata** (`voce/rivenditori/2026-09-16.md`). Proposta: spostarla in `voce/software-house/2026-09-16.md` e lasciare in `voce/rivenditori/` solo i distributori B2B. Non l'ho spostata: aspetto il sì.
+8. **Ambrogio esclude il Sud** dall'inserzione per i tecnici di fiducia: in Puglia quell'asta è più vuota.
+9. **Uniwaba è un possibile partner**, non un concorrente (WhatsApp da innestare nei gestionali).
+10. **`regole-adv.md` ha due numeri di versione**: 2.3 in testa, 2.1 nel piè di pagina. Da allineare (modifica da approvare).
+
+---
+
+## 12. Storico
+
+| Data | Cosa è cambiato | Chi |
+|---|---|---|
+| 16/09/2026 | Prima stesura, in BOZZA. Usati radar e voce del 16/09 e i sei fatti dichiarati da Ivan lo stesso giorno. Passo 2bis costruito sulle ore dei tecnici e sui clienti che disdicono, con la formula da rifare. Aggiunto il passo 7bis sul dubbio del bot. Casella delle frasi dei tre titolari lasciata vuota | Claude, su richiesta di Ivan |
+| 17/09/2026 | Passo 4: scritta la forma anonima della prova (in produzione presso una casa di software), su approvazione di Ivan. Passo 10: aggiornati i cancelli — settore nella §10.1, fronte prodotti ARYA, prova in parte, chi risponde deciso (commerciali, Brian compreso, pomeriggio, archivio visibile a tutti) | Claude, su richiesta di Ivan |
