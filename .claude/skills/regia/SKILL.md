@@ -79,10 +79,10 @@ Una riga per reel o post: argomento, chi parla, formato, gancio (prime parole), 
 3. **Sceglie gli argomenti** dalla carta dei messaggi e dal piano: un momento concreto, una promessa vendibile.
    Un argomento per un singolo mestiere è una prova di una settimana (decisione 4). Evita "chiamate perse" da solo:
    serve il pezzo in più, "e fa" (arya-oggi §2; apprendimento 3).
-4. **Assegna chi parla e il formato**, poi fa il **controllo diversità** su questa settimana e sui pezzi ancora in campo
-   (letti in archivio):
-   - mai due pezzi con **stessa persona, stesso argomento e stesso formato**; le 2 versioni di un'idea cambiano almeno
-     chi parla o il formato, non solo il gancio;
+4. **Chi parla e formato:** li prende dal piano della settimana se li indica, altrimenti li propone. Poi fa il
+   **controllo diversità** su questa settimana e sui pezzi ancora in campo (letti in archivio):
+   - mai due pezzi con **stessa persona, stesso argomento e stesso formato** (§18); quindi le 2 versioni di un'idea
+     cambiano almeno chi parla o il formato, non solo il gancio (la carta dei messaggi ammette "due ganci": vale §18);
    - **almeno 3 volti o voci diversi** nella settimana;
    - **clienti mai in video**, né la loro voce. La voce di Arya si registra **solo da una demo** che si ripete uguale
      (arya-oggi), mai da una conversazione di un cliente vero.
