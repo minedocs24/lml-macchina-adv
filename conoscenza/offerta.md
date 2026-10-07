@@ -14,13 +14,17 @@ Il contratto dura 24 mesi, ma puoi uscire quando vuoi con 60 giorni di preavviso
 - **Messa in servizio** (il lavoro per farlo partire: conoscenza, catalogo, regole, prove, primo mese di taratura): si paga una volta,
   **anche in 3 rate**.
 - **Canone mensile**: assistenza LML, aggiornamenti, linee e caselle comprese. Non include il consumo.
+  **Il canone resta bloccato per tutti i 24 mesi**; il blocco vale solo per il canone, non per i consumi (decisione 20).
 - **Consumo**: si paga solo quando Arya ha chiuso la richiesta da sola. Nessun minimo, nessun volume incluso.
 - **Tetto di spesa**: lo imposta il cliente dal pannello; vede il conteggio in ogni momento.
 - **Pacchetti prepagati**: sconto del 15% per chi vuole una cifra fissa (dai listini).
 
 ## L'offerta di lancio — solo per i primi 10 clienti Arya
+**10 in totale su tutta la suite** (Voice, Customer Care e a-Mail insieme), non 10 per prodotto (decisione 15).
 - **Prova gratuita di 15 giorni prima della firma.**
 - **Messa in servizio inclusa.**
+- In cambio si chiede la **referenza completa** (decisione 14): logo, caso studio con mezz'ora registrata, referenza
+  telefonica, verifica dei risultati a 90 giorni. Per tutti gli altri clienti vale la clausola di referenza standard del contratto.
 - Il contratto resta di 24 mesi con recesso libero a 60 giorni.
 - **Si rivede al controllo di fine dicembre 2026.** Dall'undicesimo cliente, o dopo la revisione, valgono le condizioni normali.
 
@@ -98,13 +102,10 @@ I tre PDF in `Company/Commerciale/Prodotti/Suite ARYA/` dicono cose superate dal
 | 5 | La messa in servizio non si sconta oltre il lancio | **Inclusa per i primi 10 clienti Arya** | decisione 3 |
 | 6 | Obiezione "24 mesi sono troppi": "chi preferisce sottoscrive a listino con 12 mesi" | Non vale più: la risposta è il recesso libero a 60 giorni | decisione 3 |
 | 7 | Collegamento su misura 1.200 € a listino, 900 € al lancio | 900 € (colonna lancio) + 79 € al mese | Ivan, 7/10/2026 (regola 1) |
-| 8 | Il prezzo di lancio si concede "solo contro 24 mesi e referenza" (logo, mezz'ora registrata, referenza telefonica), canone bloccato 24 mesi, verifica a 90 giorni | **Da chiarire con Ivan** se queste condizioni restano ora che il prezzo vale per tutti; i nomi dei clienti seguono la decisione 2 (clausola di referenza del contratto) | domanda aperta |
+| 8 | Il prezzo di lancio si concede "solo contro 24 mesi e referenza" (logo, mezz'ora registrata, referenza telefonica), canone bloccato 24 mesi, verifica a 90 giorni | La referenza completa (logo, caso studio con mezz'ora registrata, referenza telefonica, verifica a 90 giorni) si chiede **solo ai primi 10 clienti Arya**; per tutti gli altri la clausola standard. Il canone bloccato per 24 mesi resta, per tutti, e vale solo per il canone, non per i consumi | decisioni 14 e 20 |
 | 9 | ARYA Voice, obiezione "è un robot": "risponde in meno di un secondo" | Non si promette (riga 6 di `arya-oggi.md`) finché non è misurato e chiarito | arya-oggi.md |
 
 I PDF originali non si modificano da qui: li aggiorna chi ne è responsabile.
 
 ## Cosa non so
-- Se "primi 10 clienti Arya" vale per tutta la suite insieme (10 in totale) o per ciascun prodotto: i PDF parlavano di "primi dieci
-  contratti attivi" per ogni listino.
-- Se le condizioni di referenza del vecchio prezzo di lancio (riga 8) restano nel contratto.
 - Se i pacchetti prepagati scontati del 15% restano in vendita.

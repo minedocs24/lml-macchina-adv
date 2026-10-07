@@ -40,7 +40,7 @@ Nel verbale: versione e data di ogni file letto.
 sono di settembre. **Dove dice cose diverse, valgono §8 e §9 di `regole-adv.md` 3.0 e `regole/decisioni.md`:**
 | meta-scrittura-sicura dice | Vale invece |
 |---|---|
-| 300 € al mese, 10 € al giorno per campagna | Decisione 5 e §9: ottobre 300-400 €/mese; nov-dic 1.500 €/mese Meta + 400 € Google; gen-mar 3.000 €/mese; apr-set 5.000-10.000 € solo dopo i controlli. Partenza 50 €/giorno |
+| 300 € al mese, 10 € al giorno per campagna | Decisioni 5 e 12 e §9: ottobre nessuna campagna nuova; dalla Prova (metà novembre) 1.500 €/mese su Meta, cioè 50 €/giorno, + 400 € Google; gen-mar 3.000 €/mese; apr-set 5.000-10.000 € solo dopo i controlli |
 | Aumenti del 20-30% ogni 3-4 giorni | Decisione 6: +20% ogni 2 settimane, solo se un cliente costa meno di 600 €. E gli aumenti li fa Ivan, non Campo |
 | Account Minedocs in sola lettura "fino a ottobre 2026" | §8: le campagne dell'agenzia restano su Minedocs, si leggono e non si toccano; cosa fare dopo ottobre lo decide Ivan. Campo non scrive mai su Minedocs |
 | Fronti ARYA (Meta), LML (Meta), IVAN (LinkedIn) | §6 e §8: ARYA = prodotti su Meta **e Google**; LML = consulenza su Meta; IVAN = personal brand su LinkedIn. Formato e esempi del nome dalla §8 |
@@ -92,6 +92,10 @@ sono di settembre. **Dove dice cose diverse, valgono §8 e §9 di `regole-adv.md
 11. **Scrive il verbale** e in chat riassume: cosa è pronto, in pausa, con gli ID, e cosa resta a Ivan.
 
 ### "In pausa" con il connettore di oggi
+**Decisione 19 (Ivan, 7/10/2026):** Campo usa **solo gli strumenti che leggono e quelli che creano in pausa**. **Mai
+attivare, mai eliminare.** Nessun altro strumento di scrittura (modifiche di budget, stato, pubblici, pixel, eliminazioni,
+archiviazioni) si usa da Campo.
+
 Dalle descrizioni degli strumenti lette il 7/10/2026 (nessuna chiamata): il connettore lavora in **modalità bozza**. Ogni
 creazione finisce nella bozza di Gestione inserzioni (stato DRAFT) e **non è pubblicata**. La pubblicazione si fa con
 lo strumento di attivazione, e quello che si pubblica parte **subito attivo**. Quindi:

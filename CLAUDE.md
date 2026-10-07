@@ -19,9 +19,11 @@ Entro settembre 2027: **120-150 clienti paganti** e **15.000-20.000 € al mese 
    per i **primi 10 clienti Arya**: prova gratuita di 15 giorni prima della firma e attivazione inclusa; contratto sempre
    24 mesi con recesso a 60 giorni. Si rivede al controllo di fine dicembre.
 4. Nessuna nicchia decisa a tavolino, il prodotto è per tutti: i messaggi per singolo mestiere sono **prove di una settimana**; il budget va dove dicono i numeri.
-5. Budget: ottobre 300-400 €/mese; novembre-dicembre 1.500 €/mese su Meta + 400 € su Google; gennaio-marzo 3.000 €/mese; aprile-settembre 5.000-10.000 €/mese **solo dopo** i controlli di fine dicembre e fine marzo.
-6. Regole di spesa: partenza 50 €/giorno; controllo a 500 € spesi; stop se un cliente costa più di 600 € per 4 settimane di fila; +20% ogni 2 settimane solo sotto i 600 €; **mai** soldi di stipendi, tasse o IVA.
+5. Budget: **ottobre nessuna campagna nuova**; dalla Prova, a metà novembre, 1.500 €/mese su Meta (50 €/giorno) + 400 € su Google; gennaio-marzo 3.000 €/mese; aprile-settembre 5.000-10.000 €/mese **solo dopo** i controlli di fine dicembre e fine marzo.
+6. Regole di spesa (partono con la Prova): partenza 50 €/giorno; controllo a 500 € spesi; stop se il costo per cliente supera 600 € sulle ultime 4 settimane (finestra mobile; nelle prime 4 settimane si giudica su contatti e demo); +20% ogni 2 settimane solo sotto i 600 €; **mai** soldi di stipendi, tasse o IVA.
 7. Tre cancelli umani: **promesse ammesse, pacchetto della settimana, spesa**. Claude propone, Ivan approva.
+
+Tetti (decisione 16): contatto valido 50 €, demo fatta 150 €, cliente 600 €. Le decisioni 8-19 sono in `regole/decisioni.md`.
 
 ## Come si descrive Arya
 - Arya si descrive **solo** con `conoscenza/arya-oggi.md`. Niente funzioni prese da altre fonti o dalla memoria.
@@ -45,7 +47,7 @@ Ognuno ha la sua cartella e scrive file datati.
 
 Ogni reparto ha la sua skill in `.claude/skills/<reparto>/` (osservatorio, piano, regia, collaudo, campo, numeri, direttore).
 `meta-scrittura-sicura` resta com'è e la usa Campo. Le skill di settembre sono in `.claude/skills/archivio/`.
-Le regole pubblicitarie sono in `regole/regole-adv.md` (3.0). I testi delle automazioni stanno in `prompt/`. Il lavoro di settembre 2026 è in `archivio-lml-adv/`
+Le regole pubblicitarie sono in `regole/regole-adv.md` (3.1). I testi delle automazioni stanno in `prompt/`. Il lavoro di settembre 2026 è in `archivio-lml-adv/`
 (solo da leggere: è storia, non regola; dove contraddice questo file, vale questo file).
 
 ## Il ritmo della settimana

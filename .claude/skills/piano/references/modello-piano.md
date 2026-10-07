@@ -19,7 +19,7 @@ da-rivedere.md del [ ]
 ## 2. Com'è andata la settimana chiusa
 Pacchetto in campo dal [ ] al [ ]. Dati di Numeri: [file].
 
-| Idea | Chi parla · formato | Spesa | Contatti validi | Demo | Clienti | € per contatto valido (tetto 50) | € per demo (tetto 500) | Stato nuovo nella carta | Indizio / confermato · su quanti contatti |
+| Idea | Chi parla · formato | Spesa | Contatti validi | Demo | Clienti | € per contatto valido (tetto 50) | € per demo fatta (tetto 150) | Stato nuovo nella carta | Indizio / confermato · su quanti contatti |
 |---|---|---|---|---|---|---|---|---|---|
 
 Costo per cliente (da Numeri): [ ] € — settimana prima: [ ] € — tetto 600 €.
@@ -66,7 +66,7 @@ Se il mese non regge 50 €/giorno: strade possibili, ognuna con cosa cambia · 
 | Contatore | Valore | Soglia | Cosa scatta |
 |---|---|---|---|
 | Speso dall'ultimo controllo completo (data [ ]) | | 500 € | lettura completa prima di andare avanti; niente aumenti né spese nuove finché non c'è |
-| Settimane di fila con costo per cliente sopra 600 € | | 4 | proposta di stop a Ivan |
+| Costo per cliente sulle ultime 4 settimane (finestra mobile; con zero clienti = spesa intera; nelle prime 4 settimane dal lancio si guardano contatti validi ≤ 50 € e demo fatte ≤ 150 €) | | 600 € | proposta di stop a Ivan |
 | Ultimo aumento (data, %) | | +20% ogni 2 settimane, solo sotto 600 € | aumento possibile dal [data] / non possibile perché [ ] |
 | Tempo di prima risposta ai contatti (da Numeri) | | 30 minuti | sopra: nessun aumento, e un pezzo si può fermare |
 | Costo per contatto in salita da 2 settimane? | sì / no | — | sì: fermarsi a capire prima di aumentare |

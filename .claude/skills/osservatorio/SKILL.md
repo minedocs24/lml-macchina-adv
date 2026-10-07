@@ -15,7 +15,7 @@ description: Reparto Osservatorio della macchina pubblicitaria di Arya (LML Tech
 ## Cosa legge all'inizio
 Sempre:
 1. `CLAUDE.md`, `conoscenza/apprendimenti.md` (in particolare le lezioni di metodo 13, 14 e 15), `regole/decisioni.md`.
-2. L'ultimo file datato di `osservatorio/` (l'ultimo `-mercato.md` e, se serve, l'ultimo `-voce.md`).
+2. L'ultimo file datato di `osservatorio/` (`osservatorio/AAAA-MM-GG.md`; per la voce, l'ultimo del primo lunedì del mese).
    **Al primo giro** il giro precedente è `archivio-lml-adv/radar/panoramica/2026-09-14.md` con il suo `pagine.md`
    (più i due radar in `archivio-lml-adv/radar/archivio/`): sola lettura, è storia.
 
@@ -36,13 +36,14 @@ In testa a ogni prodotto: nome, versione e data di ogni file letto. Se un file m
 ## Cosa produce
 Un file datato per prodotto, **mai sovrascritto**: se cambia, nuovo file con nuova data.
 
-1. **`osservatorio/AAAA-MM-GG-mercato.md`** — ogni lunedì. Modello in `references/modello-mercato.md`. Sezioni:
+1. **`osservatorio/AAAA-MM-GG.md`** — ogni lunedì (prompt `prompt/osservatorio.md`). Modello in `references/modello-mercato.md`. Sezioni:
    file letti · la riga secca · su quali pagine contiamo · i numeri (con il giro precedente) · chi paga da più tempo ·
    i messaggi che sopravvivono · mosse di mercato · a chi parlano (le lenti dei mestieri) · formato e destinazione ·
    le spente · lo spazio libero · i nostri messaggi visti altrove · novità di Arya e proposte per la scheda ·
    da segnalare a Ivan · **Cosa non so**.
-2. **`osservatorio/AAAA-MM-GG-voce.md`** — ogni tanto. Modello in `references/modello-voce.md`. L'ultima sezione è
-   **Cosa non so**.
+2. **La voce dei clienti** — il **primo lunedì del mese**, come sezione dello stesso `osservatorio/AAAA-MM-GG.md`
+   (recensioni e forum sui problemi di telefono, chat ed email), con le proposte per `conoscenza/customer-language.md`.
+   Modello in `references/modello-voce.md`.
 3. **`osservatorio/pagine-sorvegliate.md`** — registro vivo, non un report: si aggiunge, non si toglie. Una pagina che
    smette di fare pubblicità resta, con "nessuna inserzione attiva al <data>".
 4. Solo se `VERIFICA-FUNZIONI.md` è cambiato: `osservatorio/AAAA-MM-GG-verifica-funzioni.md`, come quello del 7/10/2026.
@@ -94,7 +95,7 @@ In chat, alla fine: dieci righe — la riga secca, le tre cose nuove, cosa non s
    collegamento alla recensione. Una frase che non si separa dalla persona non si prende.
 3. **Cinque caselle:** dolore · momento · desiderio · dubbio · sollievo. Poi si contano le parole che tornano.
 4. **Le fonti nostre valgono il doppio** (le conversazioni di Arya, le frasi dei contatti), ma solo se chi le tiene le
-   passa già senza dati della persona. L'Osservatorio non apre il CRM e non copia niente da lì.
+   passa già senza dati della persona. Dal CRM non si copia niente.
 5. Ci si ferma quando tre fonti di seguito non aggiungono temi nuovi (di solito 40-80 frasi).
 6. Le frasi nuove diventano **proposte per `conoscenza/customer-language.md`**: si scrivono nel file voce, si mette una riga
    in `direttore/da-rivedere.md`, e il documento si cambia solo dopo il sì di Ivan, con data e fonte.
@@ -110,12 +111,16 @@ In chat, alla fine: dieci righe — la riga secca, le tre cose nuove, cosa non s
 4. Una riga in `direttore/da-rivedere.md`, cancello **promesse**.
 5. Se un concorrente promette una cosa che per noi è "da confermare", va nello spazio libero come "da verificare se
    possiamo prometterlo", con la riga di `arya-oggi.md` a cui si riferisce.
+6. **Righe 6, 17, 18 e Tech Provider Meta** (decisione 11): restano fuori dagli annunci. Quando Roberto conferma che
+   funzionano oggi, lascia una nota in `novita-arya/`; l'Osservatorio la trova al giro successivo e propone
+   l'aggiornamento di `arya-oggi.md` con una richiesta di unione. Senza nota, non si propone niente.
+7. Se da **4 settimane** non arriva nessuna nota di novità su Arya, lo scrive in "Cosa non so" (lo segnala anche il Direttore).
 
 ## Cosa non fa
 - **Meta:** solo lettura della Libreria. Non apre l'account pubblicitario, non crea, non attiva, non cambia budget.
 - **Non decide** cosa provare né quanto spendere (è il Piano), non consiglia angoli, non scrive testi di annunci.
 - **Non trasforma una novità in promessa** e non modifica `arya-oggi.md`, `regole/`, `CLAUDE.md`, `customer-language.md`.
-- **CRM:** non lo apre. Nessun elenco di contatti o di clienti potenziali per nome.
+- **CRM:** non si apre finché non c'è un connettore di sola lettura (Ivan, 7/10/2026). Quando ci sarà: solo in lettura e solo per le novità di Arya (prodotti, condizioni, offerte nuove). Mai scrivere; nessun elenco di contatti o di clienti potenziali per nome nei file.
 - **Dati personali:** mai nomi, telefoni o email di persone esterne. Se un file o una nota di `novita-arya/` contiene dati
   di persone esterne, si salta e si segnala. L'Excel dei contatti di settembre non si usa.
 - **Niente estrazione in massa** dalla Libreria o dalle recensioni; nessun salvataggio di creatività dei concorrenti.

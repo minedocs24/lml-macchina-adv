@@ -1,12 +1,12 @@
 # Modello — la mappa del mercato della settimana
 
-Si copia in `osservatorio/AAAA-MM-GG-mercato.md`. Le sezioni vuote restano con "nessuna" o "non visto": mai cancellate.
+Si copia in `osservatorio/AAAA-MM-GG.md`. Le sezioni vuote restano con "nessuna" o "non visto": mai cancellate.
 
 ---
 
 # Mercato — settimana del [AAAA-MM-GG]
 
-**Giro precedente:** osservatorio/[data]-mercato.md (al primo giro: archivio-lml-adv/radar/panoramica/2026-09-14.md)
+**Giro precedente:** osservatorio/[data].md (al primo giro: archivio-lml-adv/radar/panoramica/2026-09-14.md)
 **File letti:** CLAUDE.md del [ ] · apprendimenti.md del [ ] · decisioni.md del [ ] · regole-adv.md v[ ] del [ ] ·
 arya-oggi.md del [ ] · customer-language.md del [ ] · piano/[data]-piano-settimana.md · carta-dei-messaggi.md del [ ] ·
 novita-arya/ letta il [ ] · VERIFICA-FUNZIONI.md del [ ]

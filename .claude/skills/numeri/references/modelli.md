@@ -53,11 +53,11 @@ CRM leggibile: sì / **no → la lettura si ferma alla spesa e lo dice qui**
 | Organici · senza provenienza | | | senza provenienza: sotto il 10% | |
 | Contatti validi (quota) | | | almeno 40% (§17) | su [n] contatti |
 | Costo per contatto valido | | | tetto 50 € (§27) | |
-| Demo fissate · fatte | | | | |
-| Costo per demo | | | tetto 500 € (§27) | |
+| Demo fissate · fatte | | | | il tetto vale per le demo fatte |
+| Costo per demo fatta | | | tetto 150 € (dec. 16) | |
 | Clienti nuovi | | | contatto → cliente 2-4% (§2) | |
 | Costo per cliente (settimana · ultime 4 settimane) | | | tetto 600 € (dec. 1) | |
-| Settimane di fila con il costo per cliente sopra 600 € | | | stop a 4 (dec. 6) | il Piano usa questo numero |
+| Costo per cliente sulle ultime 4 settimane (finestra mobile; zero clienti = spesa intera) | | | stop sopra 600 € (dec. 17); nelle prime 4 settimane dal lancio si guardano contatti validi e demo fatte | il Piano usa questo numero |
 | Canoni mensili in essere | | | obiettivo 15.000-20.000 € a settembre 2027 | |
 | Tempo medio di prima risposta | | | 5 minuti (§11); soglia 30 (§17) | |
 | Frequenza massima | | | sotto 3 (§17) | |

@@ -1,6 +1,6 @@
 # Modello — la voce dei clienti
 
-Si copia in `osservatorio/AAAA-MM-GG-voce.md`. Le caselle senza frasi restano con "non trovato": mai riempite a mano.
+Sezione del file `osservatorio/AAAA-MM-GG.md` del primo lunedì del mese. Le caselle senza frasi restano con "non trovato": mai riempite a mano.
 
 ## Dove cercare (in ordine di resa)
 - **Voce A — il cliente finale:** recensioni Google da 1-2 stelle di attività che rispondono a telefono, chat o email
@@ -17,7 +17,7 @@ Si copia in `osservatorio/AAAA-MM-GG-voce.md`. Le caselle senza frasi restano co
 
 # Voce dei clienti — [AAAA-MM-GG] — [perché ora: es. "prova della settimana sugli studi medici"]
 
-**Voce precedente:** osservatorio/[data]-voce.md, oppure "prima"
+**Voce precedente:** la sezione voce dell'ultimo `osservatorio/[data].md` del primo lunedì del mese, oppure "prima"
 **File letti:** customer-language.md del [ ] · arya-oggi.md del [ ] · regole-adv.md v[ ] del [ ] · ultimo mercato [data]
 **Lente:** [generale / mestiere della prova] · **Fonti consultate:** Voce A: [tipo e quante] · Voce B: [tipo e quante] · Nostre: [ ]
 **Frasi raccolte:** [ ] (A: [ ] · B: [ ] · nostre: [ ]) · **Fermato perché:** saturazione / fonti esaurite / tempo
