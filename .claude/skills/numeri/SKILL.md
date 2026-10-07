@@ -32,8 +32,9 @@ Poi, per questo reparto:
 6. `numeri/collegamento-crm.md`: quali strumenti del CRM si usano in lettura, quali campi, come si leggono stati, canale e
    inserzione di provenienza, tempo di prima risposta, trattative, clienti e canoni. **È l'unica guida al CRM.**
    Se manca, o non dice dove sta un dato, quel dato va in "Cosa non so": non si indovina.
-7. L'ultimo file di `piano/` (budget e idee della settimana) e l'ultimo di `campo/` (quali inserzioni sono in campo, con il
-   loro ID, e a quale idea e pezzo corrispondono). Poi `regia/archivio-pezzi.md`.
+7. L'ultimo `piano/AAAA-MM-GG-piano-settimana.md` (budget e idee della settimana, e i contatori dei controlli di spesa:
+   speso dall'ultimo controllo, data dell'ultimo aumento) e l'ultimo verbale di `campo/` (quali inserzioni sono in campo,
+   con il loro ID, e a quale idea e pezzo corrispondono). Poi `regia/archivio-pezzi.md`.
 8. **Meta, sola lettura**, account `lml-adv` (2214221312473862, regole §8). Se il connettore risponde con un account inatteso,
    la lettura si ferma e si segnala. Le campagne di consulenza (account Minedocs, fino a ottobre) sono un altro fronte:
    si leggono a parte e **non si sommano mai** ai prodotti.
@@ -53,7 +54,7 @@ Per ogni allarme: cosa, il numero, la soglia, cosa si propone in una riga, chi d
 | Tempo medio di prima risposta | sopra **30 minuti** (ieri o ultimi 7 giorni) | §17, §17.1: viene prima di tutte |
 | Spesa di ieri | sopra **50 €** al giorno, o sopra il giornaliero deciso da Ivan nel piano della settimana | decisione 6 |
 | Spesa del mese | sopra l'80% del budget del mese; allarme forte se lo supera | decisione 5 |
-| Controllo a 500 € | la spesa dall'ultimo controllo arriva a **500 €** | decisione 6, §17 |
+| Controllo a 500 € | speso dall'ultimo controllo (contatore del Piano) più la spesa dopo arriva a **500 €** | decisione 6, §17 |
 | Stop | costo per cliente sopra **600 €** per **4 settimane di fila** (vedi passo 9) | decisione 6 |
 | Aumento fuori regola | budget salito più del 20%, o prima di 2 settimane dall'ultimo aumento, o con costo per cliente sopra 600 € | decisione 6 |
 | Contatti senza provenienza | oltre il 10% dei contatti degli ultimi 7 giorni (sotto i 10 contatti: anche uno solo) | skill di settembre |
@@ -72,6 +73,7 @@ Per ogni allarme: cosa, il numero, la soglia, cosa si propone in una riga, chi d
 3. **Cosa è cambiato**: una sola spiegazione, la più probabile, detta come ipotesi. Ogni lettura è marcata **indizio**
    o **confermato** (§17.1) e dice su quanti contatti si basa.
 4. **Le proposte**, ognuna con: cosa cambia, quanto costa, cosa succede se non lo faccio, chi decide (quale cancello).
+   Le proposte di budget (stop, aumento, spostamenti) le scrive il **Piano**: qui si scrive solo se le condizioni ci sono.
 5. **Cosa non so**: dati mancanti, inaffidabili, troppo piccoli. Si dicono, non si stimano.
 
 **(c) Una riga a settimana in `numeri/storico.csv`**, con queste colonne:
@@ -107,10 +109,12 @@ Per ogni allarme: cosa, il numero, la soglia, cosa si propone in una riga, chi d
 8. Calcola: costo per contatto, per contatto valido, per demo, per cliente; quota di validi (sotto il 40% = problema di
    messaggio o di pubblico, §17); spesa dall'ultimo controllo da 500 €. I canali (Meta, Google, porte) restano separati (§2).
 9. **Stop e aumenti (decisione 6).** Il costo per cliente si guarda sulle ultime 4 settimane: spesa delle 4 settimane ÷
-   clienti nuovi delle 4 settimane; con zero clienti e più di 600 € spesi vale "sopra 600". Sopra i 600 € in 4 letture del
-   lunedì di fila: allarme di stop. Sotto i 600 €, con 2 settimane dall'ultimo aumento e tempo di risposta sotto i 30 minuti:
-   si può **proporre** +20%. Mai proporre aumenti con tempo di risposta sopra i 30 minuti (§26) o clienti persi oltre il 5% al mese (§28).
-   Questo modo di leggere la regola dello stop va confermato da Ivan la prima volta che serve (riga in da-rivedere).
+   clienti nuovi delle 4 settimane; con zero clienti e più di 600 € spesi vale "sopra 600". La lettura scrive in chiaro
+   **"settimane di fila con il costo per cliente sopra 600 €: N"**: il Piano usa questo numero, non lo ricalcola.
+   A 4: allarme di stop. Scrive anche se ci sono le condizioni per un +20%: costo per cliente sotto i 600 €, 2 settimane
+   dall'ultimo aumento, tempo di risposta sotto i 30 minuti (§26), clienti persi sotto il 5% al mese (§28).
+   La proposta la scrive il Piano; decide Ivan. Questo modo di leggere la regola dello stop va confermato da Ivan la prima
+   volta che serve (riga in da-rivedere).
 10. Legge le idee e i pezzi: una settimana è un **indizio**, scritto così: "Indizio: l'idea X sembra rendere più di Y, da
     rivedere". **Confermato** solo se regge in due periodi diversi. Sotto le 10 unità si scrivono numeri interi, non
     percentuali (da 2 demo a 3 non è "+50%": sono tre demo). Per dire dove si rompe usa la tabella di diagnosi in
@@ -149,8 +153,9 @@ Per ogni allarme: cosa, il numero, la soglia, cosa si propone in una riga, chi d
 - **(b) Salvataggio.** Un commit per lavoro, in italiano, che dice cosa e perché. Esempi:
   "numeri: settimana 12-18 ottobre, costo per cliente 540 €"; "numeri: semaforo 14 ottobre, risposta media 42 minuti".
 - **(c) Copia leggibile** su OneDrive in `Company/Marketing/macchina-adv/numeri/` (lettura della settimana e semafori).
-- **(d) Decisioni di Ivan.** Ogni allarme di spesa, la proposta di aumento, la conferma della regola dello stop e il ritorno
-  dei contatti a Meta diventano una riga in `direttore/da-rivedere.md`, nel formato della tabella già presente.
+- **(d) Decisioni di Ivan.** Ogni allarme di spesa, la conferma della regola dello stop e il ritorno dei contatti a Meta
+  diventano una riga in `direttore/da-rivedere.md`, nel formato della tabella già presente (la proposta di budget che ne
+  segue la aggiunge il Piano).
 
 ## Da dove viene
 | Skill di settembre (`.claude/skills/archivio/`) | Cosa è stato preso | Cosa è stato lasciato e perché |

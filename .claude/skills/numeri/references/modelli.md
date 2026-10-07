@@ -47,7 +47,7 @@ CRM leggibile: sì / **no → la lettura si ferma alla spesa e lo dice qui**
 | Spesa Meta | | | piano della settimana; 50 €/giorno (dec. 6) | |
 | Spesa Google | | | 400 €/mese da novembre (dec. 5) | |
 | Spesa del mese finora | | | budget del mese (dec. 5) | |
-| Spesa dall'ultimo controllo | | | 500 € (dec. 6) | |
+| Spesa dall'ultimo controllo | | | 500 € (dec. 6) | contatore del Piano + spesa della settimana |
 | Contatti — pagina Arya: chiamata / chat / fatti richiamare | | | | |
 | Contatti — modulo Meta | | | | |
 | Organici · senza provenienza | | | senza provenienza: sotto il 10% | |
@@ -57,6 +57,7 @@ CRM leggibile: sì / **no → la lettura si ferma alla spesa e lo dice qui**
 | Costo per demo | | | tetto 500 € (§27) | |
 | Clienti nuovi | | | contatto → cliente 2-4% (§2) | |
 | Costo per cliente (settimana · ultime 4 settimane) | | | tetto 600 € (dec. 1) | |
+| Settimane di fila con il costo per cliente sopra 600 € | | | stop a 4 (dec. 6) | il Piano usa questo numero |
 | Canoni mensili in essere | | | obiettivo 15.000-20.000 € a settembre 2027 | |
 | Tempo medio di prima risposta | | | 5 minuti (§11); soglia 30 (§17) | |
 | Frequenza massima | | | sotto 3 (§17) | |
@@ -83,6 +84,7 @@ CRM leggibile: sì / **no → la lettura si ferma alla spesa e lo dice qui**
 
 ## 4. Le proposte
 **[P1] [cosa]** — Cosa cambia: … · Quanto costa: … · Cosa succede se non lo faccio: … · Decide: Ivan, cancello …
+*(Le proposte di budget — stop, aumento, spostamenti — le scrive il Piano. Qui solo se le condizioni ci sono, e le altre proposte.)*
 
 ## 5. Cosa non so
 - …
