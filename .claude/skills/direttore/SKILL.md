@@ -92,8 +92,8 @@ File letti: [nome · versione o data]
 | # | Se… | Allora |
 |---|---|---|
 | 1 | I file non si leggono o non si può scrivere | Non fa niente e lo dice (passo 1) |
-| 2 | Il semaforo di oggi ha un allarme di spesa: tempo di risposta oltre 30 minuti, tetti, controllo a 500 €, stop a 600 € per 4 settimane, aumento fuori regola | In cima a "Cosa aspetta Ivan", cancello **spesa**; poi prosegue |
-| 3 | C'è spesa attiva e Numeri oggi non ha ancora girato | **Numeri, semaforo.** È un controllo in sola lettura: non conta come produzione |
+| 2 | Il semaforo di oggi ha un allarme di spesa: tempo di risposta oltre 30 minuti, tetti (contatto valido 50 €, demo fatta 150 €, cliente 600 €), controllo a 500 €, stop (costo per cliente oltre 600 € sulle ultime 4 settimane, decisione 17), aumento fuori regola | In cima a "Cosa aspetta Ivan", cancello **spesa**; poi prosegue |
+| 3 | C'è spesa attiva e Numeri oggi non ha ancora girato (**finché le campagne non sono partite, Numeri si salta**: ottobre senza campagne, la Prova parte da metà novembre, decisione 12) | **Numeri, semaforo.** È un controllo in sola lettura: non conta come produzione |
 | 4 | Il freno è tirato | Nessuna produzione. Solo righe 2, 3 e la lettura del lunedì di Numeri |
 | 5 | Da lunedì, manca la lettura della settimana di Numeri | **Numeri, lettura della settimana** (il Piano ne ha bisogno) |
 | 6 | Da lunedì, manca `osservatorio/AAAA-MM-GG-mercato.md` della settimana | **Osservatorio** |
@@ -104,7 +104,7 @@ File letti: [nome · versione o data]
 | 11 | Collaudo fatto, pacchetto senza il sì scritto di Ivan | Non esegue. Riga cancello **pacchetto** se manca: "senza il sì, venerdì Campo non prepara niente" |
 | 12 | Da venerdì, pacchetto approvato per iscritto e manca il verbale di Campo | **Campo**, tutto in pausa (in costruzione: solo a carta, nessuna chiamata a Meta) |
 | 13 | Campagne pronte in pausa | Non esegue. Attivare e spendere è di Ivan: riga cancello **spesa**, con i cancelli tecnici ancora aperti (20 contatti finti per porta, §26) |
-| 14 | Una novità di Arya o una funzione "da chiarire" aspetta | Non esegue. Riga cancello **promesse** se l'Osservatorio non l'ha già messa |
+| 14 | Una novità di Arya o una funzione "da chiarire" aspetta (righe 6, 17, 18 e Tech Provider: restano fuori finché Roberto non lascia una nota, decisione 11); da 4 settimane nessuna nota di novità: si segnala | Non esegue. Riga cancello **promesse** se l'Osservatorio non l'ha già messa |
 | 15 | Mancano meno di 15 giorni alla fine di dicembre o di marzo | Riga cancello **spesa** per il controllo (decisione 5; a dicembre anche l'offerta di lancio, decisione 3), con i numeri di Numeri |
 | 16 | Nessuna riga corrisponde | Scrive che non c'era niente da fare. **Non si inventa un lavoro** |
 

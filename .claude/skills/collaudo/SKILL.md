@@ -71,7 +71,8 @@ scheda, è un difetto del pezzo. I controlli si fanno in quest'ordine (i primi f
    Niente numeri di mercato presentati come nostri (70-80% risolte, 4,1/5), niente "700 millisecondi", niente percentuali
    di miglioramento inventate. Un numero vale solo se misurato e con la fonte.
 2. **Offerta (grave).** Prezzi, prova gratuita, attivazione inclusa, durata e recesso come in `offerta.md` / decisione 3.
-   L'offerta di lancio vale **solo per i primi 10 clienti**: se il pezzo la fa sembrare per tutti o senza fine, rosso.
+   L'offerta di lancio vale **solo per i primi 10 clienti Arya in tutto, su tutta la suite** (decisione 15): se il pezzo la
+   fa sembrare per tutti, per ogni prodotto o senza fine, rosso.
    Ciò che `offerta.md` segna come non promettibile non si dice.
 3. **Nomi e persone (grave).** Nomi dei clienti **mai negli annunci** (decisione 2, §21, §23): né detti, né scritti, né in un
    logo, una schermata, un nome di file visibile. I clienti **mai in video** (§18). Nessun nome, numero o email di persone
@@ -99,8 +100,8 @@ scheda, è un difetto del pezzo. I controlli si fanno in quest'ordine (i primi f
 6. **Diversità e firma (medio; grave se viola §18).** Un'idea è chi parla, di cosa parla, in che formato: mai due pezzi in
    campo (questa settimana più quelli già in campo) con tutti e tre uguali: grave. Almeno 3 volti o voci diversi nella
    settimana; se sono meno: medio. Ogni idea in 2 versioni. **Stessa chiusura grafica e stessa frase finale** in tutti i
-   pezzi (§2bis): se cambia, grave; se la scheda dice "chiusura: da decidere", giallo (la decide Ivan una volta per
-   un anno). Un solo fronte per pezzo (ARYA, LML, IVAN).
+   pezzi (§2bis): se cambia, grave; se la scheda dice "chiusura: da decidere", giallo (la sceglie Ivan fra le 3
+   proposte della Regia, decisione 13, una volta per un anno). Un solo fronte per pezzo (ARYA, LML, IVAN).
 7. **Misure (medio; grave se il messaggio sparisce).** Messaggio nei primi 125 caratteri del testo; gancio scritto che regge
    a 40; titolo entro 27. Video sotto i 30 secondi (§18), gancio nei primi 2, sottotitoli incisi, comprensibile senza audio.
    Niente marchio all'inizio: sta solo nella chiusura. Verticale 9:16: niente di importante nel 14% in alto e nel 35% in

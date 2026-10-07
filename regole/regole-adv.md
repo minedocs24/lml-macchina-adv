@@ -2,7 +2,8 @@
 
 File di configurazione vincolante. Sta in `regole/regole-adv.md` nell'archivio `lml-macchina-adv`, accanto a `conoscenza/arya-oggi.md`.
 
-Versione 3.0 — 7 ottobre 2026
+Versione 3.1 — 7 ottobre 2026
+*(3.1 — 7 ottobre 2026: risposte di Ivan alle domande sulla 3.0, decisioni 11-19 — ottobre senza campagne e Prova da metà novembre (§9); tetti per contatto valido, demo fatta e cliente (§27); stop a finestra mobile (§9, §17); vincente e perdente (§17.1); chiusura comune proposta dalla Regia (§2bis); referenza dei primi 10 (§21); connettore Meta (§24bis).)*
 *(3.0 — 7 ottobre 2026: scritta partendo dalla 2.5, con le sole modifiche elencate in «Cosa cambia dalla 2.5», su istruzione di Ivan.)*
 *(2.5 — 17 settembre 2026. A: nuova §17.1, come si giudica un blocco con budget piccoli; §17 e §26 allineate — decisione di Ivan.)*
 *(2.5-B: §18 — il numero di creatività dipende dalla spesa: 3-4 per blocco sotto i 1.000 € al mese, 8-12 al mese sopra — decisione di Ivan.)*
@@ -171,7 +172,7 @@ L'Ehrenberg-Bass Institute chiama "punti d'ingresso nella categoria" le situazio
 
 Per essere ricordati serve essere riconoscibili al primo sguardo. La ricerca Ehrenberg-Bass li chiama "asset distintivi": elementi sempre uguali che fanno capire che siamo noi prima ancora di leggere.
 
-Per LML: **volti veri del team** (mai un attore, mai grafica al posto loro; i clienti mai in video), **la stessa chiusura grafica e la stessa frase per tutti i pezzi**, chiunque parli, un colore e un'impostazione visiva sempre uguali, lo stesso tono. Le facce cambiano di settimana in settimana (§18), la firma no. Vanno decisi una volta e non cambiati per almeno un anno. Cambiare stile ogni due mesi azzera la memoria accumulata.
+Per LML: **volti veri del team** (mai un attore, mai grafica al posto loro; i clienti mai in video), **la stessa chiusura grafica e la stessa frase per tutti i pezzi**, chiunque parli, un colore e un'impostazione visiva sempre uguali, lo stesso tono. Le facce cambiano di settimana in settimana (§18), la firma no. La chiusura e la frase le propone la Regia, 3 versioni nella prima settimana, e le sceglie Ivan (decisione 13). Vanno decisi una volta e non cambiati per almeno un anno. Cambiare stile ogni due mesi azzera la memoria accumulata.
 
 ### Regola di lettura per tutto il documento
 
@@ -402,19 +403,20 @@ Esempi:
 
 ## 9. Budget e tetti
 
-Valgono le decisioni 1, 5 e 6 di `regole/decisioni.md`. In breve:
+Valgono le decisioni 1, 5, 6, 12 e 17 di `regole/decisioni.md`. In breve:
 
 | Periodo | Budget |
 |---|---|
-| Ottobre 2026 | 300-400 € al mese |
-| Novembre-dicembre 2026 | 1.500 € al mese su Meta + 400 € al mese su Google |
+| Ottobre 2026 | **nessuna campagna nuova** (decisione 12) |
+| Da metà novembre 2026: **la Prova** | 1.500 € al mese su Meta, cioè **50 € al giorno**, + 400 € al mese su Google; con la Prova partono le regole di spesa qui sotto |
+| Dicembre 2026 | 1.500 € al mese su Meta + 400 € al mese su Google |
 | Gennaio-marzo 2027 | 3.000 € al mese |
 | Aprile-settembre 2027 | 5.000-10.000 € al mese, **solo dopo** i controlli di fine dicembre e di fine marzo |
 
 **Regole di spesa:**
-- **Partenza: 50 € al giorno.**
+- **Partenza con la Prova, da metà novembre: 50 € al giorno.**
 - **Controllo a 500 € spesi:** lettura completa prima di andare avanti.
-- **Stop** se un cliente costa più di **600 €** per **4 settimane di fila**.
+- **Stop** se il costo per cliente supera **600 €** sul **totale delle ultime 4 settimane, a finestra mobile**; con zero clienti conta la spesa intera. **Nelle prime 4 settimane dal lancio** si giudica su contatti validi (tetto 50 €) e demo fatte (tetto 150 €), perché i contratti arrivano dopo (decisione 17).
 - **Aumenti: +20% ogni 2 settimane, solo se il costo per cliente è sotto i 600 €.** Mai raddoppi: azzerano l'apprendimento dell'algoritmo.
 - **Mai** soldi destinati a stipendi, tasse o IVA.
 
@@ -600,7 +602,7 @@ Quando esce un bando che finanzia digitalizzazione e AI per le PMI, la domanda s
 |---|---|
 | Campagna Meta sotto le 50 conversioni a settimana | Con i nostri budget è la norma, non un guasto: si lascia girare e si legge ogni settimana (§17.1). Si accorpa solo se lo stesso budget è diviso fra più gruppi di inserzioni |
 | 500 € spesi dall'ultimo controllo | Controllo completo prima di andare avanti (§9) |
-| Costo per cliente sopra i 600 € per 4 settimane di fila | Stop (§9) |
+| Costo per cliente sopra i 600 € sulle ultime 4 settimane, a finestra mobile (con zero clienti conta la spesa intera) | Stop (§9). Nelle prime 4 settimane dal lancio: contatto valido sopra 50 € o demo fatta sopra 150 € |
 | Costo per contatto LinkedIn stabilmente sopra 150 € senza clienti reali | Ridurre LinkedIn, spostare su Meta |
 | Le stesse persone vedono un'inserzione più di 3-4 volte | Inserzione consumata: sostituirla |
 | Costo per contatto in salita per 2 settimane di fila | Fermarsi e capire prima di aumentare il budget |
@@ -618,6 +620,12 @@ Meta dice che il suo sistema impara bene con circa 50 conversioni a settimana (u
 
 - **Indizio:** quello che si vede in una sola settimana o in un solo periodo. Si scrive così: «Indizio: l'idea X sembra rendere più di Y, da rivedere». Non si scrive mai «X funziona, Y no».
 - **Confermato:** una lezione che regge in **due periodi diversi**. Solo allora entra fra gli apprendimenti come confermata (`conoscenza/apprendimenti.md`).
+
+**Vincente e perdente (decisione 18):**
+- **vincente:** sotto **50 €** a contatto valido, con **almeno 5 contatti validi** e **almeno una demo**;
+- **perdente:** **100 € spesi senza un contatto valido**, oppure **7 giorni di fila sopra 50 €** a contatto valido.
+
+Una vincente vista in un solo periodo resta un indizio («vincente, indizio») finché non regge in un secondo periodo.
 
 **Durante la settimana** non si cambiano testi, pubblico e budget dei pezzi in campo: il pacchetto cambia il venerdì (§18).
 
@@ -721,7 +729,7 @@ Il freno principale è la fiducia (sezione 5). Lo strumento che la costruisce è
 
 Ogni caso va usato tre volte: come inserzione (in forma anonima), come contenuto del personal brand, come materiale nella trattativa.
 
-**Regola (decisione 2):** i nomi dei clienti **mai negli annunci**; sul sito e nei casi studio sì, con la clausola di referenza del contratto. Negli annunci il caso si racconta in forma anonima ("uno studio odontoiatrico di 12 persone in Puglia"), che funziona quasi altrettanto bene. I clienti non compaiono mai in video (§18).
+**Regola (decisione 2):** i nomi dei clienti **mai negli annunci**; sul sito e nei casi studio sì, con la clausola di referenza del contratto. **Ai primi 10 clienti Arya** (prova e attivazione incluse) si chiede la **referenza completa**: logo, caso studio con mezz'ora registrata, referenza telefonica, verifica dei risultati a 90 giorni; per tutti gli altri vale la clausola standard (decisione 14). Negli annunci il caso si racconta in forma anonima ("uno studio odontoiatrico di 12 persone in Puglia"), che funziona quasi altrettanto bene. I clienti non compaiono mai in video (§18).
 
 ---
 
@@ -799,6 +807,10 @@ Non si gestiscono in questo file, ma vanno tenuti presenti quando si giudica il 
 **Conseguenza sul profilo di rischio: qualunque errore di Claude su Meta è reversibile.** Non può distruggere campagne, storico di spesa, pubblici o creatività. Il danno massimo che può fare è **creare qualcosa di sbagliato** o **mettere in pausa qualcosa che funzionava** — entrambi rimediabili in trenta secondi da Gestione inserzioni.
 
 Questa è una protezione strutturale che non dipende dalla disciplina di nessuno.
+
+### Il connettore di oggi (decisione 19, 7 ottobre 2026)
+
+Le descrizioni attuali degli strumenti Meta parlano di creazioni in bozza, di uno strumento di attivazione che pubblica subito e di eliminazioni possibili. Per questo: **Campo usa solo gli strumenti che leggono e quelli che creano in pausa. Mai attivare, mai eliminare.** Con questa regola resta vero quanto scritto sotto: ogni errore di Claude su Meta è reversibile.
 
 ### Le campagne nascono in pausa da sole
 
@@ -878,12 +890,12 @@ Le rilevazioni 2025-2026 su migliaia di aziende in abbonamento indicano che per 
 
 ### I tetti in vigore per i prodotti
 
-**Call fissata e contatto valido decisi da Ivan il 15 settembre 2026 sui margini reali di ARYA; tetto per cliente nuovo portato a 600 € il 7 ottobre 2026 (decisione 1).** Sono i numeri da usare in ogni report e in ogni decisione; il calcolo più sotto spiega da dove nasce il ragionamento.
+**Decisi da Ivan il 7 ottobre 2026 (decisioni 1 e 16), coerenti con i 600 € per cliente; la demo fatta sostituisce la "call fissata" da 500 € di settembre.** Sono i numeri da usare in ogni report e in ogni decisione; il calcolo più sotto spiega da dove nasce il ragionamento.
 
 | Cosa | Tetto massimo |
 |---|---|
 | Cliente nuovo | **600 €** |
-| Call fissata | **500 €** |
+| Demo fatta | **150 €** |
 | Contatto valido (§10.1) | **50 €** |
 
 Se il costo reale di una campagna supera uno di questi tetti, la campagna sta perdendo soldi anche se porta contatti (§17). Con pochi dati il confronto si fa nella lettura della settimana, dichiarando se è un indizio o è confermato (§17.1), non giorno per giorno.
@@ -1052,4 +1064,4 @@ Formato: `AAAA-MM — cosa abbiamo provato — cosa è successo — cosa facciam
 
 ---
 
-*LML Technologies S.r.l. — documento operativo interno — versione 3.0 — aggiornato 2026-10-07*
+*LML Technologies S.r.l. — documento operativo interno — versione 3.1 — aggiornato 2026-10-07*

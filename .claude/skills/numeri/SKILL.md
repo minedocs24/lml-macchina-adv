@@ -55,7 +55,7 @@ Per ogni allarme: cosa, il numero, la soglia, cosa si propone in una riga, chi d
 | Spesa di ieri | sopra **50 €** al giorno, o sopra il giornaliero deciso da Ivan nel piano della settimana | decisione 6 |
 | Spesa del mese | sopra l'80% del budget del mese; allarme forte se lo supera | decisione 5 |
 | Controllo a 500 € | speso dall'ultimo controllo (contatore del Piano) più la spesa dopo arriva a **500 €** | decisione 6, §17 |
-| Stop | costo per cliente sopra **600 €** per **4 settimane di fila** (vedi passo 9) | decisione 6 |
+| Stop | costo per cliente sulle **ultime 4 settimane** (finestra mobile) sopra **600 €**; con zero clienti conta la spesa intera; nelle prime 4 settimane dal lancio: contatto valido sopra 50 € o demo fatta sopra 150 € (vedi passo 9) | decisioni 6 e 17 |
 | Aumento fuori regola | budget salito più del 20%, o prima di 2 settimane dall'ultimo aumento, o con costo per cliente sopra 600 € | decisione 6 |
 | Contatti senza provenienza | oltre il 10% dei contatti degli ultimi 7 giorni (sotto i 10 contatti: anche uno solo) | skill di settembre |
 | Nessun contatto | zero contatti nuovi da **48 ore** con spesa attiva | skill di settembre |
@@ -65,7 +65,7 @@ Per ogni allarme: cosa, il numero, la soglia, cosa si propone in una riga, chi d
 
 **(b) `numeri/AAAA-MM-GG-settimana.md`** — ogni lunedì, nel formato della §25, in quest'ordine:
 1. **La riga secca**: stiamo andando bene o male, e perché. Il numero è il costo per cliente; finché non ci sono clienti,
-   il costo per demo (tetto 500 €) e per contatto valido (tetto 50 €), detto chiaramente.
+   il costo per demo fatta (tetto 150 €) e per contatto valido (tetto 50 €), detto chiaramente (decisione 16).
 2. **I numeri**, ognuno con **due confronti**: la settimana prima e un riferimento (tetti §27 e decisioni, poi soglie §17,
    poi tassi §2). Un numero senza confronto non entra; un numero che non serve a decidere non entra.
    Dentro: **Per idea e per pezzo** (spesa, impression, contatti, validi, demo, costo per contatto, lettura) e
@@ -82,7 +82,7 @@ Per ogni allarme: cosa, il numero, la soglia, cosa si propone in una riga, chi d
   delle migliaia. La nota fra virgolette se contiene virgole.
 - Solo il fronte prodotti Arya. `spesa_eur` = Meta + Google; la divisione va nella nota ("Meta 280 / Google 0").
 - `contatti` = richieste nuove arrivate dalla pubblicità (pagina Arya e modulo Meta); organici e senza provenienza nella nota.
-- `demo` = demo fissate nella settimana (la "call fissata" della §27). `clienti_nuovi` = contratti firmati nella settimana.
+- `demo` = demo **fatte** nella settimana (tetto 150 € per demo fatta, decisione 16; le fissate vanno nella nota). `clienti_nuovi` = contratti firmati nella settimana.
 - `costo_per_cliente_eur` = spesa della settimana ÷ clienti nuovi della settimana; **vuota** se i clienti sono zero.
   Nella nota il costo per cliente sulle ultime 4 settimane (passo 9).
 - `canoni_mensili_eur` = totale dei canoni mensili in essere a fine settimana, come lo dà il CRM.
@@ -108,13 +108,14 @@ Per ogni allarme: cosa, il numero, la soglia, cosa si propone in una riga, chi d
    Contatti organici e senza provenienza si contano a parte. **Mai** attribuire a un'inserzione un contatto che non ne porta l'ID.
 8. Calcola: costo per contatto, per contatto valido, per demo, per cliente; quota di validi (sotto il 40% = problema di
    messaggio o di pubblico, §17); spesa dall'ultimo controllo da 500 €. I canali (Meta, Google, porte) restano separati (§2).
-9. **Stop e aumenti (decisione 6).** Il costo per cliente si guarda sulle ultime 4 settimane: spesa delle 4 settimane ÷
-   clienti nuovi delle 4 settimane; con zero clienti e più di 600 € spesi vale "sopra 600". La lettura scrive in chiaro
-   **"settimane di fila con il costo per cliente sopra 600 €: N"**: il Piano usa questo numero, non lo ricalcola.
-   A 4: allarme di stop. Scrive anche se ci sono le condizioni per un +20%: costo per cliente sotto i 600 €, 2 settimane
+9. **Stop e aumenti (decisioni 6 e 17).** Il costo per cliente si guarda sul **totale delle ultime 4 settimane, a
+   finestra mobile**: spesa delle 4 settimane ÷ clienti nuovi delle 4 settimane; con **zero clienti** conta la spesa
+   intera (quindi oltre 600 € spesi senza clienti = sopra il tetto). La lettura scrive in chiaro **"costo per cliente
+   sulle ultime 4 settimane: N €"**: il Piano usa questo numero, non lo ricalcola. Sopra 600 €: allarme di stop.
+   **Nelle prime 4 settimane dal lancio** non si giudica sui clienti, perché i contratti arrivano dopo: si guardano il
+   costo per contatto valido (tetto 50 €) e per demo fatta (tetto 150 €), e l'allarme scatta su quelli. Scrive anche se ci sono le condizioni per un +20%: costo per cliente sotto i 600 €, 2 settimane
    dall'ultimo aumento, tempo di risposta sotto i 30 minuti (§26), clienti persi sotto il 5% al mese (§28).
-   La proposta la scrive il Piano; decide Ivan. Questo modo di leggere la regola dello stop va confermato da Ivan la prima
-   volta che serve (riga in da-rivedere).
+   La proposta la scrive il Piano; decide Ivan.
 10. Legge le idee e i pezzi: una settimana è un **indizio**, scritto così: "Indizio: l'idea X sembra rendere più di Y, da
     rivedere". **Confermato** solo se regge in due periodi diversi. Sotto le 10 unità si scrivono numeri interi, non
     percentuali (da 2 demo a 3 non è "+50%": sono tre demo). Per dire dove si rompe usa la tabella di diagnosi in

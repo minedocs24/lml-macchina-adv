@@ -45,8 +45,8 @@ In chat: cinque righe — quante idee, chi parla, quanto al giorno, cosa vogliam
 ## Come lavora
 1. **Legge la settimana chiusa.** Il giudizio si fa sul pacchetto che ha finito il suo giro giovedì; quello in campo da
    venerdì ha pochi giorni e si guarda solo per gli allarmi. Per ogni idea in campo, dai file di Numeri: spesa, contatti
-   validi, demo fissate, clienti; costo per contatto valido, per demo e per cliente, confrontati con i tetti della §27
-   (50 €, 500 €, 600 €) e con la settimana prima. **Ogni lettura dice su quanti contatti si basa.** Una settimana sola è
+   validi, demo fatte, clienti; costo per contatto valido, per demo fatta e per cliente, confrontati con i tetti della §27
+   (contatto valido 50 €, demo fatta 150 €, cliente 600 € — decisione 16) e con la settimana prima. **Ogni lettura dice su quanti contatti si basa.** Una settimana sola è
    un **indizio**; "confermato" solo se regge in due periodi diversi (§17.1).
 2. **Aggiorna la carta dei messaggi.** Nella carta un'idea è **"di cosa parla"** (con problema, canale, livello di
    consapevolezza 1-5, parole vere dei clienti, riga della promessa). Gli stati sono cinque: *da provare · in campo ·
@@ -55,9 +55,10 @@ In chat: cinque righe — quante idee, chi parla, quanto al giorno, cosa vogliam
    promessa di ogni idea "da provare" contro `arya-oggi.md`: se non è "vendibile", l'idea passa "in attesa della
    conferma di Roberto".
    - **in campo** → quando Ivan ha approvato il pacchetto e Campo l'ha preparato.
-   - **vincente** → costo per contatto valido sotto il tetto di 50 € e migliore delle altre idee della stessa settimana.
-     Si scrive "vincente (indizio)" finché non regge in un secondo periodo.
-   - **perdente** → sopra il tetto, o nessun contatto valido dopo una settimana piena in campo. Una perdente non riceve
+   - **vincente** (decisione 18) → costo per contatto valido **sotto 50 €**, con **almeno 5 contatti validi** e
+     **almeno una demo**. Si scrive "vincente (indizio)" finché non regge in un secondo periodo.
+   - **perdente** (decisione 18) → **100 € spesi senza un contatto valido**, oppure **7 giorni di fila sopra 50 € a
+     contatto valido**. Una perdente non riceve
      varianti; torna "da provare" solo con un motivo nuovo scritto (promessa nuova, prova nuova, mestiere diverso).
    - **troppo pochi contatti per dire qualcosa** → resta "in campo" con la nota "debole"; il Piano scrive se tenerla
      un'altra settimana e perché.
@@ -92,8 +93,10 @@ In chat: cinque righe — quante idee, chi parla, quanto al giorno, cosa vogliam
    in video e la voce di Arya su una statica). Cambiare solo il gancio non basta: sarebbero due pezzi con stessa
    persona, stesso argomento e stesso formato (regola della carta, §18).
 6. **Fa il conto del budget** (decisioni 5 e 6, §9).
-   - Tetto del mese: ottobre 300-400 €; novembre-dicembre 1.500 € su Meta + 400 € su Google; gennaio-marzo 3.000 €;
-     aprile-settembre 5.000-10.000 € **solo dopo** i controlli di fine dicembre e fine marzo.
+   - **Ottobre 2026: nessuna campagna nuova** (decisione 12). Il Piano prepara la carta e le idee, non il budget.
+   - **Le regole di spesa partono con la Prova, da metà novembre 2026: 1.500 € al mese, cioè 50 € al giorno** su Meta,
+     più 400 € al mese su Google; gennaio-marzo 3.000 €; aprile-settembre 5.000-10.000 € **solo dopo** i controlli di
+     fine dicembre e fine marzo (decisioni 5 e 12).
    - Speso nel mese (da `storico.csv`) → quanto resta → quanto al giorno per i giorni in campo di questa settimana.
    - Si parte da **50 € al giorno**. Se quello che resta nel mese non regge 50 € al giorno per i giorni rimasti, il Piano
      **non abbassa da solo**: scrive le strade possibili (meno giorni a 50 €, oppure meno al giorno), ognuna con cosa
@@ -105,8 +108,10 @@ In chat: cinque righe — quante idee, chi parla, quanto al giorno, cosa vogliam
 7. **Aggiorna i contatori dei controlli di spesa**, presi dai file di Numeri e dal piano precedente:
    - **speso dall'ultimo controllo**: a **500 €** serve la lettura completa prima di andare avanti; finché non c'è, nessun
      aumento e nessuna spesa nuova;
-   - **settimane di fila con il costo per cliente sopra 600 €** (il numero scritto da Numeri, non ricalcolato): a **4** il
-     Piano propone lo **stop** a Ivan;
+   - **costo per cliente sulle ultime 4 settimane, a finestra mobile** (decisione 17): spesa delle ultime 4 settimane
+     diviso clienti delle ultime 4 settimane; con **zero clienti** conta la spesa intera. Se supera **600 €**, il Piano
+     propone lo **stop** a Ivan. **Nelle prime 4 settimane dal lancio** non si giudica sui clienti (i contratti arrivano
+     dopo): si guardano contatti validi (tetto 50 €) e demo fatte (tetto 150 €). Il numero lo scrive Numeri;
    - **data dell'ultimo aumento**: **+20% al massimo, ogni 2 settimane, solo se il costo per cliente è sotto 600 €**. Mai
      raddoppi. Nessun aumento se il tempo di prima risposta ai contatti supera 30 minuti o se il costo per contatto sale
      da 2 settimane di fila (§17);

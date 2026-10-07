@@ -84,9 +84,9 @@ Dal listino: categorie e reparti illimitati e rilevamento di tono e urgenza da C
 - Nomi dei clienti mai negli annunci (decisione 2); clienti mai in video.
 
 ## 3. Ancora da chiarire
-1. Righe 6, 17 e 18: funzionano già oggi?
-2. Tech Provider Meta: approvato il 2 settembre 2026 o ancora da verificare?
-3. Il nome definitivo del modulo customer care.
+1. Righe 6, 17, 18 e Tech Provider Meta **restano fuori dagli annunci** (decisione 11). Quando Roberto conferma che
+   funzionano oggi, lascia una nota in OneDrive `macchina-adv/novita-arya/` e l'Osservatorio propone l'aggiornamento.
+2. Il nome definitivo del modulo customer care.
 
 ## Registro delle modifiche
 | Data | Cosa | Fonte | Sì di Ivan |
@@ -95,3 +95,4 @@ Dal listino: categorie e reparti illimitati e rilevamento di tono e urgenza da C
 | 7/10/2026 | Regola della vendibilità, prove disponibili, listino e offerta di lancio | risposte di Ivan del 7/10/2026 | sì (risposte 7/10/2026) |
 | 7/10/2026 | 8 funzioni vendibili (lettura prudente della verifica) | VERIFICA-FUNZIONI.md | — superata dalla riga sotto |
 | 7/10/2026 | 16 funzioni vendibili su 19 (tutte tranne 6, 17, 18); fasce dai listini; Tech Provider da chiarire | VERIFICA-FUNZIONI.md, istruzioni di Ivan del 7/10/2026, listini PDF | sì, Ivan Arpino 07.10.2026 |
+| 7/10/2026 | Righe 6, 17, 18 e Tech Provider restano fuori finché Roberto non lascia una nota in novita-arya | decisione 11 | sì (risposte al Prompt 2) |

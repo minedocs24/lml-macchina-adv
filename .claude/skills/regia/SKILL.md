@@ -95,8 +95,10 @@ Una riga per reel o post: argomento, chi parla, formato, gancio (prime parole), 
    sottotitoli incisi, niente logo all'inizio (il marchio sta solo nella chiusura), niente di importante nel 10% in
    alto e in basso del 9:16.
 7. **Mette la chiusura uguale per tutti.** Se chiusura grafica e frase non sono ancora state decise (§2bis: si decidono
-   una volta e non si cambiano per un anno), scrive "chiusura: da decidere" e propone una sola versione in
-   `direttore/da-rivedere.md`. L'invito dice cosa succede davvero: pagina Arya (chiama il numero, prova la chat,
+   una volta e non si cambiano per un anno), **nella prima settimana la Regia ne propone 3** (decisione 13), ognuna con
+   la frase e la descrizione della chiusura grafica, in `regia/AAAA-MM-GG-chiusure.md` con una riga in
+   `direttore/da-rivedere.md` (cancello "pacchetto"): **sceglie Ivan**. Finché non ha scelto, la scheda scrive
+   "chiusura: da decidere". L'invito dice cosa succede davvero: pagina Arya (chiama il numero, prova la chat,
    fatti richiamare). Se la pagina non è pronta, lo scrive (§0.1).
 8. **Cerca lo spunto** nel radar dell'Osservatorio: si prende la struttura (es. "domanda a schermo, poi risposta dal
    vivo"), mai le parole, le immagini o la musica di un concorrente.

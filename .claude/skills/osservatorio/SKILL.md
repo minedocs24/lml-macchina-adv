@@ -110,6 +110,10 @@ In chat, alla fine: dieci righe — la riga secca, le tre cose nuove, cosa non s
 4. Una riga in `direttore/da-rivedere.md`, cancello **promesse**.
 5. Se un concorrente promette una cosa che per noi è "da confermare", va nello spazio libero come "da verificare se
    possiamo prometterlo", con la riga di `arya-oggi.md` a cui si riferisce.
+6. **Righe 6, 17, 18 e Tech Provider Meta** (decisione 11): restano fuori dagli annunci. Quando Roberto conferma che
+   funzionano oggi, lascia una nota in `novita-arya/`; l'Osservatorio la trova al giro successivo e propone
+   l'aggiornamento di `arya-oggi.md` con una richiesta di unione. Senza nota, non si propone niente.
+7. Se da **4 settimane** non arriva nessuna nota di novità su Arya, lo scrive in "Cosa non so" (lo segnala anche il Direttore).
 
 ## Cosa non fa
 - **Meta:** solo lettura della Libreria. Non apre l'account pubblicitario, non crea, non attiva, non cambia budget.
