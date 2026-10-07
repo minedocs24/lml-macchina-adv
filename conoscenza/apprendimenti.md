@@ -1,7 +1,7 @@
 # Apprendimenti
 
 Una riga per lezione. **Niente si cancella**: una lezione smentita diventa "superata il AAAA-MM-GG — motivo".
-- **Tipo:** *indizio* (pochi dati, o dati di altri) / *confermato* (nostri numeri, spesa sufficiente secondo `regole/decisioni.md`).
+- **Tipo:** *indizio* (visto in un solo periodo, o con dati di altri) / *confermato* (la lezione regge in **due periodi diversi**; regola in CLAUDE.md dal 7/10/2026).
 - **Spesa e tempo:** quanto abbiamo speso noi e su quanti giorni. "0 € — osservazione" = guardato il mercato, non speso.
 - Ogni lunedì questo file va copiato in OneDrive `Company/Marketing/macchina-adv/apprendimenti-AAAA-MM-GG.md`.
 

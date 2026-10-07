@@ -37,21 +37,34 @@ Ognuno ha la sua cartella e scrive file datati.
 |---|---|---|
 | Osservatorio | `osservatorio/` | guarda il mercato: concorrenti (Libreria inserzioni), voce dei clienti, novità di Arya |
 | Piano | `piano/` | decide cosa provare la settimana dopo e con quanto budget, dentro le decisioni 4-6 |
-| Regia creativa | `regia/` | scrive copioni, testi e tavole; tiene `regia/archivio-pezzi.md` |
+| Regia creativa | `regia/` | sceglie gli argomenti di reels e post da sponsorizzare e scrive una scheda di una pagina per ognuno (`regia/MODELLO-SCHEDA.md`); li gira e li monta la persona social con il cast; il copione completo solo se lo chiede chi gira. Tiene `regia/archivio-pezzi.md` |
 | Collaudo | `collaudo/` | controlla ogni pezzo contro regole, scheda di Arya e linguaggio dei clienti, prima di Ivan |
 | Messa in campo | `campo/` | prepara le campagne su Meta **in pausa**, solo dopo il sì di Ivan |
-| Numeri e conversione | `numeri/` | legge i risultati (sola lettura), aggiorna `numeri/storico.csv`, segue contatti → demo → clienti |
+| Numeri e conversione | `numeri/` | legge i risultati (sola lettura, Meta e CRM LML), aggiorna `numeri/storico.csv`, segue contatti → demo → clienti |
 | Direttore | `direttore/` | tiene insieme i reparti, scrive il riepilogo, mette in `direttore/da-rivedere.md` ciò che deve decidere Ivan |
 
-Le skill dei reparti sono in `.claude/skills/` (mappa in `.claude/skills/catena-adv.md`). Ne mancano tre della catena
-(`lml-direttore-adv`, `collaudo-testi-adv`, `meta-scrittura-sicura`): non sono su OneDrive. Finché mancano, valgono le regole di questo file.
-I testi delle automazioni stanno in `prompt/`. Il lavoro di settembre 2026 è in `archivio-lml-adv/`
+Ogni reparto ha la sua skill in `.claude/skills/<reparto>/` (osservatorio, piano, regia, collaudo, campo, numeri, direttore).
+`meta-scrittura-sicura` resta com'è e la usa Campo. Le skill di settembre sono in `.claude/skills/archivio/`.
+Le regole pubblicitarie sono in `regole/regole-adv.md` (3.0). I testi delle automazioni stanno in `prompt/`. Il lavoro di settembre 2026 è in `archivio-lml-adv/`
 (solo da leggere: è storia, non regola; dove contraddice questo file, vale questo file).
+
+## Il ritmo della settimana
+| Quando | Chi | Cosa |
+|---|---|---|
+| lunedì | Osservatorio e Piano | mercato, numeri della settimana, cosa provare e con quanto |
+| lunedì | Regia | manda gli argomenti della settimana; Ivan può bocciarne uno **entro martedì alle 12**, altrimenti si gira |
+| martedì-giovedì | persona social e cast | riprese e montaggio |
+| giovedì | Collaudo | controlla ogni pezzo prima di Ivan |
+| venerdì | Messa in campo | Ivan approva il pacchetto e attiva la spesa; Campo prepara tutto **in pausa** |
+| ogni giorno | Numeri | legge spesa e contatti, segnala solo se c'è un allarme |
 
 ## Regole di sicurezza
 - **Meta:** nelle automazioni solo lettura. Creazioni solo **in pausa** e solo dopo il sì di Ivan. **Mai attivare, mai cambiare budget.**
 - **Dati personali:** i nomi dei colleghi LML, nel loro ruolo, possono stare nell'archivio. Nomi, telefoni o email di
-  persone esterne (clienti, contatti, fornitori) **mai**. L'archivio contatti (`Archivio-contatti-LML.xlsx`) non si copia.
+  persone esterne (clienti, contatti, fornitori) **mai**.
+- **Contatti:** il CRM LML (connettore `lml-commerciale`) è **l'unico posto** dei contatti: richieste, trattative, clienti.
+  L'Excel di settembre (`Archivio-contatti-LML.xlsx`) va in pensione: non si usa e non si copia. Nel CRM la macchina
+  **legge soltanto**; scrivere nel CRM richiede il sì di Ivan.
   Se un file contiene dati di persone esterne, si salta e si segnala. STATO-progetto-adv.md, scaletta-configurazione-adv.md
   e product-marketing.md di settembre restano solo su OneDrive.
 - **OneDrive:** i file originali non si modificano. Si scrive solo in `Company/Marketing/macchina-adv/`.
@@ -68,7 +81,10 @@ La macchina **non ricorda niente** fra un giro e l'altro. Quindi ogni sessione e
    e lo salva nell'archivio.
 3. **Niente si cancella.** Una lezione smentita diventa "superata" con motivo e data; una decisione
    cambiata resta in `regole/decisioni.md` segnata "superata".
-4. "Confermato" vuol dire numeri sufficienti (vedi regole di spesa); sotto, è un "indizio".
+4. **"Confermato"** vuol dire che la lezione regge in **due periodi diversi**; prima è un **indizio**.
+
+## I report
+Ogni report finisce con una sezione **"Cosa non so"**: i dati mancanti o inaffidabili si dicono, non si stimano.
 
 ## Come si salva il lavoro
 1. **Un file datato per ogni prodotto**: `<cartella-reparto>/AAAA-MM-GG-argomento.md`. Non si sovrascrive un file
