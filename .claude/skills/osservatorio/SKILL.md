@@ -46,7 +46,11 @@ Un file datato per prodotto, **mai sovrascritto**: se cambia, nuovo file con nuo
    Modello in `references/modello-voce.md`.
 3. **`osservatorio/pagine-sorvegliate.md`** — registro vivo, non un report: si aggiunge, non si toglie. Una pagina che
    smette di fare pubblicità resta, con "nessuna inserzione attiva al <data>".
-4. Solo se `VERIFICA-FUNZIONI.md` è cambiato: `osservatorio/AAAA-MM-GG-verifica-funzioni.md`, come quello del 7/10/2026.
+4. **`osservatorio/da-leggere.md`** — registro vivo, ogni lunedì: una sezione `## Giro del AAAA-MM-GG` con una riga per
+   ogni inserzione nuova dei concorrenti (pagina · numero · data di partenza · titolo del link · indirizzo
+   dell'anteprima · letta). Più di 10 nuove con lo stesso titolo nella stessa pagina: le prime 3 e il totale. Si
+   aggiunge, non si toglie; quando un'inserzione è letta con Claude in Chrome, si scrive la data in "letta".
+5. Solo se `VERIFICA-FUNZIONI.md` è cambiato: `osservatorio/AAAA-MM-GG-verifica-funzioni.md`, come quello del 7/10/2026.
 
 In chat, alla fine: dieci righe — la riga secca, le tre cose nuove, cosa non si è riusciti a vedere.
 
@@ -54,11 +58,16 @@ In chat, alla fine: dieci righe — la riga secca, le tre cose nuove, cosa non s
 
 ### A. I concorrenti nella Libreria inserzioni
 1. **Due strumenti, due lavori.** Lo strumento `ads_library_search` del connettore Meta (solo lettura) **trova le pagine**:
-   sempre `countries: ["IT"]`, termini fra virgolette, `limit: 50`. Dà solo le 50 inserzioni più recenti, senza testo e
-   senza dire se sono ancora vive. Il **sito della Libreria** nel browser **profila**: testo, formato, "Attiva dal",
+   sempre `countries: ["IT"]`, termini fra virgolette, `limit: 50`. Per ogni inserzione dà **solo** pagina, numero,
+   **titolo del link**, **date** (creazione e partenza) e **indirizzo dell'anteprima**
+   (`https://www.facebook.com/ads/library/?id=<NUMERO>`): niente testo, formato, pulsante o destinazione, e non dice se
+   è ancora viva; al massimo le 50 più recenti. Dal solo titolo non si scrivono promessa, obiezione e prova.
+   Il **sito della Libreria** nel browser (Claude in Chrome) **profila**: testo, formato, "Attiva dal",
    pannello europeo (persone raggiunte, età, zone). Pagina: `facebook.com/ads/library/?active_status=active&ad_type=all&country=IT&search_type=page&view_all_page_id=<NUMERO>`;
    le spente con `active_status=inactive`. Le date dello strumento sono secondi dal 1970: si convertono con un calcolo, non a mente.
    Se il browser non c'è, si lavora con lo strumento e si scrive cosa non si è potuto vedere.
+   **Ogni lunedì** gli indirizzi delle anteprime delle **inserzioni nuove dei concorrenti** si aggiungono in
+   `osservatorio/da-leggere.md`: la lettura completa con Claude in Chrome parte da lì (vedi "Cosa produce").
 2. **Cercare il mestiere di chi vende, poi leggere a chi è rivolto il testo** (lezione 13). Termini che rendono:
    "assistente telefonico", "centralino AI", "risponde alle chiamate", "risponde al telefono", "assistente virtuale",
    "appuntamenti automatici". Da evitare: "hai un ristorante", "il tuo studio", "risponde su WhatsApp", "ordini dai
@@ -135,10 +144,12 @@ In chat, alla fine: dieci righe — la riga secca, le tre cose nuove, cosa non s
    "Confermato" solo se regge in due periodi diversi (per esempio due giri a qualche settimana di distanza). Niente si
    cancella: una lezione smentita diventa "superata il AAAA-MM-GG — motivo". Le lezioni di metodo (termini che rendono o
    no, strumenti che non aprono) si scrivono anche loro.
-2. **Salvataggio** — un commit per giro, messaggio in italiano che dice cosa e perché (es. "osservatorio: mercato 12
-   ottobre, 2 pagine nuove, prova gratuita ormai in 7 pagine").
+2. **Salvataggio** — **sempre su `main`**, mai su un altro ramo: un commit per giro, messaggio in italiano che dice cosa
+   e perché (es. "osservatorio: mercato 12 ottobre, 2 pagine nuove, prova gratuita ormai in 7 pagine"). Le modifiche a
+   `CLAUDE.md`, `regole/` e `conoscenza/arya-oggi.md` (e `customer-language.md`) vanno invece su un ramo nuovo con una
+   **richiesta di unione** verso `main`, che unisce Ivan.
 3. **Copia leggibile su OneDrive** — in `Company/Marketing/macchina-adv/osservatorio/`: il file del mercato e, quando c'è,
-   quello della voce.
+   quello della voce. La copia è il **file completo**, uguale a quello su `main`: **mai un riassunto**.
 4. **Da rivedere** — una riga in `direttore/da-rivedere.md` per ogni cosa che decide Ivan: novità da promuovere a promessa
    (cancello promesse), proposte per `customer-language.md`, un concorrente che usa un nostro messaggio, una prova
    gratuita o un regalo nuovo di un concorrente.

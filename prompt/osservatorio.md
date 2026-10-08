@@ -7,7 +7,7 @@ e **Meta Ads**, usato **solo con lo strumento della Libreria inserzioni** (sola 
 l'automazione. La **ricerca web** è già in Claude Code: serve l'ambiente Osservatorio con **accesso completo alla rete**.
 L'archivio GitHub è quello della sessione cloud. **CRM:** non collegato; si aggiunge solo quando ci sarà il connettore di
 sola lettura, e fino ad allora il controllo del CRM si salta. **Non si usano:** strumenti Meta che scrivono, email, Teams.
-Versione 1.1 — 7 ottobre 2026. Si cambia solo con il sì di Ivan (richiesta di unione).
+Versione 1.2 — 8 ottobre 2026 (correzioni dopo il primo giro). Si cambia solo con il sì di Ivan (richiesta di unione).
 
 ---
 
@@ -16,7 +16,8 @@ lo stato è solo nei file. Lavori seguendo la skill `.claude/skills/osservatorio
 di `CLAUDE.md`.
 
 ## 1. Apertura
-1. Aggiorna l'archivio da `main` (`git pull`). Se non riesci, fermati e scrivilo: non lavorare su file vecchi.
+1. Lavora su `main`: `git checkout main` e `git pull`. Se la sessione è partita su un altro ramo, passa comunque a `main`.
+   Se non riesci, fermati e scrivilo: non lavorare su file vecchi.
 2. **Regola della memoria.** Leggi per intero: `CLAUDE.md`, `conoscenza/apprendimenti.md`, `regole/decisioni.md`,
    `conoscenza/arya-oggi.md`; da `regole/regole-adv.md` almeno §2bis, §5, §18, §23.
 3. Leggi l'**ultimo `osservatorio/AAAA-MM-GG.md`** (al primo giro: `archivio-lml-adv/radar/panoramica/2026-09-14.md`
@@ -24,6 +25,13 @@ di `CLAUDE.md`.
    `pagine.md` di settembre in `archivio-lml-adv/radar/`).
 
 ## 2. Libreria inserzioni di Meta — solo lettura, Italia
+**Cosa dà il connettore.** Lo strumento della Libreria (`ads_library_search`) per ogni inserzione dà **solo**: pagina
+(nome e numero), numero dell'inserzione, **titolo del link**, **date** (creazione e partenza, in secondi dal 1970: si
+convertono con un calcolo) e **indirizzo dell'anteprima** (`https://www.facebook.com/ads/library/?id=<NUMERO>`).
+**Non dà il testo**, né formato, pulsante, destinazione o se l'inserzione è ancora viva; al massimo le 50 più recenti per
+ricerca. Quello che il connettore non dà si legge per intero **con Claude in Chrome**, partendo da
+`osservatorio/da-leggere.md` (sotto). Dal solo titolo non si scrivono promessa, obiezione e prova: si scrive "non letto".
+
 **Concorrenti già seguiti:** fonio, DeepAgent, Keplero, Maria by Voclair, Readygoone, Yourang, Talki, Ambrogio, Swavo,
 MyCentralino, 6inUfficio, AiVoice (più le altre pagine di `pagine-sorvegliate.md`).
 **Ricerche per parole, fra virgolette:** "assistente telefonico AI", "segretaria virtuale", "chatbot WhatsApp",
@@ -37,6 +45,14 @@ Per **ogni inserzione** trovata:
 - **cosa è nuovo** rispetto alla settimana prima: pagine nuove, inserzioni nuove, inserzioni spente, messaggi cambiati.
 Dichiara su quante pagine e inserzioni conti; ciò che non hai aperto è "non misurato", non "no" (lezioni 14 e 15).
 Non salvi testi né immagini dei concorrenti: solo la descrizione della struttura.
+
+**Ogni lunedì: `osservatorio/da-leggere.md`.** Aggiungi in fondo una sezione `## Giro del AAAA-MM-GG` con una riga per
+ogni **inserzione nuova dei concorrenti** (partita dopo il giro precedente, delle pagine in `pagine-sorvegliate.md` o che
+ci entrano oggi): pagina · numero dell'inserzione · data di partenza · titolo del link · **indirizzo dell'anteprima** ·
+letta (vuoto). Se una pagina ha più di 10 inserzioni nuove con lo stesso titolo, metti le prime 3 e scrivi quante sono
+in tutto. Il file è un registro: si aggiunge, non si toglie e non si riscrive; la lettura con Claude in Chrome parte da
+lì e, quando un'inserzione è letta, si scrive la data nella colonna "letta". Solo indirizzi della Libreria, niente testi
+né immagini dei concorrenti, niente dati di persone.
 
 ## 3. Novità del mercato dal web
 Concorrenti (lanci, prezzi, finanziamenti, chiusure), **regole di Meta** sulla pubblicità (politiche, attributi personali,
@@ -68,19 +84,26 @@ Scrivi `osservatorio/AAAA-MM-GG.md` (mai sovrascrivere un file salvato), con que
 3. **Novità del mercato** e **novità di Arya** (con le proposte per la scheda).
 4. **Spunti per la Regia** — **solo struttura**: il momento, il formato, il tipo di gancio, chi parla. **Mai testo o
    immagini** dei concorrenti.
-5. **Inserzioni da leggere per intero con Claude in Chrome a fine mese** — elenco (pagina, cosa guardare, perché).
+5. **Inserzioni da leggere per intero con Claude in Chrome a fine mese** — elenco (pagina, cosa guardare, perché);
+   gli indirizzi delle anteprime sono in `osservatorio/da-leggere.md`, sezione del giro.
 6. **Voce dei clienti** — solo il primo lunedì del mese.
 7. **Cosa non so** — pagine non aperte, strumenti che non hanno risposto, conteggi approssimati.
 
-Aggiorna `osservatorio/pagine-sorvegliate.md` (si aggiunge, non si toglie).
+Aggiorna `osservatorio/pagine-sorvegliate.md` e `osservatorio/da-leggere.md` (si aggiunge, non si toglie).
 
 ## 7. Chiudere
 - **Apprendimenti:** una riga per lezione in `conoscenza/apprendimenti.md` (data, indizio o confermato — confermato solo
   se regge in due periodi diversi —, cosa hai visto con i numeri, "0 € — osservazione" e in quanto tempo, cosa cambia).
-- **Salva su `main`** i file di `osservatorio/` e `conoscenza/apprendimenti.md`: un commit, messaggio in italiano
-  (es. "osservatorio: 13 ottobre, 2 pagine nuove, DeepAgent spento").
+- **Salva sempre su `main`**, mai su un altro ramo: i file di `osservatorio/` (rapporto, `pagine-sorvegliate.md`,
+  `da-leggere.md`), `conoscenza/apprendimenti.md` e la riga in `direttore/da-rivedere.md`. Un commit, messaggio in
+  italiano (es. "osservatorio: 13 ottobre, 2 pagine nuove, DeepAgent spento"), poi `git push origin main`.
+- Le modifiche a **`CLAUDE.md`, `regole/` e `conoscenza/arya-oggi.md`** (e `conoscenza/customer-language.md`) non vanno
+  su `main`: le metti su un ramo nuovo e apri una **richiesta di unione** (pull request) verso `main`, che unisce Ivan.
+  Una riga in `direttore/da-rivedere.md`. Se la sessione non riesce ad aprire la richiesta, scrivi nel rapporto il nome
+  del ramo e cosa contiene.
 - **Copia leggibile** del rapporto in OneDrive `Company/Marketing/macchina-adv/osservatorio/AAAA-MM-GG.md` (crea la
-  cartella se non c'è; in OneDrive si scrive solo dentro `macchina-adv/`).
+  cartella se non c'è; in OneDrive si scrive solo dentro `macchina-adv/`). La copia è il **file completo**, uguale a
+  quello salvato su `main`: **mai un riassunto**.
 - Se qualcosa non si salva, lo scrivi e non dichiari fatto il lavoro.
 
 ## 8. Cosa non fai mai
