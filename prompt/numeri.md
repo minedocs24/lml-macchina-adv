@@ -1,28 +1,30 @@
 # Automazione "Numeri" — istruzioni
 
-> **Connettori da collegare** (versione 1.1, 10/10/2026):
+> **Connettori da collegare** (versione 1.2, 10/10/2026):
 > 1. **LML CRM · Statistiche** — sola lettura (`numeri_pubblicita`).
 > 2. **Meta Ads** — solo gli strumenti che leggono (spesa, frequenza, clic, stato delle inserzioni, modulo e pixel).
 > 3. **Microsoft 365** — OneDrive (scrittura solo in `Company/Marketing/macchina-adv/`) **e la posta di Ivan in sola
 >    lettura, solo per il report giornaliero di Google Ads**.
-> 4. **Notifica**: l'automazione si crea a nome di Ivan, con la **notifica sul telefono accesa** (è così che gli arrivano
->    gli allarmi, decisione 30).
+> 4. **Notifica**: l'automazione la crea Ivan **il giorno del lancio**, a suo nome, con la **notifica sul telefono
+>    accesa** (è così che gli arrivano gli allarmi, decisioni 30 e 32).
 > 5. **Rete**: la sessione deve poter aprire la pagina degli annunci (`CLAUDE.md`, "Impostazioni") per l'allarme N2.
 >
-> **Quando gira dalla 1.1:** **ogni giorno alle 8:30**; il lunedì anche la lettura della settimana. Le aggiunte della 1.1
-> sono nella sezione 8 e valgono sopra il testo 1.0 dove dicono cose diverse.
+> **Quando gira dalla 1.2:** **ogni giorno alle 7:30**, dal giorno del lancio, prima del Direttore delle 8:00; il lunedì
+> anche la lettura della settimana, così il Piano ha già i numeri (ordine del lunedì: Osservatorio 7:00, Numeri 7:30,
+> Direttore 8:00; decisione 32). Le aggiunte della 1.1 e 1.2 sono nella sezione 8 e valgono sopra il testo 1.0 dove
+> dicono cose diverse.
 
 **Serve il connettore «LML CRM · Statistiche»** (https://www.lmltech.it/mcp-crm-statistiche, sola lettura). Senza, la
 lettura si ferma alla spesa e lo scrive in "Cosa non so": i contatti non si prendono da nessun'altra parte.
 
-**Quando gira (1.0, superato dalla 1.1: ogni giorno alle 8:30, sezione 8):** ogni giorno alle 7:30 il **semaforo** (parla solo con un allarme); il **lunedì** anche la **lettura della
+**Quando gira (1.0, superato: dalla 1.2 ogni giorno alle 7:30 dal giorno del lancio, sezione 8):** ogni giorno alle 7:30 il **semaforo** (parla solo con un allarme); il **lunedì** anche la **lettura della
 settimana** chiusa e la riga in `numeri/storico.csv`, prima dell'Osservatorio e del Piano. Finché le campagne non sono
 partite (ottobre senza campagne, la Prova da metà novembre, decisione 12) gira solo il lunedì.
 **Dove:** sessione cloud sull'archivio GitHub `minedocs24/lml-macchina-adv`, ramo `main`.
 **Connettori:** **LML CRM · Statistiche** (sola lettura), **Meta Ads** solo con gli strumenti che leggono, **Microsoft 365**
 (scrittura solo in OneDrive `Company/Marketing/macchina-adv/`). Google, se collegato, solo in lettura.
 **Non si usano:** `lml-commerciale` (può scrivere), strumenti Meta che scrivono, email, Teams.
-Versione 1.0 — 10 ottobre 2026; aggiunte 1.1 — 10 ottobre 2026 (sezione 8). Si cambia solo con il sì di Ivan (richiesta di unione).
+Versione 1.0 — 10 ottobre 2026; aggiunte 1.1 e 1.2 — 10 ottobre 2026 (sezione 8; la 1.2 sposta l'orario alle 7:30). Si cambia solo con il sì di Ivan (richiesta di unione).
 
 ---
 
@@ -87,12 +89,13 @@ nessuna creazione, modifica, pausa, attivazione, budget.
 - Non mandi email o messaggi a nessuno.
 - Se un numero non si legge, non lo stimi: va in "Cosa non so".
 
-## 8. Aggiunte della versione 1.1 (10/10/2026, decisioni 29 e 30)
+## 8. Aggiunte delle versioni 1.1 e 1.2 (10/10/2026, decisioni 29, 30 e 32)
 Valgono sopra le sezioni 1-7 dove dicono cose diverse. La skill `numeri` ha le definizioni esatte.
 
 ### 8.1 Quando e cosa
-- **Ogni giorno alle 8:30**, anche prima della Prova. Il lunedì, in più, la lettura della settimana e la riga in
-  `numeri/storico.csv` (sezione 5).
+- **Ogni giorno alle 7:30** (1.2, decisione 32; nella 1.1 erano le 8:30), dal giorno del lancio: l'automazione la crea
+  Ivan quel giorno. Il lunedì, in più, la lettura della settimana e la riga in `numeri/storico.csv` (sezione 5), pronte
+  prima del Direttore delle 8:00.
 - **Il file del giorno** `numeri/AAAA-MM-GG.md` (al posto di `-semaforo.md`): con spesa in corso ogni giorno; senza spesa
   solo se c'è un allarme. In cima gli allarmi con notifica, poi gli altri, poi la tabella del giorno per campagna e
   inserzione, confrontata con i tetti **50 € a contatto valido, 150 € a demo fatta, 600 € a cliente**. Ultima sezione

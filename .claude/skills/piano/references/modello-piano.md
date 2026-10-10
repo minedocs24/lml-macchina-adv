@@ -25,12 +25,6 @@ Pacchetto in campo dal [ ] al [ ]. Dati di Numeri: [file].
 Costo per cliente (da Numeri): [ ] € — settimana prima: [ ] € — tetto 600 €.
 Il pacchetto in campo da venerdì scorso: [solo allarmi, o "nessun allarme"].
 
-### I pezzi organici: chi merita la spesa (Metricool, letto il [data e ora] / non letto → perché)
-| Id della scheda | Uscito il | Giorni | Visualizzazioni | Si fermano (oltre 3 s, IGRE28) | Tempo medio (IGRE24) | % vista (IGRE27) | Merita la spesa? | Lettura (indizio) |
-|---|---|---|---|---|---|---|---|---|
-
-Regola: almeno 300 visualizzazioni e sopra la metà dei pezzi delle ultime 4 settimane per "si fermano" e "% vista".
-
 ## 3. Le idee della settimana
 Mix: [N] varianti di vincenti + [N] nuove = [N] idee × 2 versioni = [N] pezzi. (Senza vincenti: quasi tutto nuovo; con vincenti: 70% varianti, 30% nuove.)
 

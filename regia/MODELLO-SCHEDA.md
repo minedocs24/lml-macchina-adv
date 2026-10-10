@@ -5,8 +5,8 @@ Il copione completo si scrive solo se lo chiede chi gira.
 
 **Id della scheda:** (il nome di questo file senza `.md`, es. `2026-10-13-telefono-in-sala`)
 
-**Consegna:** OneDrive `Company/Marketing/macchina-adv/consegne/<id della scheda>/` — il pezzo finito, il testo del post, la
-trascrizione con i secondi e chi parla, il primo fotogramma (istruzioni in `consegne/LEGGIMI.md`)
+**Consegna:** OneDrive `Company/Marketing/macchina-adv/consegne/<id della scheda>/` — chi gira carica il pezzo finito, la
+trascrizione con i secondi e chi parla, il primo fotogramma; il testo del post lo mette la macchina (istruzioni in `consegne/LEGGIMI.md`)
 
 **Titolo:** (5-8 parole, come lo diremmo a voce)
 

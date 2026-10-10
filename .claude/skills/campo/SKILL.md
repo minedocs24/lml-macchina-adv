@@ -131,26 +131,30 @@ non accetta si scrive in `references/parametri-porte.md` con la data.
 | Obiettivo | `OUTCOME_LEADS` | `OUTCOME_LEADS` |
 | Chi vede | pubblico largo: solo Italia, nessun interesse, posizioni automatiche (§14) | solo chi ci conosce già, negli ultimi 30 giorni: **chi ha visitato la pagina** degli annunci (pixel, solo dopo il consenso, §23); **chi ha visto almeno metà di un video** (50%); **chi ha aperto il modulo senza inviarlo** |
 | Gruppi | `Pagina Arya - Italia - Largo - <settimana>` (destinazione sito); se il piano lo vuole, `Modulo Meta - Italia - Largo - <settimana>` (modulo) nella **stessa** campagna. Se il connettore non accetta due destinazioni in una campagna, il modulo resta fuori e decide Ivan | `Ritorno - Visite Video Modulo - 30g` (destinazione pagina Arya) |
-| Pezzi | quelli del pacchetto, scelti anche con i numeri organici (Piano, decisione 28) | pezzi più vicini all'offerta (§3.1: chi ci conosce va portato all'offerta), mai uguali a quelli di A nella stessa settimana |
+| Pezzi | quelli del pacchetto approvato (Piano, con i numeri delle inserzioni) | pezzi più vicini all'offerta (§3.1: chi ci conosce va portato all'offerta), mai uguali a quelli di A nella stessa settimana |
 | Budget | dal pacchetto, sulla campagna, dentro i 50 €/giorno (§9) | **piccolo**, dentro gli stessi 50 €/giorno: proposta di partenza 10 €/giorno, decide Ivan nel pacchetto |
 | Quando parte | con la Prova | **solo quando i tre pubblici esistono** e Meta li accetta per dimensione (soglia da leggere al primo montaggio); fino ad allora resta a carta (§0.1, punto 1) |
 
 A **esclude** i pubblici di B: freddi e caldi separati, per non mescolare i dati (§3.1).
 
-### Le esclusioni (in A e in B)
-- **Contatti degli ultimi 30 giorni:** pubblico "ha inviato il modulo" (30 giorni) e pubblico del pixel "ha lasciato il
-  contatto sulla pagina" (30 giorni). Si costruiscono dentro Meta: nessun dato personale passa dalla macchina.
-- **Clienti:** lista clienti caricata in Meta da Ivan o da chi tiene il CRM. La macchina non tocca la lista (dati
-  personali, decisione 9): usa solo l'**ID del pubblico** che Ivan le dà. Senza lista, si scrive "esclusione clienti:
-  manca" nel verbale e in "cosa resta a Ivan".
-- **Dipendenti e collaboratori LML** e chi ha già fissato una demo (§14): stessa strada della lista clienti.
+### L'esclusione (in A e in B) — decisione 35
+- **Chi è già arrivato:** il pubblico di **chi ha inviato il modulo negli ultimi 30 giorni**, costruito dentro Meta.
+  Nessun dato personale passa dalla macchina.
+- **Niente lista clienti caricata su Meta** (Ivan, 10/10/2026). Clienti, collaboratori LML e chi ha già fissato una demo
+  (§14) restano esclusi solo se hanno inviato il modulo negli ultimi 30 giorni: chi è arrivato da telefono, chat o
+  richiamata sulla pagina non è escluso. Si scrive nel verbale, in "Cosa non so".
 
-### I pubblici: prima serve il sì di Ivan
-Creare un pubblico personalizzato (`ads_create_custom_audience`) **non** è fra gli strumenti ammessi dalla decisione 19
-(solo lettura e creazioni in pausa). Al Prompt 5, prima di tutto: domanda a Ivan, una riga in `direttore/da-rivedere.md`.
-Nomi dei pubblici: `ARYA - Pubblico - Visite pagina - 30g`, `ARYA - Pubblico - Video 50% - 30g`,
-`ARYA - Pubblico - Modulo aperto non inviato - 30g`, `ARYA - Esclusione - Contatti - 30g`, `ARYA - Esclusione - Clienti`,
-`ARYA - Esclusione - LML`.
+### I pubblici — sì di Ivan del 10/10/2026 (decisione 35)
+Al Prompt 5 Campo **può creare** (`ads_create_custom_audience`), con `meta-scrittura-sicura` (proposta, sì in
+conversazione, una scrittura, rilettura), **solo** questi quattro pubblici:
+| Nome | Chi c'è dentro | Uso |
+|---|---|---|
+| `ARYA - Pubblico - Visite pagina - 30g` | chi ha visitato la pagina degli annunci (pixel, solo dopo il consenso, §23) | B |
+| `ARYA - Pubblico - Video 50% - 30g` | chi ha visto almeno metà di un nostro video | B |
+| `ARYA - Pubblico - Modulo aperto non inviato - 30g` | chi ha aperto il modulo senza inviarlo | B |
+| `ARYA - Esclusione - Modulo inviato - 30g` | chi ha inviato il modulo | esclusione in A e B |
+Nessun altro pubblico, nessuna lista caricata, nessun pubblico simile. Eliminare o cambiare un pubblico resta vietato
+(decisione 19).
 
 ### I parametri nei link
 L'indirizzo di base è **sempre** la pagina degli annunci scritta in `CLAUDE.md` ("Impostazioni"): si legge da lì ogni
@@ -206,5 +210,6 @@ d) **Ivan**: in `direttore/da-rivedere.md` una riga con cancello "spesa" per l'a
 |---|---|---|
 | `lml-montaggio-campagna` (SKILL, `parametri.md`, `verbale-montaggio.md`) | Una scrittura alla volta con rilettura; ordine campagna → gruppo → file → creatività e inserzioni; budget in centesimi riletto prima e dopo; minimo di budget per valuta; pagina dentro ogni creatività; dichiarazione europea `LML Technologies S.r.l.`; pubblico largo, mai interessi inventati; creatività che non si modificano; nomi di creazione diversi da quelli di modifica; leggere gli obiettivi validi dalla risposta; video pronto prima dell'uso; anteprime con indirizzi; tabella degli errori; entità di scarto; "cosa serve per attivare"; struttura del verbale | Destinazione WhatsApp, pulsante "Invia messaggio", messaggio di apertura precompilato, ottimizzazione per conversazioni (ora pagina Arya o modulo Meta, §3.1); budget 10 €/giorno = `1000` (ora §9, dal pacchetto); nomi per settore e blocco (ora pezzi settimanali, decisione 4); "un angolo per gruppo"; collaudo per blocco; "Claude non può eliminare" (il connettore di oggi accetta l'eliminazione definitiva: qui è vietata); percorsi `montaggi/<settore>/` |
 | `meta-scrittura-sicura` | Usata com'è: regola zero, frase di proposta, sì in conversazione, rilettura sempre, sì separato per attivare e per i budget, quando fermarsi | Non modificata. Superati solo i numeri e i riferimenti elencati nella tabella sopra (§8, §9, decisioni 5-6) |
+| Risposte di Ivan del 10/10/2026 (decisione 35) | Sì ai tre pubblici di ritorno; esclusione con chi ha inviato il modulo negli ultimi 30 giorni | Lista clienti caricata su Meta; esclusione con il pixel; esclusione dei collaboratori LML con una lista |
 | Istruzioni di Ivan del 10/10/2026 (decisione 31) | Struttura per la Prova: campagna nuovi contatti e piccola di ritorno, esclusioni a 30 giorni, parametri `promo`, `canale`, utm, nomi con l'id della scheda | "Una campagna per porta" (con tre campagne si supera il massimo di due della §0.1) |
 | Regole nuove (3.0, decisioni, `CLAUDE.md`) | Venerdì; tre cancelli; automazioni solo in lettura; costruzione senza chiamate a Meta; due porte; Google dal lancio con campagne separate; ricontatto provato con 20 contatti finti per porta | — |

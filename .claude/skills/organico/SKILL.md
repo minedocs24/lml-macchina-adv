@@ -1,89 +1,79 @@
 ---
 name: organico
-description: Pubblicazione organica della macchina pubblicitaria di Arya (reparto Messa in campo). Il venerdì trasforma i pezzi con collaudo verde in bozze IN REVISIONE su Metricool per i profili di LML, con il testo collaudato e il link con promo= e utm, e scrive il registro in campo/AAAA-MM-GG-organico.md. Mai pubblicazione diretta, mai approvazione automatica: approva la persona social o Ivan. Usala quando si dice "metti i pezzi verdi su Metricool", "prepara le bozze organiche", "manda in revisione i reel della settimana", "cosa aspetta l'approvazione su Metricool?". Non pubblica, non cambia né cancella post approvati, non tocca Meta né il CRM, non spende.
+description: Testo dei post organici della macchina pubblicitaria di Arya (reparto Messa in campo). Il martedì, insieme alle schede della Regia, prepara il testo del post di ogni pezzo (una versione per Facebook con il link, una per Instagram) e lo mette nella cartella delle consegne su OneDrive, dove il giovedì lo controlla il Collaudo; se il Collaudo scrive una correzione, prepara la versione nuova. I pezzi verdi li pubblica la persona social su Instagram e Facebook dalla Meta Business Suite, con il testo approvato. Usala quando si dice "prepara i testi dei post", "il testo per Instagram", "correggi il testo dopo il collaudo". Non pubblica niente, non usa strumenti social o a pagamento, non tocca Meta né il CRM.
 ---
 
-# Pubblicazione organica — bozze in revisione su Metricool, mai post pubblicati da soli
+# Testo dei post organici — la macchina scrive, la persona social pubblica
 
-**Serve il connettore Metricool** (lo usa il Direttore, decisione 28). Senza, si scrive in "Cosa non so" e si ferma.
+Decisione 33 (10/10/2026): niente Metricool. I pezzi con collaudo **verde** li pubblica **la persona social**
+direttamente su Instagram e Facebook dalla **Meta Business Suite**, con il testo approvato dal Collaudo. La macchina
+**prepara solo il testo del post**. I numeri che contano sono quelli delle **inserzioni**, che i Numeri leggono da Meta.
 
 ## Quando si usa
-- **Venerdì** (ritmo della settimana in `CLAUDE.md`), dopo il Collaudo del giovedì: un pezzo verde diventa una bozza in
-  revisione; la persona social o Ivan la approva in Metricool e solo allora esce.
-- Quando un pezzo diventa verde dopo un ricollaudo, il primo giro utile del Direttore.
-- Frasi tipiche: "metti i verdi su Metricool", "prepara le bozze", "cosa aspetta l'approvazione?".
+- **Martedì**, nello stesso giro delle schede della Regia (conta come un lavoro solo): un testo per ogni scheda.
+- **Dopo un collaudo giallo o rosso sul testo**: la versione nuova, con la correzione scritta dal Collaudo.
+- Frasi tipiche: "prepara i testi dei post", "il testo del reel di Brian", "sistema il testo dopo il collaudo".
 
 ## Cosa legge all'inizio
-1. `CLAUDE.md` (sezione "Impostazioni": pagina degli annunci, **marchio Metricool dei profili LML**, **revisori**),
-   `conoscenza/apprendimenti.md`, `regole/decisioni.md` (26-28).
-2. L'ultimo file `campo/AAAA-MM-GG-organico.md` (cosa è già in revisione o approvato: non si rifà).
-3. L'ultimo verbale di `collaudo/` e, per ogni pezzo, il file dell'esito in OneDrive
-   `macchina-adv/consegne/<id-scheda>/collaudo-AAAA-MM-GG.md` (l'ultimo).
-4. La cartella delle consegne del pezzo: il pezzo, `testo-post.txt`, `link-video.txt` (versione collaudata).
-5. La scheda `regia/<id-scheda>.md` (formato, promozione citata) e `direttore/da-rivedere.md` (il sì di Ivan su un giallo).
+1. `CLAUDE.md` (pagina degli annunci in "Impostazioni"), `conoscenza/apprendimenti.md`, `regole/decisioni.md`.
+2. L'ultimo file `campo/AAAA-MM-GG-testi-post.md` (testi già scritti: non si rifanno).
+3. La scheda del pezzo `regia/<id-scheda>.md`: argomento, promessa ammessa (riga di `arya-oggi.md`), promozione
+   citata, tre ganci, chiusura.
+4. `conoscenza/arya-oggi.md` (solo righe "vendibile"), `conoscenza/offerta.md` (specchio di `elenco_promozioni`),
+   `conoscenza/customer-language.md`, `conoscenza/glossario.md`, `regole/regole-adv.md` §5.1, §23, §26.
+5. Per una correzione: l'esito del Collaudo accanto al pezzo, `macchina-adv/consegne/<id-scheda>/collaudo-AAAA-MM-GG.md`
+   (l'ultimo), e `domande.txt` se c'è.
 
-Nel registro: versione e data di ogni file letto.
+Nel file prodotto: versione e data di ogni file letto.
 
-## Le regole che non si toccano
-- **Solo bozze in revisione.** Si usa **solo** lo strumento che crea un post nuovo e lo manda in revisione
-  (`createScheduledPostForReview`), più le letture (`getBrandSettings`, `getScheduledPosts`, `getBestTimeToPostByNetwork`).
-- **Mai** `createScheduledPost` (pubblica da solo all'ora data), **mai** `updateScheduledPost` né
-  `sendScheduledPostForReview` su un post esistente (cambiano un post che qualcuno ha già visto o approvato), **mai**
-  cancellare. Un errore si segnala: lo sistema la persona social in Metricool.
-- **Approvazione:** `approvalSystem` = `"any"` (basta uno fra la persona social e Ivan). **Mai `"optional"`**: approva
-  da solo se nessuno rifiuta, quindi sarebbe una pubblicazione senza sì.
-- **Revisori:** solo gli indirizzi scritti in `CLAUDE.md` ("Revisori delle bozze Metricool"), collaboratori del marchio.
-  Un indirizzo esterno riceverebbe un'email: se la riga manca o un indirizzo non è un collaboratore, ci si ferma.
-  Gli indirizzi non si copiano nel registro (si scrive "persona social" e "Ivan").
-- **Marchio:** solo quello scritto in `CLAUDE.md` ("Marchio Metricool dei profili LML"), riletto con `getBrandSettings`.
-  Se la riga dice "manca", o il marchio letto non corrisponde, ci si ferma: **nessuna bozza sul profilo personale di Ivan**
-  (è un altro fronte, §6).
-- **Solo pezzi verdi.** Un giallo solo con il sì scritto di Ivan in `direttore/da-rivedere.md` (copiato testuale).
-  Un rosso mai.
-- **Testi e file uguali al collaudo.** Nessun ritocco: se un testo non convince, torna al Collaudo.
-- **Niente spesa:** niente "boost" né promozione del post (`boost` vuoto). La spesa passa solo da Campo e da Ivan.
+## Cosa produce
+1. **Nella cartella delle consegne** su OneDrive, `Company/Marketing/macchina-adv/consegne/<id-scheda>/testo-post.txt`
+   (una correzione: `testo-post-v2.txt`, `-v3`…, mai sovrascritto). Lì lo trovano il Collaudo e la persona social.
+2. **Nell'archivio** `campo/AAAA-MM-GG-testi-post.md`: tutti i testi della settimana, uno per id della scheda, con la
+   riga di `arya-oggi.md` della promessa e il codice della promozione. In fondo **Cosa non so**.
+
+### Com'è fatto `testo-post.txt`
+```
+id: <id-scheda> · versione: v1 · scritto il AAAA-MM-GG
+
+FACEBOOK
+<testo: il problema nelle prime parole, poi la promessa, poi l'invito>
+<link: pagina degli annunci + parametri, sotto>
+
+INSTAGRAM
+<stesso testo, senza link: l'invito dice "trovi la pagina nel link del profilo">
+```
+- **Le prime parole dicono il problema** (§5.1) e il messaggio sta nei **primi 125 caratteri**.
+- **Una sola promessa**, quella della scheda, presa da una riga "vendibile" di `arya-oggi.md`.
+- **Prezzi e promozioni** solo se la scheda li cita e solo com'è scritto in `offerta.md`; il Collaudo li controlla in
+  `elenco_promozioni`.
+- **L'invito** dice cosa succede davvero sulla pagina Arya: chiama il numero, prova la chat, fatti richiamare (§3.1).
+- **Il link** (solo Facebook, dove si clicca): pagina degli annunci letta da `CLAUDE.md` ogni volta, più
+  `?promo=<codice>&canale=<telefono|chat|email>&utm_source=facebook&utm_medium=organico&utm_campaign=organico&utm_content=<id-scheda>`
+  (schema dei parametri nella skill `campo`; `canale` si omette se il pezzo parla di tutta la suite; codice: quello della
+  scheda o la promozione "predefinita"; decisioni 23 e 24).
+- Parole dei clienti; il test della recensione; il test degli attributi personali (§23).
+- **Mai** "intelligenza artificiale", nomi di clienti, numeri non misurati, "sostituisce il personale", le parole vietate
+  della skill `collaudo`.
 
 ## Come lavora
-1. **Cancelli.** Per ogni pezzo: esito verde (o giallo con il sì di Ivan); consegna completa; nessuna bozza già creata per
-   quell'id (registro e `getScheduledPosts` sulle prossime 2 settimane). Se il marchio o i revisori mancano in `CLAUDE.md`,
-   nessuna bozza: riga in `direttore/da-rivedere.md`, cancello "pacchetto".
-2. **Il video.** Metricool vuole un indirizzo pubblico del file: si usa `link-video.txt` della consegna. Se manca, o
-   Metricool lo rifiuta, nessun tentativo strano: il pezzo resta "da caricare a mano" e si scrive cosa serve.
-3. **La data.** La propone la persona social nella consegna se vuole; altrimenti il primo orario buono da
-   `getBestTimeToPostByNetwork`, almeno **48 ore dopo** la creazione (tempo per approvare) e mai nel passato.
-   Se l'approvazione arriva dopo quell'ora, la data la sposta chi approva.
-4. **Il post.** `info` con: `providers` del marchio LML (Instagram e Facebook, se collegati), `text` = `testo-post.txt`
-   esatto, `media` = il link del video o dell'immagine, `instagramData.type` = `REEL` per i video e `POST` per le immagini,
-   `facebookData.type` = `REEL` o `POST`, `autoPublish` = vero (esce da solo **solo dopo** l'approvazione),
-   `draft` = falso, niente `boost`. Se il testo contiene un link: pagina degli annunci di `CLAUDE.md` +
-   `?promo=<codice>&utm_source=<instagram|facebook>&utm_medium=organico&utm_campaign=organico&utm_content=<id-scheda>`
-   (codice della scheda o la promozione "predefinita"; decisione 23). L'indirizzo della pagina si **legge** da
-   `CLAUDE.md` ogni volta, non si ricopia (decisione 24).
-5. **Una bozza alla volta**, poi rilettura con `getScheduledPosts`: nel registro si scrive ciò che torna (stato, data,
-   `plannerUrl`), non ciò che si è mandato.
-6. **Il registro.** `campo/AAAA-MM-GG-organico.md`, mai sovrascritto: per ogni pezzo id della scheda, esito del collaudo,
-   rete, data proposta, stato in Metricool ("in revisione"), `plannerUrl`, cosa resta da fare. In fondo **Cosa non so**.
-7. **Ivan e la persona social.** Una riga in `direttore/da-rivedere.md`: "N bozze in revisione su Metricool, le approva
-   la persona social o Ivan", cancello "pacchetto". Nessun altro messaggio: l'email di revisione la manda Metricool da sé
-   ai revisori interni (decisione 28).
-
-## Il lunedì: cosa serve al Piano
-I numeri organici li legge **il Piano** (skill `piano`), non questa skill. Metriche di Metricool lette il 10/10/2026:
-- Instagram Reels: `IGRE28` percentuale di visualizzazioni oltre 3 secondi (**quanti si fermano**), `IGRE24` tempo medio
-  di visione e `IGRE27` percentuale media vista (**quanto guardano**), `IGRE23` visualizzazioni, `IGRE11` copertura,
-  `IGRE06` link del reel, `IGRE03` testo (per ritrovare il pezzo).
-- Facebook Reels: `FBRE13` tempo medio, `FBRE10` visualizzazioni, `FBRE11` copertura (non c'è la percentuale oltre 3 secondi).
-Se Metricool cambia le metriche, si rileggono con `getAnalyticsAvailableMetrics` e si scrive la data.
+1. Per ogni scheda della settimana senza testo: scrive `testo-post.txt` e lo mette nella cartella delle consegne (se la
+   cartella non c'è, la crea con lo stesso id). Se OneDrive non risponde, il testo resta nell'archivio e si scrive in
+   "Cosa non so" e in `direttore/da-rivedere.md`.
+2. **Dopo il Collaudo:** se l'esito chiede di cambiare il testo, scrive la versione nuova copiando **esattamente** la
+   riscrittura del Collaudo, niente di più; il pezzo torna al Collaudo (ricollaudo). Un testo verde non si tocca più.
+3. **Non pubblica.** Il pezzo verde lo pubblica la persona social dalla Meta Business Suite, copiando l'ultima versione
+   di `testo-post.txt` che il Collaudo ha dato verde (il file dell'esito lo dice).
 
 ## Cosa non fa
-- Non pubblica, non approva, non cambia né cancella post. Non usa il profilo personale di Ivan.
-- Non promuove a pagamento (boost) e non tocca Meta Ads né il CRM.
-- Non mette nomi, telefoni o email di persone esterne, né gli indirizzi dei revisori, nel registro.
-- Non manda email o messaggi (le email di revisione sono di Metricool, solo ai revisori interni).
-- Non inventa: se un file, un link o un marchio manca, lo scrive in "Cosa non so".
+- Non pubblica, non programma, non promuove (niente "metti in evidenza" a pagamento): pubblica la persona social.
+- Non usa strumenti social o servizi a pagamento (decisione 34). Non tocca Meta né il CRM.
+- Non mette nel testo nomi, telefoni o email di persone esterne.
+- Non manda email o messaggi a nessuno.
+- Non cambia un testo che il Collaudo ha dato verde. Non inventa promesse o prezzi: se manca un dato, "Cosa non so".
 
 ## Come chiude
-a) **Apprendimenti**: una riga se si è imparato qualcosa (es. un formato che Metricool rifiuta), indizio o confermato.
-b) **Salva su `main`**: un commit, es. "organico: 4 bozze in revisione su Metricool, settimana 16-20 novembre".
-c) **Copia leggibile** del registro su OneDrive `Company/Marketing/macchina-adv/campo/`.
-d) **Da rivedere**: la riga per l'approvazione e ogni blocco (marchio, revisori, link del video).
+a) **Apprendimenti**: una riga se si è imparato qualcosa, indizio o confermato.
+b) **Salva su `main`**: un commit, es. "organico: testi dei post per le 8 schede del 17 novembre".
+c) **Copia leggibile** di `campo/AAAA-MM-GG-testi-post.md` su OneDrive `Company/Marketing/macchina-adv/campo/`.
+d) **Da rivedere**: solo i blocchi (cartella che manca, promessa non vendibile nella scheda).

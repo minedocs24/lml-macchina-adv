@@ -27,9 +27,9 @@ Questo archivio è l'unico posto in cui la macchina tiene regole, conoscenza, sk
 - `direttore/` — riepiloghi e coda delle cose da rivedere.
 - `consegne/` — solo il `LEGGIMI.md` per la persona social: i pezzi finiti stanno su OneDrive in `macchina-adv/consegne/<id-scheda>/`.
 - `prompt/` — i testi delle automazioni in cloud: `direttore.md` (feriali alle 8), `osservatorio.md` (lunedì alle 7) e
-  `numeri.md` (ogni giorno alle 8:30).
+  `numeri.md` (ogni giorno alle 7:30, dal lancio).
 - `.claude/skills/` — una skill per reparto (`osservatorio`, `piano`, `regia`, `collaudo`, `campo`, `numeri`, `direttore`),
-  `organico` (bozze in revisione su Metricool, per Campo) e `meta-scrittura-sicura`, che usa Campo. Le 13 skill di settembre e la mappa `catena-adv.md` sono in `.claude/skills/archivio/`.
+  `organico` (testo dei post organici, per Campo) e `meta-scrittura-sicura`, che usa Campo. Le 13 skill di settembre e la mappa `catena-adv.md` sono in `.claude/skills/archivio/`.
 - `archivio-lml-adv/` — il lavoro di settembre 2026 da `Company/Marketing/lml-adv/`, copiato così com'era. Si legge, non si modifica.
 
 ## Copia leggibile

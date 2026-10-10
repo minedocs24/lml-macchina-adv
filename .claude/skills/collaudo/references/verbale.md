@@ -30,7 +30,7 @@ regia/archivio-pezzi.md del [ ]
 | File | C'è? | Esito | Nota |
 |---|---|---|---|
 | pezzo (video / immagine) | | | |
-| testo-post.txt | | | |
+| testo-post.txt (della macchina; versione approvata: [ ]) | | | |
 | trascrizione.txt | | | senza: GIALLO con la richiesta |
 | primo-fotogramma.jpg | | | |
 | sottotitoli.srt (se esportati) | | | senza: lieve, "Cosa non so" |
