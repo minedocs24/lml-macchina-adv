@@ -3,6 +3,11 @@
 Copia in `regia/AAAA-MM-GG-<titolo-breve>.md`. Una scheda per pezzo. La legge chi gira: frasi corte, niente gergo.
 Il copione completo si scrive solo se lo chiede chi gira.
 
+**Id della scheda:** (il nome di questo file senza `.md`, es. `2026-10-13-telefono-in-sala`)
+
+**Consegna:** OneDrive `Company/Marketing/macchina-adv/consegne/<id della scheda>/` — il pezzo finito, il testo del post, la
+trascrizione con i secondi e chi parla, il primo fotogramma (istruzioni in `consegne/LEGGIMI.md`)
+
 **Titolo:** (5-8 parole, come lo diremmo a voce)
 
 **Per chi:** (chi deve fermarsi a guardarlo: il mestiere o la situazione, es. "chi ha un negozio e risponde al telefono mentre serve")

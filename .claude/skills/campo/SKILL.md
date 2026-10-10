@@ -66,13 +66,14 @@ sono di settembre. **Dove dice cose diverse, valgono §8 e §9 di `regole-adv.md
      `regia/`; se non ne cita nessuna, la "predefinita" di `elenco_promozioni`; decisioni 23 e 24);
    - **seconda porta, modulo Meta**: nome, telefono, attività facoltativa, consenso separato con informativa.
    Mai una campagna dei prodotti direttamente verso una chat WhatsApp (§26). Un fronte solo per campagna (§6).
-3. **Struttura.** La dice il pacchetto approvato. Se non la dice, proposta di partenza da far approvare: una campagna per
-   porta, un gruppo con pubblico largo (solo Italia, nessun interesse), un'inserzione per pezzo. Al massimo due campagne
+3. **Struttura.** La dice il pacchetto approvato. Se non la dice, proposta di partenza da far approvare: per la Prova
+   quella della sezione **"La struttura per la Prova"** qui sotto (decisione 31: le porte sono gruppi della campagna dei
+   nuovi contatti, non campagne a parte); un gruppo con pubblico largo (solo Italia, nessun interesse), un'inserzione per pezzo. Al massimo due campagne
    attive in tutto (§0.1). Nessun pubblico costruito a mano; retargeting solo quando quei pubblici esistono (§0.1, §14).
-4. **Nomi.** Campagna nel formato §8 `[FRONTE] - [OBIETTIVO] - [OFFERTA] - [MESE ANNO]`, es.
-   `ARYA - Contatti - Pagina Arya - 11 2026`. Gruppo: `<porta> - Italia - Largo - <settimana>`. Inserzione: lo stesso
-   titolo breve della scheda in `regia/` più versione e formato (`<titolo-breve>-A-9x16`), così Numeri ritrova il pezzo
-   in `regia/archivio-pezzi.md`.
+4. **Nomi.** Lo schema completo è nella sezione **"La struttura per la Prova"** (decisione 31): campagna nel formato §8
+   `[FRONTE] - [OBIETTIVO] - [OFFERTA] - [MESE ANNO]`; gruppo `<porta> - Italia - Largo - <settimana>`; inserzione con
+   l'**id della scheda** di `regia/` più versione e formato (`<id-scheda>-A-9x16`; prima era `<titolo-breve>-A-9x16`), così
+   Numeri ritrova il pezzo in `regia/archivio-pezzi.md` e nella cartella delle consegne.
 5. **Fondamenta (sola lettura, fuori dalla costruzione).** Verifica a quali account risponde il connettore: deve esserci
    `lml-adv` (`2214221312473862`), in euro. Se non c'è, **si ferma**. Legge il minimo di budget per giorno, l'ID della
    pagina LML e, per il modulo, se la pagina ha accettato i termini dei moduli. Conta le campagne attive.
@@ -118,6 +119,68 @@ lo strumento di attivazione, e quello che si pubblica parte **subito attivo**. Q
 | Il connettore non vede `lml-adv` | Fermarsi. I parametri esatti vanno nel verbale; li esegue Ivan a mano |
 | Anteprima che non si apre | Riprovare una volta con l'ID della creatività; se l'errore parla di accesso, segnalarlo |
 
+## La struttura per la Prova (per il Prompt 5, decisione 31)
+Scritta il 10/10/2026, in fase di costruzione: **nessuna chiamata a Meta**. Al Prompt 5 si parte da qui, si fa prima il
+verbale a carta e poi, con Ivan presente, una scrittura alla volta (meta-scrittura-sicura). Ogni punto che il connettore
+non accetta si scrive in `references/parametri-porte.md` con la data.
+
+### Le due campagne (al massimo due attive, §0.1)
+| | A — Nuovi contatti | B — Ritorno (piccola) |
+|---|---|---|
+| Nome (§8) | `ARYA - Contatti - <codice promo> - <MM AAAA>` (es. `ARYA - Contatti - LANCIO - 11 2026`) | `ARYA - Ritorno - <codice promo> - <MM AAAA>` |
+| Obiettivo | `OUTCOME_LEADS` | `OUTCOME_LEADS` |
+| Chi vede | pubblico largo: solo Italia, nessun interesse, posizioni automatiche (§14) | solo chi ci conosce già, negli ultimi 30 giorni: **chi ha visitato la pagina** degli annunci (pixel, solo dopo il consenso, §23); **chi ha visto almeno metà di un video** (50%); **chi ha aperto il modulo senza inviarlo** |
+| Gruppi | `Pagina Arya - Italia - Largo - <settimana>` (destinazione sito); se il piano lo vuole, `Modulo Meta - Italia - Largo - <settimana>` (modulo) nella **stessa** campagna. Se il connettore non accetta due destinazioni in una campagna, il modulo resta fuori e decide Ivan | `Ritorno - Visite Video Modulo - 30g` (destinazione pagina Arya) |
+| Pezzi | quelli del pacchetto, scelti anche con i numeri organici (Piano, decisione 28) | pezzi più vicini all'offerta (§3.1: chi ci conosce va portato all'offerta), mai uguali a quelli di A nella stessa settimana |
+| Budget | dal pacchetto, sulla campagna, dentro i 50 €/giorno (§9) | **piccolo**, dentro gli stessi 50 €/giorno: proposta di partenza 10 €/giorno, decide Ivan nel pacchetto |
+| Quando parte | con la Prova | **solo quando i tre pubblici esistono** e Meta li accetta per dimensione (soglia da leggere al primo montaggio); fino ad allora resta a carta (§0.1, punto 1) |
+
+A **esclude** i pubblici di B: freddi e caldi separati, per non mescolare i dati (§3.1).
+
+### Le esclusioni (in A e in B)
+- **Contatti degli ultimi 30 giorni:** pubblico "ha inviato il modulo" (30 giorni) e pubblico del pixel "ha lasciato il
+  contatto sulla pagina" (30 giorni). Si costruiscono dentro Meta: nessun dato personale passa dalla macchina.
+- **Clienti:** lista clienti caricata in Meta da Ivan o da chi tiene il CRM. La macchina non tocca la lista (dati
+  personali, decisione 9): usa solo l'**ID del pubblico** che Ivan le dà. Senza lista, si scrive "esclusione clienti:
+  manca" nel verbale e in "cosa resta a Ivan".
+- **Dipendenti e collaboratori LML** e chi ha già fissato una demo (§14): stessa strada della lista clienti.
+
+### I pubblici: prima serve il sì di Ivan
+Creare un pubblico personalizzato (`ads_create_custom_audience`) **non** è fra gli strumenti ammessi dalla decisione 19
+(solo lettura e creazioni in pausa). Al Prompt 5, prima di tutto: domanda a Ivan, una riga in `direttore/da-rivedere.md`.
+Nomi dei pubblici: `ARYA - Pubblico - Visite pagina - 30g`, `ARYA - Pubblico - Video 50% - 30g`,
+`ARYA - Pubblico - Modulo aperto non inviato - 30g`, `ARYA - Esclusione - Contatti - 30g`, `ARYA - Esclusione - Clienti`,
+`ARYA - Esclusione - LML`.
+
+### I parametri nei link
+L'indirizzo di base è **sempre** la pagina degli annunci scritta in `CLAUDE.md` ("Impostazioni"): si legge da lì ogni
+volta, non si ricopia (decisione 24). Poi, in quest'ordine:
+
+| Parametro | Valore | Note |
+|---|---|---|
+| `promo` | il `codice` della promozione citata nella scheda; se nessuna, la "predefinita" di `elenco_promozioni` | obbligatorio (decisione 23) |
+| `canale` | `telefono` (ARYA Voice) · `chat` (Arya Customer Care, chat e WhatsApp) · `email` (a-Mail) | il prodotto di cui parla il pezzo, dalla scheda; un pezzo su tutta la suite non lo mette. Non è il canale del CRM (PAGINA_ARYA_TELEFONO…, che dice cosa ha fatto la persona sulla pagina) |
+| `utm_source` | `meta` · `google` · `instagram` / `facebook` (organico) | |
+| `utm_medium` | `paid` (Meta) · `cpc` (Google) · `organico` | |
+| `utm_campaign` | Meta `{{campaign.id}}` · Google `{campaignid}` · organico `organico` | ID, non nomi: un nome si può cambiare |
+| `utm_content` | Meta `{{ad.id}}` · Google `{creative}` · organico `<id-scheda>` | è la colonna `utmContent` / `inserzioneId` che Numeri unisce al pezzo |
+| `utm_term` | Meta `{{adset.id}}` · Google `{keyword}` | |
+
+Esempio Meta: `<pagina degli annunci>?promo=LANCIO&canale=telefono&utm_source=meta&utm_medium=paid&utm_campaign={{campaign.id}}&utm_content={{ad.id}}&utm_term={{adset.id}}`.
+Su Google anche l'etichettatura automatica. Tutto minuscolo tranne il codice promo, niente spazi né accenti. Che la
+pagina passi `promo`, `canale` e gli utm al CRM va **verificato alla prima prova** (`conoscenza/crm-statistiche.md`,
+"Cosa non so"): se non li passa, nessuna campagna parte e lo si scrive a Ivan.
+
+### I nomi
+| Cosa | Schema | Esempio |
+|---|---|---|
+| Campagna | `ARYA - <Contatti / Ritorno> - <codice promo> - <MM AAAA>` | `ARYA - Contatti - LANCIO - 11 2026` |
+| Gruppo | `<Pagina Arya / Modulo Meta / Ritorno> - <Italia / pubblico> - <Largo / 30g> - <settimana AAAA-MM-GG>` | `Pagina Arya - Italia - Largo - 2026-11-13` |
+| Inserzione | `<id-scheda>-<versione>-<formato>` | `2026-11-10-telefono-in-sala-A-9x16` |
+| Creatività | come l'inserzione + `-cr` | `2026-11-10-telefono-in-sala-A-9x16-cr` |
+| File (video, immagine) | come l'inserzione | `2026-11-10-telefono-in-sala-A-9x16.mp4` |
+| Google | campagna sul nostro nome e campagna sulle parole del problema, **separate** (§29): `ARYA - Nome - <MM AAAA>`, `ARYA - Problema - <MM AAAA>` | |
+
 ## Cosa non fa
 - **Non attiva, non pubblica la bozza, non cambia budget o tetti, non sposta soldi** (terzo cancello, decisione 7).
 - Non scrive su Meta in un'automazione, né senza il sì di Ivan in conversazione, né in fase di costruzione.
@@ -143,4 +206,5 @@ d) **Ivan**: in `direttore/da-rivedere.md` una riga con cancello "spesa" per l'a
 |---|---|---|
 | `lml-montaggio-campagna` (SKILL, `parametri.md`, `verbale-montaggio.md`) | Una scrittura alla volta con rilettura; ordine campagna → gruppo → file → creatività e inserzioni; budget in centesimi riletto prima e dopo; minimo di budget per valuta; pagina dentro ogni creatività; dichiarazione europea `LML Technologies S.r.l.`; pubblico largo, mai interessi inventati; creatività che non si modificano; nomi di creazione diversi da quelli di modifica; leggere gli obiettivi validi dalla risposta; video pronto prima dell'uso; anteprime con indirizzi; tabella degli errori; entità di scarto; "cosa serve per attivare"; struttura del verbale | Destinazione WhatsApp, pulsante "Invia messaggio", messaggio di apertura precompilato, ottimizzazione per conversazioni (ora pagina Arya o modulo Meta, §3.1); budget 10 €/giorno = `1000` (ora §9, dal pacchetto); nomi per settore e blocco (ora pezzi settimanali, decisione 4); "un angolo per gruppo"; collaudo per blocco; "Claude non può eliminare" (il connettore di oggi accetta l'eliminazione definitiva: qui è vietata); percorsi `montaggi/<settore>/` |
 | `meta-scrittura-sicura` | Usata com'è: regola zero, frase di proposta, sì in conversazione, rilettura sempre, sì separato per attivare e per i budget, quando fermarsi | Non modificata. Superati solo i numeri e i riferimenti elencati nella tabella sopra (§8, §9, decisioni 5-6) |
+| Istruzioni di Ivan del 10/10/2026 (decisione 31) | Struttura per la Prova: campagna nuovi contatti e piccola di ritorno, esclusioni a 30 giorni, parametri `promo`, `canale`, utm, nomi con l'id della scheda | "Una campagna per porta" (con tre campagne si supera il massimo di due della §0.1) |
 | Regole nuove (3.0, decisioni, `CLAUDE.md`) | Venerdì; tre cancelli; automazioni solo in lettura; costruzione senza chiamate a Meta; due porte; Google dal lancio con campagne separate; ricontatto provato con 20 contatti finti per porta | — |

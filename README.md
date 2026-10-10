@@ -25,13 +25,16 @@ Questo archivio è l'unico posto in cui la macchina tiene regole, conoscenza, sk
 - `conoscenza/` — scheda di Arya, offerta, apprendimenti, linguaggio dei clienti (`customer-language.md`), glossario.
 - `osservatorio/`, `piano/`, `regia/`, `collaudo/`, `campo/`, `numeri/` — un reparto ciascuno, file datati.
 - `direttore/` — riepiloghi e coda delle cose da rivedere.
-- `prompt/` — i testi delle automazioni in cloud: `direttore.md` (feriali alle 8) e `osservatorio.md` (lunedì alle 7).
-- `.claude/skills/` — una skill per reparto (`osservatorio`, `piano`, `regia`, `collaudo`, `campo`, `numeri`, `direttore`)
-  e `meta-scrittura-sicura`, che usa Campo. Le 13 skill di settembre e la mappa `catena-adv.md` sono in `.claude/skills/archivio/`.
+- `consegne/` — solo il `LEGGIMI.md` per la persona social: i pezzi finiti stanno su OneDrive in `macchina-adv/consegne/<id-scheda>/`.
+- `prompt/` — i testi delle automazioni in cloud: `direttore.md` (feriali alle 8), `osservatorio.md` (lunedì alle 7) e
+  `numeri.md` (ogni giorno alle 8:30).
+- `.claude/skills/` — una skill per reparto (`osservatorio`, `piano`, `regia`, `collaudo`, `campo`, `numeri`, `direttore`),
+  `organico` (bozze in revisione su Metricool, per Campo) e `meta-scrittura-sicura`, che usa Campo. Le 13 skill di settembre e la mappa `catena-adv.md` sono in `.claude/skills/archivio/`.
 - `archivio-lml-adv/` — il lavoro di settembre 2026 da `Company/Marketing/lml-adv/`, copiato così com'era. Si legge, non si modifica.
 
 ## Copia leggibile
 In OneDrive, `Company/Marketing/macchina-adv/`: i report da leggere e ogni lunedì gli apprendimenti.
+- `consegne/<id-scheda>/` — i pezzi finiti caricati da chi gira e, accanto, l'esito del Collaudo.
 - `novita-arya/` — le novità di Arya (`MODELLO-NOTA.md`) e le conferme delle funzioni (`VERIFICA-FUNZIONI.md`).
 - `fondamenta/` — copia di `CLAUDE.md`, `regole/decisioni.md` e `conoscenza/arya-oggi.md`, per rileggerli dalla chat.
 - `cervello/` — copia di `regole-adv.md` 3.0, `carta-dei-messaggi.md`, `MODELLO-SCHEDA.md`, `offerta.md`, `collegamento-crm.md`.
