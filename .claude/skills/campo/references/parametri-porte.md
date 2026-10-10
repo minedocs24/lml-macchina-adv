@@ -42,7 +42,8 @@ Il minimo di budget si legge da `ads_get_ad_accounts` (`min_daily_budget_cents`)
 ## Inserzione — `ads_create_ad`
 - `ad_name`, `ad_set_id`, `creative` con **una sola** fonte: `creative_id` esistente, oppure `object_story_spec` con
   **`page_id` sempre** (senza: "Facebook Page is Missing").
-- Immagine: `link_data` con `image_hash` (da `ads_get_ad_images`), `link` = indirizzo della pagina Arya, `message`.
+- Immagine: `link_data` con `image_hash` (da `ads_get_ad_images`), `link` = pagina degli annunci di `CLAUDE.md`
+  ("Impostazioni") + `?promo=<codice>` (decisioni 23 e 24), `message`.
 - Video: `video_data` **vuole una copertina** (`image_hash` o `image_url`); con `link_description` serve anche
   `call_to_action`.
 - Modulo: il modulo si crea in Gestione inserzioni (nel connettore non c'è uno strumento per crearlo). Come si collega
@@ -57,4 +58,5 @@ Restituisce un indirizzo da dare a Ivan.
 1. `destination_type` e collegamento del modulo per la seconda porta.
 2. Il pixel della pagina Arya: esiste, è intestato a LML, parte dopo il consenso (§0.1: "da verificare o da rifare").
 3. Come l'indirizzo della pagina porta il nome di campagna e inserzione, perché il contatto entri nel CRM con la sua
-   provenienza (§3.1). Se la pagina non lo legge, va in "Cosa non so".
+   provenienza (§3.1). Il CRM conta per `utm_campaign` e `utm_content` (colonne di `numeri_pubblicita`) e per promozione
+   (`promo=`, obbligatorio). Se la pagina non li passa al CRM, va in "Cosa non so".

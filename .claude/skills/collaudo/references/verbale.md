@@ -18,7 +18,8 @@ Ogni ricollaudo è un file nuovo. Mai nomi, numeri o email di persone esterne in
 
 ## Fonti lette
 CLAUDE.md del [ ] · regole/decisioni.md del [ ] · regole-adv.md v[ ] del [ ] · arya-oggi.md del [ ] (ultima riga del
-registro: [ ]) · offerta.md del [ ] / **manca** · customer-language.md v[ ] · glossario.md v[ ] · campo/[ultimo verbale] ·
+registro: [ ]) · elenco_promozioni letto il [ ] alle [ ] (listino [codice], promozioni [codici]) / **non letto** · offerta.md del [ ] ·
+pagina degli annunci da CLAUDE.md: [indirizzo] · customer-language.md v[ ] · glossario.md v[ ] · campo/[ultimo verbale] ·
 regia/archivio-pezzi.md del [ ]
 
 ---
@@ -28,13 +29,14 @@ regia/archivio-pezzi.md del [ ]
 | # | Controllo | Esito | Nota |
 |---|---|---|---|
 | 1 | Promesse (solo righe vendibili) | | |
-| 2 | Offerta | | |
+| 2 | Offerta (prezzi e promozioni in vigore in elenco_promozioni) | | |
 | 3 | Nomi e persone (clienti mai, dati esterni mai) | | |
 | 4 | Meta e legali (attributi personali, dichiarazione dell'assistente automatico, consenso, coerenza con la porta) | | |
 | 5 | Lingua (test della recensione, parole vietate) | | |
 | 6 | Diversità e firma (chiusura e frase uguali) | | |
 | 7 | Misure (125 / 40 / 27, durata, gancio, sottotitoli, zone) | | |
-| 8 | Corrispondenze e parametri | | |
+| 8 | Link e codice promo (pagina degli annunci + `?promo=<codice>` in vigore) | | |
+| 9 | Corrispondenze e parametri | | |
 
 **Promesse trovate:**
 | Frase | Dove | Riga di arya-oggi.md che la autorizza | Esito |

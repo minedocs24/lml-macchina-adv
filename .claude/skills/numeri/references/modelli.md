@@ -1,6 +1,7 @@
 # Modelli del reparto Numeri — semaforo e lettura della settimana
 
 Solo conteggi e ID. Mai nomi, telefoni, email o aziende di persone esterne.
+Il CRM si legge con «LML CRM · Statistiche» (`numeri_pubblicita`), guida in `conoscenza/crm-statistiche.md`.
 
 ---
 
@@ -12,7 +13,7 @@ Si scrive **solo** se c'è almeno un allarme.
 # Semaforo — AAAA-MM-GG
 
 Letto: Meta alle [ora] · Google [alle ora / non collegato] · CRM alle [ora]
-File: CLAUDE.md [data] · decisioni.md [data] · regole-adv.md 3.0 [data] · collegamento-crm.md [data]
+File: CLAUDE.md [data] · decisioni.md [data] · regole-adv.md 3.0 [data] · crm-statistiche.md [data]
 
 ## [n] allarmi, dal più urgente
 
@@ -32,7 +33,8 @@ File: CLAUDE.md [data] · decisioni.md [data] · regole-adv.md 3.0 [data] · col
 ```
 # Numeri — settimana dal AAAA-MM-GG al AAAA-MM-GG
 
-Letto: Meta [data e ora] · Google [data e ora / non collegato] · CRM [data e ora]
+Letto: Meta [data e ora] · Google [data e ora / non collegato] · CRM «LML CRM · Statistiche» [data e ora]
+Età della settimana: letta il lunedì dopo [sì / no → perché]
 File: [elenco con versione e data]
 CRM leggibile: sì / **no → la lettura si ferma alla spesa e lo dice qui**
 
@@ -51,6 +53,8 @@ CRM leggibile: sì / **no → la lettura si ferma alla spesa e lo dice qui**
 | Contatti — pagina Arya: chiamata / chat / fatti richiamare | | | | |
 | Contatti — modulo Meta | | | | |
 | Organici · senza provenienza | | | senza provenienza: sotto il 10% | |
+| Contatti non verificati (anti-bot), a parte | | | — | mai sommati ai contatti |
+| Arrivi (CRM) contro contatti di Meta e Google | | | devono tornare | se non tornano, di quanto |
 | Contatti validi (quota) | | | almeno 40% (§17) | su [n] contatti |
 | Costo per contatto valido | | | tetto 50 € (§27) | |
 | Demo fissate · fatte | | | | il tetto vale per le demo fatte |
@@ -69,6 +73,21 @@ CRM leggibile: sì / **no → la lettura si ferma alla spesa e lo dice qui**
 | Idea | Pezzo | ID inserzione | Spesa | Impression | Contatti | Validi | Demo | Costo per contatto | Lettura |
 |---|---|---|---|---|---|---|---|---|---|
 | | | | | | | | | | Indizio: … |
+
+**Per canale e per campagna** (da `numeri_pubblicita`, `raggruppa` = canale e campagna; cumulative dopo "contatti")
+
+| Canale o campagna (ID) | Contatti | Arrivi | Contattati | Validi | Demo fissate | Demo fatte | Prove | Clienti | Canoni nati (€) | Prima risposta (min) |
+|---|---|---|---|---|---|---|---|---|---|---|
+
+**Promozioni** (blocco promozioni; occupano un posto solo le prove in corso e i clienti)
+
+| Codice | Posti | Prove avviate | In corso | Clienti | Perse | Posti rimasti | Allarme (meno di 3) |
+|---|---|---|---|---|---|---|---|
+
+**Le 3 settimane prima, rilette oggi** (per vederle maturare; le righe di `storico.csv` non si toccano)
+
+| Settimana | Letta il lunedì dopo: contatti · validi · demo fatte · clienti | Oggi: contatti · validi · demo fatte · clienti |
+|---|---|---|
 
 **Righe per l'archivio pezzi** (le riporta la Regia in `regia/archivio-pezzi.md`)
 
