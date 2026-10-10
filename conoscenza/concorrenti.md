@@ -51,11 +51,15 @@ I numeri di inserzioni sono quelli visti nella Libreria quel giorno, arrotondati
 5. **Molti si specializzano per mestiere:** Heydiga con un marchio per settore, DeepAgent per officine, assicurazioni e
    concessionarie, Spoki Voice per gli studi, Your Assist per i medici di base.
 
-### Cosa vuol dire per noi (da decidere, non decisioni)
+### Cosa vuol dire per noi (decisioni 36 e 37 di Ivan; il resto è da decidere)
 - Le idee 21, 22 e 23 della carta dei messaggi (`piano/carta-dei-messaggi.md`) vengono da qui. Sceglie il Piano.
-- **`regole/regole-adv.md` §3.1, "Perché la pagina con il numero", punti 2 e 5** dicono che nessun concorrente fa sentire
-  la voce nel percorso né ricontatta: dal 10/10 non è più vero (fonio chiama in pochi secondi, Automatizza dà un numero da
-  chiamare). La regola la cambia solo Ivan: segnalato in `direttore/da-rivedere.md`.
+- **Requisiti minimi, non differenze** (decisione 36, Ivan, 10/10/2026; `regole/regole-adv.md` §3.1 nella 3.2): far
+  sentire la voce con un numero da chiamare e farsi richiamare li fanno già fonio e Automatizza. Ci vogliono (al lancio
+  serve almeno il numero da chiamare), ma non si vendono come cose che gli altri non hanno.
+- **Le differenze su cui puntiamo:** attivazione fatta da noi; email e CRM collegati; una persona che richiama in 5
+  minuti; assistenza in italiano.
+- **Testimonianze e voce:** l'angolo è la voce naturale, mai "non te ne accorgi". Arya dice sempre di essere un
+  assistente virtuale e il Collaudo boccia ogni testo che fa credere di parlare con una persona (decisione 37).
 - La nostra offerta di lancio (decisione 3: 15 giorni di prova e attivazione inclusa, solo per i primi 10) è nella norma,
   non sopra. Il confronto con "setup gratuito e primo mese incluso" spetta a Ivan al controllo di fine dicembre.
 - "Ti chiama Arya in pochi secondi" oggi **non si promette**: le chiamate in uscita sono fuori listino (`arya-oggi.md`, §1

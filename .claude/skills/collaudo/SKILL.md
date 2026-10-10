@@ -103,6 +103,15 @@ scheda, è un difetto del pezzo. I controlli si fanno in quest'ordine (i primi f
      Arya non ha (regolamento europeo sull'AI). Nessuna finta conversazione presentata come vera.
    - **Dichiarazione dell'assistente automatico**: nella prima frase (voce) o nel primo messaggio (chat) di ARYA deve dire
      che risponde un assistente automatico (§3.1; articolo 50 del Regolamento UE 2024/1689). Se manca: rosso.
+   - **Mai far credere di parlare con una persona** (decisione 37, Ivan, 10/10/2026): rosso per ogni testo, titolo,
+     trascrizione, sottotitolo o post che fa credere al cliente di parlare con una persona ("non te ne accorgi", "sembra
+     una persona vera", "nessuno capisce che è un assistente", una testimonianza che dice di non essersene accorto).
+     L'angolo ammesso è la **voce naturale** ("parla in modo naturale", "risponde come in negozio"), sempre con Arya che
+     dice di essere un assistente virtuale. Correzione già scritta: spostare la frase sulla voce naturale.
+   - **Differenze e requisiti minimi** (decisione 36): numero da chiamare, «fatti richiamare», prova gratuita e più canali
+     insieme non si presentano come cose che gli altri non hanno ("solo noi", "l'unico che ti richiama"): se succede,
+     giallo con la correzione. Le differenze ammesse sono attivazione fatta da noi, email e CRM collegati (con le righe
+     vendibili di `arya-oggi.md`), una persona che richiama in 5 minuti, assistenza in italiano.
    - Pagina e modulo: consenso a essere contattati, separato e non preselezionato, con l'informativa: se manca, rosso.
      Il campo "Come ci hai conosciuto?" a testo libero (§13) se manca è giallo: la §13 lo vuole, la §3.1 vuole il modulo
      più corto possibile, e decide Ivan.
@@ -150,7 +159,7 @@ controlli:
 
 | File | Cosa si controlla | Se manca |
 |---|---|---|
-| `trascrizione.txt` | Ogni frase detta passa i controlli 1-5: promesse vendibili, prezzi e promozioni in vigore in `elenco_promozioni`, nomi dei clienti, regole di Meta (attributi personali), lingua. Durata sotto i 30 secondi e gancio detto entro i 2 secondi (dalla prima riga e dai secondi). **Se parla Arya** (righe `ARYA`), la sua **prima frase dice che è un assistente virtuale** o automatico: se manca, **rosso** (§3.1, art. 50 Reg. UE 2024/1689) | **Giallo**, con la richiesta scritta: "Carica `trascrizione.txt` come in `consegne/LEGGIMI.md`". Senza parole lette, promesse e avviso non si possono dare per controllati. Una statica con "nessuna parola detta" va bene |
+| `trascrizione.txt` | Ogni frase detta passa i controlli 1-5: promesse vendibili, prezzi e promozioni in vigore in `elenco_promozioni`, nomi dei clienti, regole di Meta (attributi personali), lingua. Durata sotto i 30 secondi e gancio detto entro i 2 secondi (dalla prima riga e dai secondi). **Se parla Arya** (righe `ARYA`), la sua **prima frase dice che è un assistente virtuale** o automatico: se manca, **rosso** (§3.1, art. 50 Reg. UE 2024/1689). Una frase detta che fa credere di parlare con una persona: **rosso** (decisione 37) | **Giallo**, con la richiesta scritta: "Carica `trascrizione.txt` come in `consegne/LEGGIMI.md`". Senza parole lette, promesse e avviso non si possono dare per controllati. Una statica con "nessuna parola detta" va bene |
 | `testo-post.txt` (della macchina, parti FACEBOOK e INSTAGRAM) | Controlli 1-5 e 7 su tutte e due le parti: promesse, offerta, nomi, Meta, lingua; messaggio entro 125 caratteri; niente "intelligenza artificiale"; il link della parte Facebook col controllo 8 (pagina degli annunci + `?promo=` + parametri della skill `campo`) | Giallo, con la richiesta alla skill `organico` |
 | `primo-fotogramma.jpg` | Si guarda l'immagine: gancio scritto e leggibile, lettera per lettera; niente marchio all'inizio; niente nomi o loghi di clienti, niente dati di persone esterne in schermate; niente di importante nel 14% in alto e nel 35% in basso; coerente con il gancio della scheda | Giallo, con la richiesta |
 | `sottotitoli.srt` | Ci sono e dicono le stesse parole della trascrizione; parole scritte giuste; niente promesse in più rispetto al parlato | Non fa giallo da solo: i sottotitoli si giudicano sul primo fotogramma (ci sono le scritte?) e il resto va in "Cosa non so" con un rilievo lieve: "carica `sottotitoli.srt` se il programma lo esporta" |

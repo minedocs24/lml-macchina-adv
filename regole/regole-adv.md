@@ -2,7 +2,8 @@
 
 File di configurazione vincolante. Sta in `regole/regole-adv.md` nell'archivio `lml-macchina-adv`, accanto a `conoscenza/arya-oggi.md`.
 
-Versione 3.1 — 7 ottobre 2026
+Versione 3.2 — 10 ottobre 2026
+*(3.2 — 10 ottobre 2026: risposte di Ivan alla richiesta #8, decisioni 36-37 — §3.1: far sentire la voce e farsi richiamare diventano requisiti minimi, non differenze; le differenze su cui puntiamo; nessun testo fa credere di parlare con una persona.)*
 *(3.1 — 7 ottobre 2026: risposte di Ivan alle domande sulla 3.0, decisioni 11-20 — canone bloccato 24 mesi (§28); — ottobre senza campagne e Prova da metà novembre (§9); tetti per contatto valido, demo fatta e cliente (§27); stop a finestra mobile (§9, §17); vincente e perdente (§17.1); chiusura comune proposta dalla Regia (§2bis); referenza dei primi 10 (§21); connettore Meta (§24bis).)*
 *(3.0 — 7 ottobre 2026: scritta partendo dalla 2.5, con le sole modifiche elencate in «Cosa cambia dalla 2.5», su istruzione di Ivan.)*
 *(2.5 — 17 settembre 2026. A: nuova §17.1, come si giudica un blocco con budget piccoli; §17 e §26 allineate — decisione di Ivan.)*
@@ -210,17 +211,32 @@ Da qualunque porta arrivi, il contatto entra nel **CRM LML** con il canale e l'i
 
 Due elementi sono obbligatori e nessuna campagna parte senza:
 - nella pagina e nel modulo, il **consenso a essere contattati**, con il collegamento all'informativa;
-- nella prima frase o nel primo messaggio di ARYA, la **dichiarazione che risponde un assistente automatico** (articolo 50 del Regolamento UE 2024/1689, in vigore dal 2 agosto 2026).
+- nella prima frase o nel primo messaggio di ARYA, la **dichiarazione che risponde un assistente automatico** (articolo 50 del Regolamento UE 2024/1689, in vigore dal 2 agosto 2026). Di conseguenza **nessun testo, video o post fa credere al cliente di parlare con una persona**: l'angolo è la voce naturale, mai "non te ne accorgi" (decisione 37). Il Collaudo lo boccia.
 
 Nessuna campagna parte prima che il ricontatto sia costruito e provato con almeno 20 contatti finti, per ciascuna porta. Se la pagina, il numero o la chat di prova non sono ancora pronti, si dice prima di proporre (§0.1, punto 4).
 
 **Perché la pagina con il numero come porta principale:**
 
 1. Su 50 inserzioni sopravvissute misurate nel mercato italiano, **nessuna porta a WhatsApp** (radar del 14 settembre 2026, due campioni indipendenti): portano tutte a un sito o a un modulo.
-2. **Chi chiama il numero prova il prodotto.** Nessun concorrente misurato fa sentire la voce dentro il percorso.
+2. **Chi chiama il numero prova il prodotto.** ~~Nessun concorrente misurato fa sentire la voce dentro il percorso.~~
+   *Superato il 10/10/2026 (decisione 36):* fonio chiama in pochi secondi chi inserisce il suo sito e Automatizza dà un
+   numero da chiamare (`conoscenza/concorrenti.md`). Far sentire la voce **non è più una differenza: è un requisito
+   minimo**. Al lancio serve almeno il numero da chiamare: senza, nessuna campagna parte.
 3. **Google ha bisogno di una pagina:** chi cerca «risponditore telefonico» atterra lì (§29). Una sola pagina serve entrambi i canali.
 4. **Il modulo dà dati strutturati** e Meta consegna il contatto già attaccato all'inserzione che lo ha prodotto: per questo resta, come seconda porta.
-5. **Il contatto in uscita è il nostro vantaggio, non un ripiego.** ARYA ricontatta in pochi minuti. Nessuno dei 24 concorrenti misurati lo fa.
+5. **Il contatto in uscita** ~~è il nostro vantaggio, non un ripiego. ARYA ricontatta in pochi minuti. Nessuno dei 24
+   concorrenti misurati lo fa.~~ *Superato il 10/10/2026 (decisione 36):* farsi richiamare lo offrono già fonio e
+   Automatizza. Anche questo **è un requisito minimo, non una differenza**: il ricontatto in pochi minuti resta
+   obbligatorio (§11), ma non si vende come cosa che gli altri non hanno.
+
+**Le differenze su cui puntiamo** (decisione 36, Ivan, 10/10/2026):
+- **l'attivazione la facciamo noi**;
+- **email e CRM collegati** (negli annunci solo con le funzioni vendibili di `conoscenza/arya-oggi.md`: email riga 19,
+  collegamenti ai programmi del cliente riga 14, da fascia Pro);
+- **una persona che richiama in 5 minuti**;
+- **assistenza in italiano**.
+Requisiti minimi, che ci vogliono ma non si vendono come differenza: il numero da chiamare per sentire la voce, il
+«fatti richiamare», la prova gratuita, più canali insieme (`conoscenza/apprendimenti.md`, lezioni 23-26).
 
 **Il rischio, dichiarato.** Il modulo abbassa la qualità dei contatti, ed è già successo a noi: la campagna dell'agenzia ha prodotto 162 contatti a 4,51 € l'uno, di cui 22 buoni — cioè **33 € a contatto valido**. Un modulo costa poco da compilare, quindi ne arrivano di più e valgono meno. La qualificazione la fa ARYA, non il modulo. Conseguenza operativa: **non si guarda mai il costo per modulo compilato. Si guarda il costo per contatto valido e per call fissata.**
 
