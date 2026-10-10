@@ -48,7 +48,9 @@ Tre prodotti. Un file datato per prodotto, **mai sovrascritto**: se cambia, nuov
 7. **Cosa non so.**
 
 **2. Una scheda per pezzo — `regia/AAAA-MM-GG-<titolo-breve>.md`**
-Segue `regia/MODELLO-SCHEDA.md`. Sta in **una pagina** (circa 40 righe). Le voci, in quest'ordine:
+Segue `regia/MODELLO-SCHEDA.md`. Sta in **una pagina** (circa 40 righe). In testa l'**id della scheda**: il nome del
+file senza `.md` (es. `2026-10-13-telefono-in-sala`, decisione 26). L'id segue il pezzo ovunque: cartella delle consegne,
+collaudo, bozza su Metricool, nome dell'inserzione. Le voci, in quest'ordine:
 
 | Voce | Cosa ci va |
 |---|---|
@@ -106,6 +108,11 @@ Una riga per reel o post: argomento, chi parla, formato, gancio (prime parole), 
 9. **Scrive "cosa vogliamo capire"**: una domanda sola, che i numeri della settimana possono chiudere come indizio.
 10. **Salva** la lista e le schede, aggiunge in archivio una riga per pezzo con date "da girare", e scrive la riga del
     cancello in `direttore/da-rivedere.md`.
+10bis. **Consegne (decisione 26).** Su OneDrive copia **ogni scheda** in `Company/Marketing/macchina-adv/regia/` (lo stesso
+    file, completo) e crea la cartella vuota `Company/Marketing/macchina-adv/consegne/<id-scheda>/`, dove chi gira carica
+    il pezzo finito come dice `consegne/LEGGIMI.md`. Se `macchina-adv/consegne/LEGGIMI.md` su OneDrive manca o è più
+    vecchio di quello dell'archivio, lo copia. Se la copia o la cartella non riescono, lo scrive in "Cosa non so" e in
+    `direttore/da-rivedere.md`: senza cartella la persona social non sa dove consegnare.
 11. **Martedì dopo le 12** rilegge `direttore/da-rivedere.md`. Se Ivan ha bocciato un argomento, al suo posto va la
     riserva (Ivan l'ha già vista nella stessa lista); si segna in archivio "bocciato da Ivan il [data]". Nessun'altra
     modifica alla lista: se serve, file nuovo con nuova data.
@@ -128,7 +135,9 @@ Una riga per reel o post: argomento, chi parla, formato, gancio (prime parole), 
 - **Non tocca Meta** (nemmeno in lettura: i numeri li legge Numeri) e **non tocca il CRM**.
 - **Non spende:** nessuno strumento a pagamento (generatori di immagini o video) senza il sì di Ivan (decisioni 5 e 6).
 - **Non approva** al posto di Ivan e **non collauda**: il controllo lo fa Collaudo il giovedì.
-- **Non manda** email o messaggi a nessuno: la persona social trova le schede in archivio e su OneDrive.
+- **Non manda** email o messaggi a nessuno: la persona social trova le schede in archivio e su OneDrive, e consegna in
+  `macchina-adv/consegne/<id-scheda>/`.
+- **Non collauda le consegne** e non pubblica niente (né su Meta né su Metricool).
 - **Dati personali:** nessun nome, telefono o email di persone esterne. Se un file letto ne contiene, si salta e si segnala.
 - **Niente invenzioni:** se manca un dato (la chiusura, la carta, il piano, i numeri), si scrive cosa manca.
 
@@ -140,7 +149,8 @@ a. **Apprendimenti:** in `conoscenza/apprendimenti.md`, una riga per lezione: da
    diventa "superata" con motivo e data.
 b. **Salvataggio:** un commit per lavoro, messaggio in italiano chiaro, es.
    "regia: argomenti 12-16 ottobre, 4 idee, 4 volti, riserva sul B&B".
-c. **Copia su OneDrive:** lista e schede in `Company/Marketing/macchina-adv/regia/` (qui le legge la persona social).
+c. **Copia su OneDrive:** lista e schede in `Company/Marketing/macchina-adv/regia/` (qui le legge la persona social), più la
+   cartella vuota `macchina-adv/consegne/<id-scheda>/` per ogni scheda (passo 10bis).
 d. **Da rivedere:** in `direttore/da-rivedere.md` la riga del cancello del lunedì (scadenza martedì alle 12) e ogni
    decisione che serve a Ivan (es. la chiusura comune, una promessa che manca).
 

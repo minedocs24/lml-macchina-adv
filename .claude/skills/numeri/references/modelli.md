@@ -5,19 +5,30 @@ Il CRM si legge con «LML CRM · Statistiche» (`numeri_pubblicita`), guida in `
 
 ---
 
-## 1. Semaforo — `numeri/AAAA-MM-GG-semaforo.md`
+## 1. Il file del giorno — `numeri/AAAA-MM-GG.md` (dal 10/10/2026, decisione 29; prima `-semaforo.md`)
 
-Si scrive **solo** se c'è almeno un allarme.
+Con spesa in corso ogni giorno; senza spesa **solo** se c'è almeno un allarme.
 
 ```
-# Semaforo — AAAA-MM-GG
+# Numeri del giorno — AAAA-MM-GG (dati di ieri, AAAA-MM-GG)
 
-Letto: Meta alle [ora] · Google [alle ora / non collegato] · CRM alle [ora]
-File: CLAUDE.md [data] · decisioni.md [data] · regole-adv.md 3.0 [data] · crm-statistiche.md [data]
+Letto: Meta alle [ora] · Google: report nella posta di Ivan delle [ora] / non arrivato · CRM alle [ora] · pagina alle [ora]
+File: CLAUDE.md [data] · decisioni.md [data] · regole-adv.md 3.0 [data] · crm-statistiche.md [data] · file del giorno di [ieri], [l'altro ieri]
+Notifica a Ivan: sì ([testo]) / no
 
-## [n] allarmi, dal più urgente
+## Allarmi con notifica (N1-N6), dal più urgente
+**[N2 — PAGINA NON RAGGIUNGIBILE]** [codice, ora delle due prove] · soglia: 2xx e "Arya" nella pagina · proposta: [una riga] · decide: Ivan, cancello spesa
+*(se nessuno: "Nessuno")*
 
+## Altri allarmi (senza notifica)
 **[ALLARME]** [cosa] · [numero] · soglia [soglia, fonte] · proposta: [una riga] · decide: Ivan, cancello [spesa/altro]
+
+## Il giorno, per campagna e inserzione (fronte prodotti Arya)
+| Canale | Campagna (ID) | Inserzione (ID · id scheda) | Spesa ieri | Impression | Clic sul link | Frequenza 7 g | Clic 7 g / 7 g prima | Contatti | Validi | Non verificati | € per contatto valido, 7 g |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+
+Tetti: contatto valido 50 € · demo fatta 150 € · cliente 600 € (decisione 16). Doppio del tetto (N5): 100 € a contatto valido.
+Giorni di fila sopra 100 € per campagna: [ID: n giorni] (da questo file e dai due prima).
 
 ## Controllato e a posto
 [una riga sola]

@@ -26,6 +26,18 @@ regia/archivio-pezzi.md del [ ]
 
 ## [Pezzo] — ESITO: [VERDE / GIALLO / ROSSO]
 
+**Consegna** (`macchina-adv/consegne/<id-scheda>/`, versione letta: [v1 / v2…]):
+| File | C'è? | Esito | Nota |
+|---|---|---|---|
+| pezzo (video / immagine) | | | |
+| testo-post.txt | | | |
+| trascrizione.txt | | | senza: GIALLO con la richiesta |
+| primo-fotogramma.jpg | | | |
+| sottotitoli.srt (se esportati) | | | senza: lieve, "Cosa non so" |
+| Arya parla? prima frase con "assistente virtuale/automatico" | | | se manca: ROSSO |
+
+Esito accanto al pezzo scritto in `consegne/<id-scheda>/collaudo-AAAA-MM-GG.md`: [sì / no → perché]
+
 | # | Controllo | Esito | Nota |
 |---|---|---|---|
 | 1 | Promesse (solo righe vendibili) | | |
