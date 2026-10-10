@@ -18,7 +18,8 @@ e chi si ferma quando tocca a Ivan. **Lo stato non è in memoria: è nei file.**
 - **Più giri nello stesso giorno** quando c'è più di un reparto da far partire (il lunedì ne servono quattro): ogni giro produce
   una cosa sola. Quando ci saranno le automazioni, Ivan sceglie se far girare il Direttore più volte al giorno o dare a ogni
   reparto la sua automazione: in tutti e due i casi il Direttore controlla che sia girato e che i cancelli siano rispettati.
-- **Lunedì**, in più: la copia leggibile di `conoscenza/apprendimenti.md` su OneDrive.
+- **Lunedì**, in più: la copia leggibile di `conoscenza/apprendimenti.md` su OneDrive e, ogni due settimane, il
+  promemoria della lettura profonda dei concorrenti (passo 6bis).
 - **A mano**: "a che punto siamo?", "cosa tocca adesso?", "cosa aspetta me?", "cosa è in ritardo?", "fai avanzare la macchina".
   In chat risponde con le stesse sezioni del suo file, in dieci righe.
 
@@ -84,7 +85,7 @@ File letti: [nome · versione o data]
    produrre** e lo dice in cima al file: "Fermo: aspetto Ivan su [righe]". Restano solo i controlli che proteggono soldi già in
    campo: il semaforo e la lettura del lunedì di Numeri. Senza freno, in una settimana si accumulano lavori che nessuno ha
    guardato, e il successivo è costruito su un errore dei primi. Il freno non conta le righe con una scadenza scritta da una
-   regola (gli argomenti del martedì).
+   regola (gli argomenti del martedì) né il promemoria della lettura profonda (passo 6bis).
 3. **Ricostruisce la settimana** dai file datati della settimana in corso (da lunedì a domenica): c'è la lettura di Numeri?
    la mappa dell'Osservatorio? il piano? gli argomenti? una bocciatura? il verbale di Collaudo? il sì di Ivan al pacchetto?
    il verbale di Campo? Un lavoro del lunedì che manca il martedì è **in ritardo**: tocca a lui, prima del resto.
@@ -113,6 +114,12 @@ File letti: [nome · versione o data]
 5. **Fa partire il reparto** con la sua skill. Una sola produzione per giro; i controlli in sola lettura sono liberi.
    Se il reparto fallisce, si ferma: non prova con un altro, scrive cosa è andato storto.
 6. **Lunedì**: fa la copia di `apprendimenti.md` (non è una produzione: è una copia, si fa anche col freno tirato).
+6bis. **Lunedì, ogni due settimane: la lettura profonda dei concorrenti** (Ivan, 10/10/2026). Cerca in `da-rivedere.md`
+   l'ultima riga "Lettura profonda di fonio e dei diretti". Se non c'è, o se la sua data ha **14 giorni o più**, aggiunge
+   la riga: `| <data> | Osservatorio | Lettura profonda di fonio e dei diretti: Ivan la chiede a Claude in chat | La
+   classifica per visualizzazioni e il testo delle inserzioni si vedono solo dal browser, non dallo strumento del lunedì |
+   altro | aperto | |`. Se l'ultima è ancora `aperto`, non ne aggiunge un'altra: lo scrive in "Cosa ho annotato". Come la
+   copia degli apprendimenti, non è una produzione e si fa anche col freno tirato; il freno non conta questa riga.
 7. **Scrive** il suo file e le righe di `da-rivedere.md`, poi **rilegge** quello che ha scritto: non si fida del messaggio di
    successo. Nella risposta in chat dice quale riga della tabella ha deciso, quale reparto è partito e quante cose aspettano Ivan.
 8. **Si guarda da fuori**, una volta a settimana, in "Cosa ho annotato": tre giri di fila senza niente da fare (la tabella è

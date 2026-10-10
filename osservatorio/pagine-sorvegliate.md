@@ -1,6 +1,43 @@
 # Lista di sorveglianza — mercato degli assistenti AI che rispondono per le aziende (Italia)
 
-Copiata il 2026-10-08 da `archivio-lml-adv/radar/panoramica/pagine.md` (primo giro dell'Osservatorio). Le righe sotto sono quelle di settembre, non aggiornate; gli aggiornamenti del 2026-10-08 sono in fondo.
+Copiata il 2026-10-08 da `archivio-lml-adv/radar/panoramica/pagine.md` (primo giro dell'Osservatorio). Le righe sotto sono quelle di settembre, non aggiornate; gli aggiornamenti del 2026-10-08 e del 2026-10-10 sono in fondo.
+
+## Livelli di sorveglianza (dal 2026-10-10)
+
+Decisi da Ivan il 10/10/2026, dopo la lettura dei concorrenti fatta in chat con il browser (riepilogo in
+`conoscenza/concorrenti.md`). L'**ID della pagina** si usa con `ads_library_search` nel campo `page_ids`, sempre con
+`countries: ["IT"]` e `ad_active_status: "ACTIVE"`.
+
+**Riferimento — ogni lunedì, in dettaglio** (cosa guardare: skill `osservatorio`, §A.4bis)
+| Pagina | ID | Cosa vende |
+|---|---|---|
+| fonio.ai | 448215355034775 | Servizio telefonico AI per PMI; dal 30/9 anche chatbot |
+
+**Diretti — ogni lunedì, in breve** (attive, nuove, titoli nuovi)
+| Pagina | ID | Cosa vende |
+|---|---|---|
+| Keplero AI | 109714925508770 | Telefono AI e assistenza su sito, WhatsApp, social ed email |
+| DeepAgent | 595983556922469 | Telefono e WhatsApp per settori |
+| Heydiga (marchi Digafood e DigaLook) | 719004331302237 | Un marchio per settore: ristoranti, appuntamenti |
+| Spoki (anche Spoki Voice) | 106598594310101 | Piattaforma WhatsApp; agente vocale per studi |
+| Automatizza | 1170748576131522 | CRM, agenda, telefono AI, WhatsApp ed email |
+
+**Indiretti — il primo lunedì del mese**
+| Pagina | ID | Cosa vende |
+|---|---|---|
+| Segretaria24.it | 770896056404702 | Segreteria umana a distanza |
+| Your Assist | 111263440344373 | Segreteria remota per medici di base |
+| respond.io | 633874670104937 | Casella unica per le conversazioni dei clienti. ID già in lista dal 14/09; ricontrollato il 10/10/2026 con `ads_library_search`: 18 inserzioni attive in Italia (valuta HKD) |
+
+**Esclusi — non si seguono** (restano scritti qui, con il motivo)
+| Pagina | ID | Motivo |
+|---|---|---|
+| Koecall | non annotato | Assistente per famiglie: non vende allo stesso cliente di Arya |
+| ZetaWeb | non annotato | Agenzia, non un prodotto |
+| Maia AI e automazioni | non annotato | Profilo rimosso |
+
+**Tutte le altre pagine di questa lista** restano al loro posto, come prima: si guardano nel giro del lunedì secondo la
+skill (pagine nuove, a rotazione 3-5 già note). Nessuna pagina si toglie.
 
 Lista comune a tutti i settori. Aggiornata al **2026-09-14** (prima panoramica).
 **Non si toglie mai una pagina:** se smette di fare pubblicità si annota "nessuna inserzione attiva al <data>".
@@ -112,3 +149,22 @@ Sempre fra virgolette, con `countries: ["IT"]` e `ad_active_status: "ACTIVE"`.
 | Heydiga, AirFlow.ai, leia.pharma, SinarLabs, Aurora-AI, Proxima AI, DeepAgent, Ambrogio, Readygoone, Maria by Voclair, Talki, Let's Co ecc. | — | — | **non riviste** in questo giro (nessuna ricerca per pagina) | — | — |
 
 Pagine uscite nelle ricerche ma **non** annotate: NCCpilot, Stryfai, Cads, Privyr, OneSearch, Talentform, Ultra Sammy (fuori bersaglio o non chiare dal solo titolo).
+
+## Aggiornamenti del 2026-10-10 (lettura in chat di Ivan e Claude, con il browser)
+
+Riepilogo completo in `conoscenza/concorrenti.md`. Qui solo lo stato delle pagine.
+
+| Pagina | Numero | Primo avvist. | Stato al 2026-10-10 | Cosa vende | Note |
+|---|---|---|---|---|---|
+| fonio.ai | 448215355034775 | 2026-09-14 | attiva, circa 130 inserzioni; blocchi nuovi il 18/9, il 30/9 e il 7/10 | Telefono AI per PMI; dal 30/9 anche chatbot con prova gratuita | livello **riferimento** |
+| Keplero AI | 109714925508770 | 2026-09-05 | attiva; alcune inserzioni da aprile 2026 | Telefono AI e assistenza su più canali | livello **diretto** |
+| DeepAgent | 595983556922469 | 2026-09-14 | attiva; inserzioni per officine, agenzie assicurative, concessionarie | Telefono e WhatsApp | livello **diretto** |
+| Heydiga (Digafood, DigaLook) | 719004331302237 | 2026-09-14 | attiva, circa 47 inserzioni, tutte dal 1/10 | Ristoranti; appuntamenti 24 ore su 24 | livello **diretto** |
+| Spoki (anche Spoki Voice) | 106598594310101 | 2026-09-05 | attiva; Spoki Voice dal 1/10 | WhatsApp; agente vocale per studi | livello **diretto** |
+| **Automatizza** | 1170748576131522 | **2026-10-10** | attiva; inserzioni dal 9/10 | CRM, agenda, telefono AI, WhatsApp ed email | **nuova**; livello **diretto** |
+| Segretaria24.it | 770896056404702 | 2026-09-14 | attiva; inserzioni dal 21/7 | Segreteria umana a distanza | livello **indiretto** |
+| **Your Assist** | 111263440344373 | **2026-10-10** | attiva | Segreteria remota per medici di base | **nuova**; livello **indiretto** |
+| respond.io | 633874670104937 | 2026-09-14 | attiva, 18 inserzioni in Italia (strumento, 10/10) | Casella unica conversazioni | livello **indiretto** |
+| Koecall | — | 2026-10-10 | — | Assistente per famiglie | **escluso** |
+| ZetaWeb | — | 2026-10-10 | — | Agenzia | **escluso** |
+| Maia AI e automazioni | — | 2026-10-10 | profilo rimosso | — | **escluso** |

@@ -13,6 +13,21 @@ novita-arya/ letta il [ ] · VERIFICA-FUNZIONI.md del [ ]
 **Termini di ricerca usati:** ["…" (risultati), …] · **Termine nuovo provato:** ["…"] — resa: [ ]
 **Tempo impiegato:** [ ]
 
+## 0. Fonio e i diretti (skill §A.4bis)
+**In cima, solo se c'è — fonio, mai visto prima:** [prodotto / prezzo / garanzia, con data di partenza e anteprima] — oppure togli questa riga.
+
+**fonio.ai (448215355034775)** · inserzioni attive in Italia: [ ] (giro precedente: [ ]) · blocchi nuovi: [quante, partite il …] · titoli nuovi: […]
+
+| Diretto | ID | Attive | Nuove dall'ultimo giro | Titoli nuovi |
+|---|---|---|---|---|
+| Keplero AI | 109714925508770 | | | |
+| DeepAgent | 595983556922469 | | | |
+| Heydiga (Digafood, DigaLook) | 719004331302237 | | | |
+| Spoki (anche Spoki Voice) | 106598594310101 | | | |
+| Automatizza | 1170748576131522 | | | |
+
+Solo il primo lunedì del mese, gli indiretti: Segretaria24.it (770896056404702) · Your Assist (111263440344373) · respond.io (633874670104937) — attive, nuove, titoli nuovi.
+
 ## 1. La riga secca
 [Una frase: cosa è cambiato dal giro precedente. Es.: "Due pagine nuove per gli studi medici; la prova gratuita è ormai in 7 pagine; si è spenta l'unica che dichiarava il prezzo."]
 

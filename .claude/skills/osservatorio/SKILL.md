@@ -24,7 +24,8 @@ Sempre:
 
 Del reparto:
 3. `osservatorio/pagine-sorvegliate.md` — la lista di sorveglianza (al primo giro si crea copiando le pagine dei
-   `pagine.md` di settembre, con la loro data di primo avvistamento).
+   `pagine.md` di settembre, con la loro data di primo avvistamento), con i livelli e gli ID; e
+   `conoscenza/concorrenti.md`, l'ultima lettura profonda dei concorrenti.
 4. `conoscenza/arya-oggi.md` — per confrontare le promesse dei concorrenti con le nostre funzioni vendibili.
 5. `regole/regole-adv.md` (3.0): §2bis (momenti d'ingresso), §3.1 (le due porte), §5.1, §10.1 (la mappa dei mestieri),
    §23, §26.
@@ -49,7 +50,10 @@ Un file datato per prodotto, **mai sovrascritto**: se cambia, nuovo file con nuo
    (recensioni e forum sui problemi di telefono, chat ed email), con le proposte per `conoscenza/customer-language.md`.
    Modello in `references/modello-voce.md`.
 3. **`osservatorio/pagine-sorvegliate.md`** — registro vivo, non un report: si aggiunge, non si toglie. Una pagina che
-   smette di fare pubblicità resta, con "nessuna inserzione attiva al <data>".
+   smette di fare pubblicità resta, con "nessuna inserzione attiva al <data>". In cima ci sono i **livelli di
+   sorveglianza** con l'ID di ogni pagina (§A.4bis).
+3bis. **`conoscenza/concorrenti.md`** — riepilogo dei concorrenti per Piano, Regia e Collaudo: una sezione datata per ogni
+   lettura profonda fatta nel browser (§A.4bis). Si aggiunge, non si riscrive.
 4. **`osservatorio/da-leggere.md`** — registro vivo, ogni lunedì: una sezione `## Giro del AAAA-MM-GG` con una riga per
    ogni inserzione nuova dei concorrenti (pagina · numero · data di partenza · titolo del link · indirizzo
    dell'anteprima · letta). Più di 10 nuove con lo stesso titolo nella stessa pagina: le prime 3 e il totale. Si
@@ -85,6 +89,23 @@ In chat, alla fine: dieci righe — la riga secca, le tre cose nuove, cosa non s
    **Si guardano anche le spente** (lezione 14): dicono cosa un concorrente ha provato e abbandonato. A fondo si
    profilano: le pagine nuove, le inserzioni che passano da "in scala" a "sopravvissuta", e a rotazione 3-5 pagine già
    note. Pagina con più di 30 attive: le 15 più vecchie e le 5 più recenti.
+4bis. **I livelli di sorveglianza** (Ivan, 10/10/2026; elenco con gli ID in `pagine-sorvegliate.md`). Con
+   `ads_library_search` si cerca per pagina: `page_ids` con l'ID, `countries: ["IT"]`, `ad_active_status: "ACTIVE"`,
+   `limit: 50`.
+   - **Riferimento — fonio.ai, ogni lunedì, in dettaglio:** numero di inserzioni attive in Italia (la stima dello
+     strumento), **blocchi nuovi** (inserzioni con date di partenza vicine fra loro, partite dopo il giro precedente:
+     quante, da che giorno), **titoli nuovi** (mai visti nei giri precedenti). Un **prodotto, un prezzo o una garanzia mai
+     visti prima** vanno **in cima al rapporto**, sopra la riga secca, e in `direttore/da-rivedere.md`.
+   - **Diretti — Keplero AI, DeepAgent, Heydiga, Spoki, Automatizza — ogni lunedì, in breve:** attive, nuove dall'ultimo
+     giro, titoli nuovi. Una riga per pagina.
+   - **Indiretti — Segretaria24.it, Your Assist, respond.io — il primo lunedì del mese:** le stesse tre cose.
+   - **Esclusi** (Koecall, ZetaWeb, Maia AI e automazioni): non si cercano.
+   - **Le altre pagine della lista** restano come prima (punto 4).
+   **La lettura profonda** — la classifica per visualizzazioni e il testo delle inserzioni — si vede solo dal sito della
+   Libreria nel browser, non dallo strumento. Ogni due settimane il Direttore mette in `direttore/da-rivedere.md` la riga
+   "Lettura profonda di fonio e dei diretti: Ivan la chiede a Claude in chat". Quello che si legge allora va in
+   `conoscenza/concorrenti.md`, in una sezione datata nuova (le vecchie non si toccano), e le pagine in
+   `pagine-sorvegliate.md`.
 5. **Tre livelli, dai giorni in aria:** sopravvissuta (60 giorni o più) · in scala (14-59; conta se ha copie duplicate) ·
    rumore (meno di 14: si registra e basta). Unica eccezione: lo stesso messaggio nuovo in **tre o più pagine** nello
    stesso mese è una **mossa di mercato** e si segnala. Il numero di inserzioni non dice il budget.
