@@ -60,7 +60,10 @@ sono di settembre. **Dove dice cose diverse, valgono §8 e §9 di `regole-adv.md
    Ivan. Rosso: non si monta. Pacchetto approvato da Ivan: si copia il suo sì **testuale**. Un "procedi" generico su un
    piano non vale come sì sulle scritture (meta-scrittura-sicura, regola zero).
 2. **Sceglie la porta di ogni pezzo come scritto nel piano**, senza decidere da sé:
-   - **porta principale, pagina Arya** (chiama il numero, prova la chat, fatti richiamare), su Meta e su Google;
+   - **porta principale, pagina Arya** (chiama il numero, prova la chat, fatti richiamare), su Meta e su Google.
+     L'indirizzo è la **pagina degli annunci** scritta in `CLAUDE.md` ("Impostazioni"): si legge da lì ogni volta, non si
+     ricopia. Il link di ogni inserzione è quell'indirizzo più `?promo=<codice>` della promozione del pezzo (scheda in
+     `regia/`; se non ne cita nessuna, la "predefinita" di `elenco_promozioni`; decisioni 23 e 24);
    - **seconda porta, modulo Meta**: nome, telefono, attività facoltativa, consenso separato con informativa.
    Mai una campagna dei prodotti direttamente verso una chat WhatsApp (§26). Un fronte solo per campagna (§6).
 3. **Struttura.** La dice il pacchetto approvato. Se non la dice, proposta di partenza da far approvare: una campagna per

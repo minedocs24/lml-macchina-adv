@@ -1,5 +1,8 @@
 # Collegamento con il CRM LML — come i Numeri leggono i contatti
 
+> **Superato il 10/10/2026** dalla decisione 21: la guida al CRM ora è `conoscenza/crm-statistiche.md` (connettore
+> «LML CRM · Statistiche», sola lettura). Questo file resta come storia: è stato scritto senza il connettore.
+
 Versione del 7/10/2026. Il CRM LML è **l'unico posto dei contatti** (CLAUDE.md): richieste, trattative, clienti.
 L'Excel di settembre (`Archivio-contatti-LML.xlsx`) va in pensione.
 **Solo lettura.** La macchina non scrive niente nel CRM: niente creazioni, modifiche, cambi di fase, note, offerte, invii.

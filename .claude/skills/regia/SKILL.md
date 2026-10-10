@@ -21,7 +21,8 @@ Sempre, prima di scrivere una riga:
 1. `CLAUDE.md`, `regole/decisioni.md`, `conoscenza/apprendimenti.md`.
 2. L'ultimo file datato in `regia/` (di solito la lista argomenti della settimana prima) e `regia/archivio-pezzi.md`.
 3. `conoscenza/arya-oggi.md` — **unica fonte** su Arya. Si usano solo le righe "vendibile", con la fascia giusta.
-   Prezzi e condizioni solo da `conoscenza/offerta.md`.
+   Prezzi e condizioni solo da `conoscenza/offerta.md` (specchio di `elenco_promozioni` del CRM, decisione 22); nella
+   scheda si scrive il codice della promozione citata, che va nel link come `promo=` (decisione 23).
 4. `regole/regole-adv.md` (3.0): §1 (cancelli), §2bis (segni distintivi), §3.1 (le due porte), §5.1, §17.1, §18, §21, §23, §26.
 5. Il piano della settimana: l'ultimo `piano/AAAA-MM-GG-*.md` (cosa provare, a chi, con quanto budget).
 6. `piano/carta-dei-messaggi.md` — i messaggi ammessi e già provati.

@@ -10,7 +10,10 @@ Il copione completo si scrive solo se lo chiede chi gira.
 **Argomento:** (il problema, in una frase: chiamate perse · WhatsApp senza risposta · email arretrate · fuori orario · richieste ripetitive)
 
 **Promessa ammessa:** (una sola, presa dalle funzioni **vendibili** di `conoscenza/arya-oggi.md`, con il numero della riga; niente prezzi
-o condizioni fuori da `conoscenza/offerta.md`)
+o condizioni fuori da `conoscenza/offerta.md`, lo specchio del listino e delle promozioni del CRM)
+
+**Promozione citata:** (il codice della promozione da `conoscenza/offerta.md`, es. `LANCIO`, oppure "nessuna": va nel link come
+`promo=`, decisione 23)
 
 **Formato e durata:** (reel verticale 9:16 · post 4:5 · statica 1:1 — 15-30 secondi; comprensibile anche senza audio, con sottotitoli)
 

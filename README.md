@@ -10,11 +10,12 @@ Questo archivio è l'unico posto in cui la macchina tiene regole, conoscenza, sk
 | le decisioni in vigore (budget, tetti, offerta, prezzi) | `regole/decisioni.md` |
 | le regole pubblicitarie complete (3.1) | `regole/regole-adv.md` |
 | cosa Arya fa oggi e cosa si può promettere | `conoscenza/arya-oggi.md` |
-| prezzi, condizioni e offerta di lancio | `conoscenza/offerta.md` |
+| prezzi, condizioni e offerta di lancio | `conoscenza/offerta.md` (specchio di `elenco_promozioni` del CRM) |
 | cosa abbiamo imparato finora | `conoscenza/apprendimenti.md` |
 | le idee da provare | `piano/carta-dei-messaggi.md` |
 | il modello della scheda di un reel o post | `regia/MODELLO-SCHEDA.md` |
-| come si leggono i contatti dal CRM | `numeri/collegamento-crm.md` |
+| come si leggono i contatti dal CRM | `conoscenza/crm-statistiche.md` (connettore «LML CRM · Statistiche»; `numeri/collegamento-crm.md` è superato) |
+| indirizzo della pagina degli annunci | `CLAUDE.md`, sezione "Impostazioni" |
 | cosa deve decidere Ivan | `direttore/da-rivedere.md` |
 | i numeri settimana per settimana | `numeri/storico.csv` |
 | ogni reel o post pubblicato e com'è andato | `regia/archivio-pezzi.md` |

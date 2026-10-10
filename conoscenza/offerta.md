@@ -1,86 +1,104 @@
-# L'offerta di Arya — prezzi e condizioni
+# L'offerta di Arya — specchio del listino e delle promozioni del CRM
 
-Versione del 7/10/2026. Fonti: decisione 3 (`regole/decisioni.md`), istruzioni di Ivan del 7/10/2026, listini ufficiali in OneDrive
-`Company/Commerciale/Prodotti/Suite ARYA/` (ARYA Voice, settembre 2026; Customer Care AI e a-Mail, luglio 2026).
-**Valgono le decisioni di Ivan arrivate dopo i PDF** (in fondo: "Listini PDF da aggiornare"). Importi IVA esclusa.
+**Questo file non si scrive a mano** (decisione 22). È lo specchio di `elenco_promozioni` del connettore
+«LML CRM · Statistiche» (`conoscenza/crm-statistiche.md`) e lo aggiorna **l'Osservatorio ogni lunedì**.
+Se il CRM e questo file non dicono la stessa cosa, **vale il CRM**: il Collaudo legge `elenco_promozioni` direttamente.
+
+**Ultima lettura:** 2026-10-10 · listino `2026-10` «Listino ottobre 2026», valido dal 2026-10-01.
+Importi IVA esclusa. Nel CRM sono in millesimi di euro: qui sono convertiti in euro.
 Cosa fa Arya, funzione per funzione: `conoscenza/arya-oggi.md`.
+La versione del 7/10/2026 scritta a mano è nella storia dell'archivio (git); le sue regole sono le decisioni 3, 10, 14, 15, 20.
 
-## In due righe, per il cliente
-Paghi una cifra all'inizio per farlo partire bene, un canone al mese, e poi solo il lavoro che Arya chiude davvero da sola.
-Il contratto dura 24 mesi, ma puoi uscire quando vuoi con 60 giorni di preavviso.
+## Promozioni attive e future
+| Codice (`promo=`) | Nome | Dal | Al | Prodotti | Prova | Attivazione | Requisiti | Posti | Posti rimasti | Predefinita |
+|---|---|---|---|---|---|---|---|---|---|---|
+| `LANCIO` | Offerta di lancio | 2026-10-01 | nessuna scadenza nel CRM | tutta la suite | 15 giorni | inclusa | referenza completa | 10 | 10 | sì |
 
-## Le condizioni, uguali per tutti
-- **Durata: 24 mesi**, con **recesso libero** dando **60 giorni di preavviso**.
-- **Messa in servizio** (il lavoro per farlo partire: conoscenza, catalogo, regole, prove, primo mese di taratura): si paga una volta,
-  **anche in 3 rate**.
-- **Canone mensile**: assistenza LML, aggiornamenti, linee e caselle comprese. Non include il consumo.
-  **Il canone resta bloccato per tutti i 24 mesi**; il blocco vale solo per il canone, non per i consumi (decisione 20).
-- **Consumo**: si paga solo quando Arya ha chiuso la richiesta da sola. Nessun minimo, nessun volume incluso.
-- **Tetto di spesa**: lo imposta il cliente dal pannello; vede il conteggio in ogni momento.
-- **Pacchetti prepagati**: sconto del 15% per chi vuole una cifra fissa (dai listini).
+Testo della promozione nel CRM: «Offerta di lancio per i primi 10 clienti: 15 giorni di prova gratuita e attivazione inclusa.»
+Link degli annunci che la citano: pagina degli annunci (CLAUDE.md, "Impostazioni") + `?promo=LANCIO` (decisione 23).
+Occupano un posto solo le prove in corso e i clienti. Con meno di 3 posti rimasti, i Numeri avvisano Ivan.
 
-## L'offerta di lancio — solo per i primi 10 clienti Arya
-**10 in totale su tutta la suite** (Voice, Customer Care e a-Mail insieme), non 10 per prodotto (decisione 15).
-- **Prova gratuita di 15 giorni prima della firma.**
-- **Messa in servizio inclusa.**
-- In cambio si chiede la **referenza completa** (decisione 14): logo, caso studio con mezz'ora registrata, referenza
-  telefonica, verifica dei risultati a 90 giorni. Per tutti gli altri clienti vale la clausola di referenza standard del contratto.
-- Il contratto resta di 24 mesi con recesso libero a 60 giorni.
-- **Si rivede al controllo di fine dicembre 2026.** Dall'undicesimo cliente, o dopo la revisione, valgono le condizioni normali.
-
-Come dirlo: "Per i primi dieci clienti la partenza è inclusa e lo provi quindici giorni prima di firmare." Non dire "gratis per sempre",
-non dire "sconto": i prezzi sono questi per tutti.
-
-## I prezzi
+## Listino in vigore
 
 ### ARYA Voice — telefono
 | Voce | Base | Pro | Scale |
 |---|---|---|---|
-| Messa in servizio (una volta, fino a 3 rate) | 1.900 € | 3.500 € | 5.900 € |
+| Messa in servizio (una volta) | 1.900 € | 3.500 € | 5.900 € |
 | Canone al mese | 129 € | 249 € | 490 € |
-| Chiamata risolta da Arya (fino a 5 minuti) | 0,69 € | 0,55 € | 0,45 € |
-| Minuti oltre il quinto | 0,19 €/min | 0,19 €/min | 0,19 €/min |
-| Chiamata passata a una persona | 0,35 € | gratis | gratis |
-| Chiamate in contemporanea comprese | 2 | 6 | 12 |
-| Linea in più, al mese | 35 € | 29 € | 25 € |
-| Numeri compresi (numero in più: 5 € al mese) | 1 | 2 | 5 |
-| Collegamenti a programmi esterni compresi (oltre: 49 € al mese) | — | 2 | 5 |
+| Chiamata risolta | 0,69 € | 0,55 € | 0,45 € |
+| Chiamata passata | 0,35 € | 0 € | 0 € |
+| Minuto oltre il quinto | 0,19 € | 0,19 € | 0,19 € |
+| Linea aggiuntiva, al mese | 35 € | 29 € | 25 € |
+| Numero aggiuntivo, al mese | 5 € | 5 € | 5 € |
+| Collegamento standard oltre gli inclusi, al mese | 49 € | 49 € | 49 € |
+| Collegamento su misura, sviluppo (una volta) | 900 € | 900 € | 900 € |
+| Collegamento su misura, presidio, al mese | 79 € | 79 € | 79 € |
+| Durata · recesso | 24 mesi · 60 giorni | 24 mesi · 60 giorni | 24 mesi · 60 giorni |
 
-Non si paga: chiamate sotto i 30 secondi, la stessa persona che richiama entro 30 minuti, chiamate mute o pubblicitarie,
-chiamate perse per un nostro guasto. Il numero del cliente resta suo: si imposta una deviazione.
-
-### Arya Customer Care — chat e WhatsApp
+### ARYA Customer Care — chat e WhatsApp
 | Voce | Base | Pro | Scale |
 |---|---|---|---|
-| Messa in servizio (una volta, fino a 3 rate) | 1.500 € | 2.900 € | 4.900 € |
+| Messa in servizio (una volta) | 1.500 € | 2.900 € | 4.900 € |
 | Canone al mese | 98 € | 189 € | 290 € |
-| Conversazione risolta da Arya | 0,30 € | 0,22 € | 0,15 € |
-| Conversazione passata a una persona | 0,15 € | gratis | gratis |
+| Conversazione risolta | 0,30 € | 0,22 € | 0,15 € |
+| Conversazione passata | 0,15 € | 0 € | 0 € |
 | Conversazione risolta con chiavi AI del cliente | — | — | 0,08 € |
-| Collegamenti a programmi esterni compresi (oltre: 49 € al mese) | — | 2 | 5 |
-
-Operatori nel pannello illimitati in tutte le fasce. Non si paga: saluti e messaggi fuori tema, il messaggio di benvenuto,
-la stessa domanda riaperta entro 6 ore.
+| Connettore oltre gli inclusi, al mese | 49 € | 49 € | 49 € |
+| Connettore proprietario, sviluppo (una volta) | 900 € | 900 € | 900 € |
+| Connettore proprietario, presidio, al mese | 79 € | 79 € | 79 € |
+| Durata · recesso | 24 mesi · 60 giorni | 24 mesi · 60 giorni | 24 mesi · 60 giorni |
 
 ### a-Mail — email
 | Voce | Start | Crescita | Impresa |
 |---|---|---|---|
-| Messa in servizio (una volta, fino a 3 rate) | 1.900 € | 3.500 € | 5.900 € |
+| Messa in servizio (una volta) | 1.900 € | 3.500 € | 5.900 € |
 | Canone al mese | 129 € | 249 € | 490 € |
-| Email portata a un esito utile | 0,20 € | 0,15 € | 0,10 € |
-| Email in errore o con azione rifiutata | gratis | gratis | gratis |
-| Caselle comprese | 10 | 30 | 100 |
-| Casella in più, al mese | 6 € | 5 € | 4 € |
+| Email con esito utile | 0,20 € | 0,15 € | 0,10 € |
+| Casella aggiuntiva, al mese | 6 € | 5 € | 4 € |
+| Durata · recesso | 24 mesi · 60 giorni | 24 mesi · 60 giorni | 24 mesi · 60 giorni |
 
-Newsletter, notifiche e ricevute vengono scartate prima e non si pagano. Oltre 100 caselle si quota a progetto.
+### ARYA Food (nel listino del CRM; **non** è fra i prodotti della macchina in CLAUDE.md)
+| Voce | Base | Pro | Scale |
+|---|---|---|---|
+| Messa in servizio | non indicata nel CRM | non indicata nel CRM | non indicata nel CRM |
+| Canone al mese | 79 € | 149 € | 249 € |
+| Chiamate comprese · chiamata in più | 120 · 0,49 € | 280 · 0,45 € | 500 · 0,42 € |
+| Chat WhatsApp, canone al mese | 15 € | 29 € | 49 € |
+| Chat comprese · chat in più | 100 · 0,19 € | 200 · 0,17 € | 400 · 0,15 € |
+| Comandi del titolare, canone al mese | 9 € | 15 € | 25 € |
+| Comandi compresi · comando in più | 50 · 0,20 € | 100 · 0,18 € | 200 · 0,15 € |
+| Linea aggiuntiva, al mese | — | 29 € | 25 € |
+| Durata · recesso | 24 mesi · 60 giorni | 24 mesi · 60 giorni | 24 mesi · 60 giorni |
 
-### Collegamento su misura (Voice e Customer Care)
-Quando il gestionale del cliente non è già predisposto, lo costruiamo noi: **900 € di sviluppo più 79 € al mese** di presidio
-(prezzo della colonna "lancio", ora definitivo). Il prezzo si conferma solo dopo la verifica tecnica del sistema.
+Negli annunci ARYA Food **non entra** finché Ivan non lo aggiunge ai prodotti (CLAUDE.md) e `arya-oggi.md` non lo descrive.
+
+## Le condizioni, dalle decisioni di Ivan (non cambiano con il listino)
+- **Durata 24 mesi**, con **recesso libero** dando **60 giorni di preavviso** (decisione 3; nel CRM: 24 e 60 per tutte le fasce).
+- **Messa in servizio** fino a **3 rate** (decisione 3).
+- **Canone bloccato per 24 mesi**: vale solo per il canone, non per i consumi (decisione 20).
+- **Offerta di lancio**: primi 10 clienti Arya **in tutto, su tutta la suite** (decisione 15); in cambio la referenza completa
+  — logo, caso studio con mezz'ora registrata, referenza telefonica, verifica dei risultati a 90 giorni (decisione 14).
+  Si rivede al controllo di fine dicembre 2026 (decisione 3).
+
+Come dirlo: "Per i primi dieci clienti la partenza è inclusa e lo provi quindici giorni prima di firmare." Non dire "gratis per sempre",
+non dire "sconto": i prezzi sono questi per tutti.
+
+## Cosa comprende ogni fascia (dai listini PDF del 7/10/2026: **non** è in `elenco_promozioni`)
+Non sono prezzi: sono quantità e casi in cui non si paga. Restano qui finché il CRM non li riporta.
+- **ARYA Voice:** chiamate in contemporanea comprese 2 / 6 / 12; numeri compresi 1 / 2 / 5; collegamenti a programmi esterni
+  compresi — / 2 / 5. Non si pagano: chiamate sotto i 30 secondi, la stessa persona che richiama entro 30 minuti, chiamate mute
+  o pubblicitarie, chiamate perse per un nostro guasto. Il numero del cliente resta suo: si imposta una deviazione.
+- **Customer Care:** operatori nel pannello illimitati; collegamenti compresi — / 2 / 5. Non si pagano: saluti e messaggi fuori
+  tema, il messaggio di benvenuto, la stessa domanda riaperta entro 6 ore.
+- **a-Mail:** caselle comprese 10 / 30 / 100; email in errore o con azione rifiutata gratis; newsletter, notifiche e ricevute
+  scartate prima e non pagate; oltre 100 caselle si quota a progetto.
+- **Consumo** solo quando Arya chiude la richiesta da sola; nessun minimo; tetto di spesa impostato dal cliente nel pannello.
 
 ## Cosa non si promette
+- Prezzi o promozioni che non sono in `elenco_promozioni` il giorno del collaudo, o scaduti, o con zero posti rimasti
+  (decisione 22). Per esempio i **pacchetti prepagati con sconto del 15%** dei PDF: nel CRM non ci sono.
 - Risultati economici garantiti, o percentuali di miglioramento senza un caso documentato.
-- La prova gratuita oltre i primi 10 clienti, o più lunga di 15 giorni, o dopo la firma.
+- La prova gratuita oltre i primi 10 clienti, o più lunga di quanto dice la promozione, o dopo la firma.
 - Funzioni non "vendibili" in `arya-oggi.md`: risposta in meno di un secondo, stesso numero su WhatsApp Business e Arya,
   collegamento del numero da soli.
 - Sulla fascia più bassa ciò che è compreso solo dalle fasce superiori (voce e immagini in chat, riconoscimento del chiamante,
@@ -88,24 +106,20 @@ Quando il gestionale del cliente non è già predisposto, lo costruiamo noi: **9
 - Chiamate in uscita automatiche (richiami, promemoria, campagne) e numeri verdi: fuori listino.
 - a-Mail: analisi degli allegati e notifiche fuori dal pannello.
 - Il prezzo di un collegamento su misura prima della verifica tecnica.
-- Un "prezzo di listino" più alto da cui si fa lo sconto: non esiste più.
+- Un "prezzo di listino" più alto da cui si fa lo sconto: non esiste.
 
 ## Listini PDF da aggiornare
-I tre PDF in `Company/Commerciale/Prodotti/Suite ARYA/` dicono cose superate dalle decisioni di Ivan. Differenze:
-
-| # | Nei PDF | Ora vale | Fonte |
-|---|---|---|---|
-| 1 | Due colonne: prezzo di listino (più alto) e prezzo di lancio solo per i primi dieci contratti | I prezzi della colonna "lancio" sono **i prezzi definitivi per tutti** | Ivan, 7/10/2026 |
-| 2 | Durata 12 mesi a listino, 24 mesi con il prezzo di lancio; rinnovo tacito, disdetta con 60 giorni | **Sempre 24 mesi, con recesso libero a 60 giorni di preavviso** | decisione 3 |
-| 3 | Messa in servizio "dilazionabile in tre mesi" | **Fino a 3 rate** | decisione 3 |
-| 4 | "Promettere una prova gratuita: non esiste" | **Prova gratuita di 15 giorni prima della firma per i primi 10 clienti Arya** | decisione 3 |
-| 5 | La messa in servizio non si sconta oltre il lancio | **Inclusa per i primi 10 clienti Arya** | decisione 3 |
-| 6 | Obiezione "24 mesi sono troppi": "chi preferisce sottoscrive a listino con 12 mesi" | Non vale più: la risposta è il recesso libero a 60 giorni | decisione 3 |
-| 7 | Collegamento su misura 1.200 € a listino, 900 € al lancio | 900 € (colonna lancio) + 79 € al mese | Ivan, 7/10/2026 (regola 1) |
-| 8 | Il prezzo di lancio si concede "solo contro 24 mesi e referenza" (logo, mezz'ora registrata, referenza telefonica), canone bloccato 24 mesi, verifica a 90 giorni | La referenza completa (logo, caso studio con mezz'ora registrata, referenza telefonica, verifica a 90 giorni) si chiede **solo ai primi 10 clienti Arya**; per tutti gli altri la clausola standard. Il canone bloccato per 24 mesi resta, per tutti, e vale solo per il canone, non per i consumi | decisioni 14 e 20 |
-| 9 | ARYA Voice, obiezione "è un robot": "risponde in meno di un secondo" | Non si promette (riga 6 di `arya-oggi.md`) finché non è misurato e chiarito | arya-oggi.md |
-
+I tre PDF in `Company/Commerciale/Prodotti/Suite ARYA/` dicono cose superate dalle decisioni di Ivan (elenco del 7/10/2026:
+due colonne listino/lancio, 12 mesi, "nessuna prova gratuita", collegamento 1.200 €, "risponde in meno di un secondo").
 I PDF originali non si modificano da qui: li aggiorna chi ne è responsabile.
 
+## Registro delle letture
+| Data | Listino | Promozioni | Chi | Cosa è cambiato |
+|---|---|---|---|---|
+| 2026-10-10 | 2026-10 (dal 2026-10-01) | LANCIO (10 posti, 10 rimasti) | prima lettura, sessione di collegamento al CRM | prima versione specchio; prezzi uguali alla versione a mano del 7/10/2026 |
+
 ## Cosa non so
-- Se i pacchetti prepagati scontati del 15% restano in vendita.
+- La data di fine dell'offerta di lancio: nel CRM è vuota; la decisione 3 dice che si rivede a fine dicembre 2026.
+- La rateizzazione della messa in servizio e il canone bloccato non sono campi del CRM: valgono le decisioni 3 e 20.
+- Se ARYA Food diventerà un prodotto della macchina: lo decide Ivan.
+- Se i pacchetti prepagati scontati del 15% restano in vendita: nel CRM non ci sono, quindi negli annunci no.
