@@ -33,10 +33,11 @@ Entro settembre 2027: **120-150 clienti paganti** e **15.000-20.000 € al mese 
 6. Regole di spesa (partono con la Prova): partenza 50 €/giorno; controllo a 500 € spesi; stop se il costo per cliente supera 600 € sulle ultime 4 settimane (finestra mobile; nelle prime 4 settimane si giudica su contatti e demo); +20% ogni 2 settimane solo sotto i 600 €; **mai** soldi di stipendi, tasse o IVA.
 7. Tre cancelli umani: **promesse ammesse, pacchetto della settimana, spesa**. Claude propone, Ivan approva.
 
-Tetti (decisione 16): contatto valido 50 €, demo fatta 150 €, cliente 600 €. Le decisioni 8-35 sono in `regole/decisioni.md`
+Tetti (decisione 16): contatto valido 50 €, demo fatta 150 €, cliente 600 €. Le decisioni 8-37 sono in `regole/decisioni.md`
 (21-25: connettore CRM di sola lettura, listino e promozioni dal CRM, codice `promo=`, pagina degli annunci; 26-31: consegne,
 collaudo dei video, allarmi dei Numeri con notifica a Ivan, struttura Meta della Prova; 32-35: orari, pubblicazione organica
-dalla Meta Business Suite senza Metricool, niente a pagamento senza il sì di Ivan, pubblici della Prova).
+dalla Meta Business Suite senza Metricool, niente a pagamento senza il sì di Ivan, pubblici della Prova; 36-37: voce e
+ricontatto sono requisiti minimi, non differenze; mai far credere di parlare con una persona).
 
 ## Come si descrive Arya
 - Arya si descrive **solo** con `conoscenza/arya-oggi.md`. Niente funzioni prese da altre fonti o dalla memoria.
@@ -63,7 +64,7 @@ Ognuno ha la sua cartella e scrive file datati.
 Ogni reparto ha la sua skill in `.claude/skills/<reparto>/` (osservatorio, piano, regia, collaudo, campo, numeri, direttore);
 Messa in campo ha anche `organico` (testo dei post organici).
 `meta-scrittura-sicura` resta com'è e la usa Campo. Le skill di settembre sono in `.claude/skills/archivio/`.
-Le regole pubblicitarie sono in `regole/regole-adv.md` (3.1). I testi delle automazioni stanno in `prompt/`. Il lavoro di settembre 2026 è in `archivio-lml-adv/`
+Le regole pubblicitarie sono in `regole/regole-adv.md` (3.2). I testi delle automazioni stanno in `prompt/`. Il lavoro di settembre 2026 è in `archivio-lml-adv/`
 (solo da leggere: è storia, non regola; dove contraddice questo file, vale questo file).
 
 ## Il ritmo della settimana
