@@ -50,7 +50,7 @@ Tre prodotti. Un file datato per prodotto, **mai sovrascritto**: se cambia, nuov
 **2. Una scheda per pezzo — `regia/AAAA-MM-GG-<titolo-breve>.md`**
 Segue `regia/MODELLO-SCHEDA.md`. Sta in **una pagina** (circa 40 righe). In testa l'**id della scheda**: il nome del
 file senza `.md` (es. `2026-10-13-telefono-in-sala`, decisione 26). L'id segue il pezzo ovunque: cartella delle consegne,
-collaudo, bozza su Metricool, nome dell'inserzione. Le voci, in quest'ordine:
+collaudo, testo del post, nome dell'inserzione. Le voci, in quest'ordine:
 
 | Voce | Cosa ci va |
 |---|---|
@@ -137,7 +137,8 @@ Una riga per reel o post: argomento, chi parla, formato, gancio (prime parole), 
 - **Non approva** al posto di Ivan e **non collauda**: il controllo lo fa Collaudo il giovedì.
 - **Non manda** email o messaggi a nessuno: la persona social trova le schede in archivio e su OneDrive, e consegna in
   `macchina-adv/consegne/<id-scheda>/`.
-- **Non collauda le consegne** e non pubblica niente (né su Meta né su Metricool).
+- **Non collauda le consegne** e non pubblica niente: il testo del post lo prepara la skill `organico`, nello stesso
+  giro delle schede; i pezzi verdi li pubblica la persona social (decisione 33).
 - **Dati personali:** nessun nome, telefono o email di persone esterne. Se un file letto ne contiene, si salta e si segnala.
 - **Niente invenzioni:** se manca un dato (la chiusura, la carta, il piano, i numeri), si scrive cosa manca.
 

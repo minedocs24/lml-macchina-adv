@@ -1,17 +1,16 @@
 # Automazione "Direttore" — istruzioni
 
-**Serve anche il connettore Metricool** (dalla 1.2, decisione 28): il venerdì per le bozze in revisione dei pezzi verdi
-(skill `organico`), il lunedì per il Piano che legge quanti si fermano e quanto guardano. Solo bozze in revisione e
-letture: mai pubblicare. Serve anche **«LML CRM · Statistiche»**, solo per `elenco_promozioni` nel Collaudo del giovedì
-(decisione 27). **Connettori da collegare:** Microsoft 365, Metricool, LML CRM · Statistiche.
+**Serve anche «LML CRM · Statistiche»**, solo per `elenco_promozioni` nel Collaudo del giovedì (decisione 27).
+**Connettori da collegare:** Microsoft 365 e LML CRM · Statistiche. **Niente Metricool** (decisione 33): è a pagamento e
+non si usa; nessuno strumento a pagamento senza il sì di Ivan (decisione 34).
 
 **Quando gira:** giorni feriali (lunedì-venerdì) alle 8:00, ora italiana.
 **Dove:** sessione cloud sull'archivio GitHub `minedocs24/lml-macchina-adv`, ramo `main`.
-**Connettori:** **Microsoft 365** (OneDrive, per leggere `novita-arya/` e le consegne, e scrivere le copie in
-`macchina-adv/`), **Metricool** (bozze in revisione e statistiche), **LML CRM · Statistiche** (solo `elenco_promozioni`);
+**Connettori:** **Microsoft 365** (OneDrive, per leggere `novita-arya/` e le consegne, e scrivere le copie e i testi dei
+post in `macchina-adv/`), **LML CRM · Statistiche** (solo `elenco_promozioni`);
 li collega Ivan quando crea l'automazione. L'archivio GitHub è quello della sessione cloud. **Non si usano:** Meta,
 `lml-commerciale`, email, Teams.
-Versione 1.2 — 10 ottobre 2026 (1.1 del 7 ottobre). Si cambia solo con il sì di Ivan (richiesta di unione).
+Versione 1.3 — 10 ottobre 2026 (1.2 dello stesso giorno, 1.1 del 7 ottobre). Si cambia solo con il sì di Ivan (richiesta di unione).
 
 ---
 
@@ -45,11 +44,11 @@ Regia si fanno nello stesso giro e contano come un lavoro solo** (Ivan, 7/10/202
 
 | Giorno | Lavoro, se manca | Skill |
 |---|---|---|
-| lunedì | il piano della settimana (`piano/AAAA-MM-GG-piano-settimana.md`), dopo l'Osservatorio delle 7, con la lettura di **Metricool** sui pezzi organici (chi merita la spesa), **e** gli argomenti della Regia (`regia/AAAA-MM-GG-argomenti.md`, con un argomento di riserva e la riga del cancello "pacchetto": Ivan può bocciarne uno **entro martedì alle 12**) | `piano`, poi `regia` |
-| martedì | le schede di una pagina (`regia/`) per gli argomenti della lista e per la riserva, copiate su OneDrive `macchina-adv/regia/` con la cartella vuota `macchina-adv/consegne/<id-scheda>/`; dopo le 12, se c'è una bocciatura, la riserva prende il posto dell'argomento bocciato | `regia` |
+| lunedì | il piano della settimana (`piano/AAAA-MM-GG-piano-settimana.md`), dopo l'Osservatorio delle 7:00 e i Numeri delle 7:30 (la lettura della settimana è già pronta, decisione 32), **e** gli argomenti della Regia (`regia/AAAA-MM-GG-argomenti.md`, con un argomento di riserva e la riga del cancello "pacchetto": Ivan può bocciarne uno **entro martedì alle 12**) | `piano`, poi `regia` |
+| martedì | le schede di una pagina (`regia/`) per gli argomenti della lista e per la riserva, copiate su OneDrive `macchina-adv/regia/` con la cartella `macchina-adv/consegne/<id-scheda>/`, e nello stesso giro il **testo del post** di ogni scheda (`testo-post.txt` nella cartella delle consegne; conta come un lavoro solo); dopo le 12, se c'è una bocciatura, la riserva prende il posto dell'argomento bocciato | `regia`, poi `organico` |
 | mercoledì | niente da produrre (riprese della persona social e del cast); solo controlli | — |
 | giovedì | collaudo dei pezzi consegnati in `macchina-adv/consegne/<id-scheda>/` (`collaudo/`, e l'esito accanto al pezzo su OneDrive) | `collaudo` |
-| venerdì | i pezzi verdi diventano **bozze in revisione** su Metricool (`campo/AAAA-MM-GG-organico.md`): mai pubblicate da sole, le approva la persona social o Ivan. Ivan approva il pacchetto e attiva la spesa; Campo non gira in automatico | `organico` |
+| venerdì | niente da produrre: la persona social pubblica i pezzi verdi dalla Meta Business Suite con il testo approvato; Ivan approva il pacchetto e attiva la spesa; Campo non gira in automatico. Se il Collaudo ha chiesto di correggere un testo, la versione nuova (skill `organico`) | `organico`, solo per le correzioni |
 
 - Se il lavoro del giorno prima non è stato fatto (giro saltato, freno), lo recuperi **solo se è ancora utile** nella
   settimana, e sempre uno solo.
@@ -90,8 +89,7 @@ Poi:
 
 ## 6. Cosa non fai mai
 - Non scrivi su Meta e non lo apri. Del CRM leggi solo `elenco_promozioni`, per il Collaudo; non ci scrivi mai.
-- Su Metricool crei solo **bozze in revisione** (skill `organico`) e leggi le statistiche: mai pubblicare, mai approvare,
-  mai cambiare o cancellare un post.
+- Non pubblichi niente sui social e non usi strumenti a pagamento: prepari solo il testo dei post (skill `organico`).
 - Non attivi, non cambi budget, non elimini niente, da nessuna parte.
 - Non approvi niente al posto di Ivan; non trasformi una novità in promessa; non cambi le regole (le proponi).
 - Non mandi email, messaggi o notifiche a nessuno.

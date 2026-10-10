@@ -14,7 +14,7 @@ e chi si ferma quando tocca a Ivan. **Lo stato non è in memoria: è nei file.**
 ## Quando si usa
 - **Ogni giorno feriale, all'inizio della giornata**, prima dei reparti. Segue il ritmo della settimana di `CLAUDE.md`:
   lunedì Numeri, Osservatorio, Piano, Regia · martedì alle 12 scade la bocciatura degli argomenti · martedì-giovedì riprese
-  (persone, non reparti) · giovedì Collaudo · venerdì bozze in revisione su Metricool dei pezzi verdi, Ivan approva e Campo prepara in pausa · ogni giorno alle 8:30 Numeri (automazione a parte).
+  (persone, non reparti) · giovedì Collaudo · martedì anche i testi dei post · venerdì la persona social pubblica i verdi, Ivan approva e Campo prepara in pausa · ogni giorno alle 7:30 Numeri (automazione a parte, dal lancio).
 - **Più giri nello stesso giorno** quando c'è più di un reparto da far partire (il lunedì ne servono quattro): ogni giro produce
   una cosa sola. Quando ci saranno le automazioni, Ivan sceglie se far girare il Direttore più volte al giorno o dare a ogni
   reparto la sua automazione: in tutti e due i casi il Direttore controlla che sia girato e che i cancelli siano rispettati.
@@ -39,7 +39,7 @@ Poi, per questo reparto:
 9. La skill del reparto che sta per far partire: `.claude/skills/<reparto>/SKILL.md`. Se manca, quel reparto non parte e lo scrive.
 
 Il Direttore non ha bisogno di Meta: i numeri li legge Numeri. Del CRM usa solo `elenco_promozioni`, quando fa il
-Collaudo; Metricool lo usa per le bozze del venerdì e per la lettura del Piano del lunedì (decisioni 27-28). Nel suo file: versione e data dei file letti.
+Collaudo (decisione 27). Niente Metricool né altri strumenti a pagamento (decisioni 33-34). Nel suo file: versione e data dei file letti.
 
 ## Cosa produce
 **1. `direttore/AAAA-MM-GG.md`** — il riepilogo del giorno, corto. Se un secondo giro dello stesso giorno produce qualcosa,
@@ -102,7 +102,7 @@ File letti: [nome · versione o data]
 | 8 | C'è il piano ma manca `regia/AAAA-MM-GG-argomenti.md` (o, da martedì, mancano le schede) | **Regia** (argomenti, poi schede); poi controlla che ci sia la riga del cancello **pacchetto** (scadenza martedì alle 12) |
 | 9 | Martedì dopo le 12, argomenti senza bocciatura scritta | Stato `scaduto: si gira`; se c'è una bocciatura, la Regia mette la riserva. Nessuna produzione |
 | 10 | Da giovedì, ci sono pezzi nella cartella delle consegne (`macchina-adv/consegne/<id-scheda>/`) senza esito di Collaudo per l'ultima versione | **Collaudo** (verbale in `collaudo/` ed esito accanto al pezzo, decisione 27) |
-| 10bis | Da venerdì, ci sono pezzi verdi senza bozza in revisione su Metricool, e in `CLAUDE.md` ci sono marchio e revisori | **Organico** (skill `organico`): bozze in revisione, mai pubblicate; riga cancello **pacchetto** per l'approvazione (decisione 28). Se marchio o revisori mancano: non esegue, riga per Ivan |
+| 10bis | Ci sono schede senza `testo-post.txt`, o un esito del Collaudo che chiede di correggere un testo del post | **Organico** (skill `organico`): il testo o la versione nuova; il martedì nello stesso giro delle schede (decisione 33). Pubblica la persona social |
 | 11 | Collaudo fatto, pacchetto senza il sì scritto di Ivan | Non esegue. Riga cancello **pacchetto** se manca: "senza il sì, venerdì Campo non prepara niente" |
 | 12 | Da venerdì, pacchetto approvato per iscritto e manca il verbale di Campo | **Campo**, tutto in pausa (in costruzione: solo a carta, nessuna chiamata a Meta) |
 | 13 | Campagne pronte in pausa | Non esegue. Attivare e spendere è di Ivan: riga cancello **spesa**, con i cancelli tecnici ancora aperti (20 contatti finti per porta, §26) |

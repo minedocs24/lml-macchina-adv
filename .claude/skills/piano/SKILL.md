@@ -27,12 +27,6 @@ Del reparto:
 7. L'ultimo `osservatorio/AAAA-MM-GG.md` (con la voce dei clienti se è del primo lunedì del mese); `conoscenza/customer-language.md`.
 8. I numeri, **solo dai file di Numeri**: l'ultimo report in `numeri/` e `numeri/storico.csv` (spesa, contatti, demo,
    clienti nuovi, costo per cliente). Il Piano non apre Meta né il CRM.
-8bis. **Metricool, sola lettura (decisione 28)**: i pezzi usciti in organico (registro `campo/AAAA-MM-GG-organico.md`),
-   con `getAnalyticsDataByMetrics` sul marchio LML scritto in `CLAUDE.md` ("Impostazioni"), dal giorno di uscita a ieri.
-   Metriche (elenco in `.claude/skills/organico/SKILL.md`): **quanti si fermano** = Instagram `IGRE28` (percentuale di
-   visualizzazioni oltre 3 secondi); **quanto guardano** = `IGRE24` (tempo medio) e `IGRE27` (percentuale media vista);
-   per contare `IGRE23` (visualizzazioni) e `IGRE11` (copertura); su Facebook `FBRE13`, `FBRE10`, `FBRE11`. Il pezzo si
-   ritrova dal testo (`IGRE03`) o dal link salvato nel registro. Senza connettore o senza marchio LML: "Cosa non so".
 9. `regia/archivio-pezzi.md` (chi ha parlato, in che formato, con che esito) e `direttore/da-rivedere.md` (risposte di
    Ivan: idee bocciate, spese approvate, conferme di Roberto).
 
@@ -73,13 +67,6 @@ In chat: cinque righe — quante idee, chi parla, quanto al giorno, cosa vogliam
    - Un'idea bocciata da Ivan (martedì entro le 12) si segna con la data e il motivo, se c'è.
    Si seguono le colonne e il "Come si usa" della carta: il Piano non la riorganizza da solo. Un'idea nuova si
    aggiunge in fondo, con il numero successivo.
-2bis. **Sceglie quali pezzi organici meritano la spesa (decisione 28).** Con i numeri di Metricool (passo 8bis), una
-   tabella per pezzo: id della scheda, giorni dall'uscita, visualizzazioni, quanti si fermano (oltre 3 secondi), tempo
-   medio e percentuale vista, e la lettura. Regola di partenza (scelta di Claude, da rivedere con i numeri): un pezzo
-   **merita la spesa** se, con **almeno 300 visualizzazioni**, sta **sopra la metà** dei pezzi organici delle ultime 4
-   settimane sia per "si fermano" sia per "percentuale vista". Sotto 300 visualizzazioni non si giudica. Sempre un
-   **indizio**: l'organico non è la stessa platea della pubblicità. Diagnosi della §18: pochi si fermano = primo
-   fotogramma; si fermano e vanno via = prime parole. I pezzi scelti vanno nel pacchetto come proposta; decide Ivan.
 3. **Conta i pezzi.** **3-5 idee a settimana, ognuna in 2 versioni: 6-10 pezzi** (§18). All'inizio, senza vincenti,
    quasi tutto nuovo. Quando ci sono vincenti: **70% varianti dei vincenti, 30% idee nuove**. Con 5 idee e 2 vincenti,
    per esempio, 3-4 varianti e 1-2 nuove. Il conto si scrive.
@@ -142,7 +129,8 @@ In chat: cinque righe — quante idee, chi parla, quanto al giorno, cosa vogliam
 
 ## Cosa non fa
 - **Non spende e non tocca Meta né Google:** non crea, non attiva, non cambia budget. Campo prepara in pausa, Ivan attiva.
-- **Su Metricool solo legge** (statistiche): non crea, non cambia, non approva post.
+- **Non legge i numeri organici** (decisione 33): i pezzi che meritano la spesa si scelgono con i numeri delle
+  inserzioni, dai file di Numeri.
 - **Non apre il CRM:** i numeri li prende da Numeri. Non contatta nessuno, non manda email o messaggi.
 - **Non scrive** schede, copioni, ganci o testi (Regia), non collauda (Collaudo).
 - **Non promette** funzioni che non sono "vendibili" e non inventa prezzi, sconti o offerte.
