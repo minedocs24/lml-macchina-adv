@@ -1,6 +1,6 @@
 # Carta dei messaggi — idee di partenza
 
-Versione del 7/10/2026. La tiene il Piano: ogni lunedì sceglie qui le 3-5 idee della settimana (`regole/regole-adv.md` §18) e aggiorna lo stato.
+Versione del 7/10/2026, idee 21-23 aggiunte il 10/10/2026 dalla lettura dei concorrenti (`conoscenza/concorrenti.md`). La tiene il Piano: ogni lunedì sceglie qui le 3-5 idee della settimana (`regole/regole-adv.md` §18) e aggiorna lo stato.
 **Un'idea qui è "di cosa parla".** Chi parla e in che formato si decidono nel piano della settimana, rispettando la diversità
 (mai due pezzi in campo con stessa persona, stesso argomento e stesso formato; almeno 3 volti o voci a settimana; clienti mai in video).
 
@@ -33,12 +33,16 @@ niente "intelligenza artificiale" nel testo; nomi dei clienti mai negli annunci.
 | 18 | I primi dieci: lo provi quindici giorni prima di firmare, la partenza è inclusa | tutti | tutti | 5 | "Dopo diverse esperienze con altre aziende del settore [...] mi sono affidato" (CL §3) | offerta, `conoscenza/offerta.md` | da provare |
 | 19 | Risponde in meno di un secondo | chiamate perse | telefono | 3 | "il telefono squilla dodici volte mentre state servendo" (listino ARYA Voice) | 6 — **non vendibile** | in attesa della conferma di Roberto |
 | 20 | Tieni il tuo numero WhatsApp di sempre, con tutte le chat vecchie | WhatsApp senza risposta | WhatsApp | 4 | "Il mio numero non lo voglio toccare" (obiezione dal listino ARYA Voice) | 17 — **in arrivo** | in attesa della conferma di Roberto |
+| 21 | Il titolare lavora senza interruzioni: il telefono lo prende Arya, lui finisce quello che sta facendo | interruzioni | telefono | 2 | "mentre sei impegnato a fare altro" · "che corre, va in bagno, apre al corriere" · "da soli sai quanto è dura" (CL §1) | 1, 5 | da provare — è l'angolo più spinto da fonio e lo usa Segretaria24.it: da solo non distingue (lezione 23), serve il "e fa" |
+| 22 | La testimonianza in prima persona: "ho chiamato e non mi sono accorto che rispondeva un assistente" | chiamate perse | telefono | 3 | da raccogliere: nessuna frase vera ancora | 1 | da provare — attenzione per Regia e Collaudo: Arya **dichiara sempre** di essere un assistente automatico (§3.1, AI Act art. 50), quindi la storia è "parla in modo naturale", mai "non te ne accorgi"; chi parla dev'essere una persona vera o un attore dichiarato, nomi dei clienti mai (decisione 2) |
+| 23 | "Ti chiama Arya": lasci il tuo numero e in pochi secondi Arya ti chiama, già preparata sulla tua azienda | chiamate perse | telefono | 4-5 | "esempi già collaudati in aziende reali" (CL §2) | nessuna oggi — chiamate in uscita **fuori listino** (`arya-oggi.md` §1) | in attesa della conferma di Roberto |
 
 ## Come si usa
 - Ogni lunedì il Piano sceglie 3-5 idee "da provare" (o varianti delle vincenti, quando ci sono: 70% varianti, 30% nuove).
 - Ogni idea va in campo in 2 versioni che cambiano **almeno chi parla o il formato** (cambiare solo il gancio non basta: due pezzi con stessa persona, stesso argomento e stesso formato non stanno in campo insieme, `regole-adv.md` §18).
 - Il venerdì dopo, i Numeri dicono com'è andata; il Piano aggiorna lo stato qui, con data e motivo. Niente si cancella.
-- Le idee 19 e 20 entrano solo quando la riga corrispondente di `arya-oggi.md` diventa "vendibile" con il sì di Ivan.
+- Le idee 19, 20 e 23 entrano solo quando la riga corrispondente di `arya-oggi.md` diventa "vendibile" con il sì di Ivan
+  (per la 23 serve che Roberto confermi che Arya può chiamare subito chi lascia il numero, preparata sulla sua azienda).
 
 ## Cosa non so
 - Le parole vengono da recensioni di mercato e dai rivenditori, non ancora da clienti LML né da altri mestieri: vanno sostituite man mano

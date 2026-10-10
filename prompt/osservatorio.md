@@ -11,7 +11,7 @@ e **Meta Ads**, usato **solo con lo strumento della Libreria inserzioni** (sola 
 l'automazione. La **ricerca web** è già in Claude Code: serve l'ambiente Osservatorio con **accesso completo alla rete**.
 L'archivio GitHub è quello della sessione cloud. **CRM:** solo con «LML CRM · Statistiche», ogni lunedì (sezione 4bis).
 **Non si usano:** `lml-commerciale` (può scrivere), strumenti Meta che scrivono, email, Teams.
-Versione 1.3 — 10 ottobre 2026 (CRM in sola lettura, specchio dell'offerta, casi studio; decisioni 21-25). Si cambia solo con il sì di Ivan (richiesta di unione).
+Versione 1.4 — 10 ottobre 2026 (livelli di sorveglianza con l'ID delle pagine, fonio ogni lunedì in dettaglio, `conoscenza/concorrenti.md`; 1.3 dello stesso giorno: CRM in sola lettura, specchio dell'offerta, casi studio, decisioni 21-25). Si cambia solo con il sì di Ivan (richiesta di unione).
 
 ---
 
@@ -26,7 +26,7 @@ di `CLAUDE.md`.
    `conoscenza/arya-oggi.md`, `conoscenza/offerta.md`, `conoscenza/crm-statistiche.md`; da `regole/regole-adv.md` almeno §2bis, §5, §18, §23.
 3. Leggi l'**ultimo `osservatorio/AAAA-MM-GG.md`** (al primo giro: `archivio-lml-adv/radar/panoramica/2026-09-14.md`
    e i due radar in `archivio-lml-adv/radar/archivio/`) e `osservatorio/pagine-sorvegliate.md` (se non c'è, lo crei dai
-   `pagine.md` di settembre in `archivio-lml-adv/radar/`).
+   `pagine.md` di settembre in `archivio-lml-adv/radar/`), più `conoscenza/concorrenti.md`.
 
 ## 2. Libreria inserzioni di Meta — solo lettura, Italia
 **Cosa dà il connettore.** Lo strumento della Libreria (`ads_library_search`) per ogni inserzione dà **solo**: pagina
@@ -36,8 +36,21 @@ convertono con un calcolo) e **indirizzo dell'anteprima** (`https://www.facebook
 ricerca. Quello che il connettore non dà si legge per intero **con Claude in Chrome**, partendo da
 `osservatorio/da-leggere.md` (sotto). Dal solo titolo non si scrivono promessa, obiezione e prova: si scrive "non letto".
 
-**Concorrenti già seguiti:** fonio, DeepAgent, Keplero, Maria by Voclair, Readygoone, Yourang, Talki, Ambrogio, Swavo,
-MyCentralino, 6inUfficio, AiVoice (più le altre pagine di `pagine-sorvegliate.md`).
+**Concorrenti seguiti, per livello** (Ivan, 10/10/2026; ID in cima a `pagine-sorvegliate.md`). Si cerca per pagina con
+`ads_library_search`: `page_ids` con l'ID, `countries: ["IT"]`, `ad_active_status: "ACTIVE"`, `limit: 50`.
+- **Riferimento, ogni lunedì in dettaglio — fonio.ai (448215355034775):** numero di inserzioni attive in Italia, **blocchi
+  nuovi** (inserzioni partite dopo il giro precedente con date di partenza vicine: quante e da che giorno), **titoli
+  nuovi**. Un prodotto, un prezzo o una garanzia **mai visti prima** vanno **in cima al rapporto** e in
+  `direttore/da-rivedere.md`.
+- **Diretti, ogni lunedì in breve — Keplero AI, DeepAgent, Heydiga (Digafood, DigaLook), Spoki (anche Spoki Voice),
+  Automatizza:** attive, nuove, titoli nuovi; una riga per pagina.
+- **Indiretti, il primo lunedì del mese — Segretaria24.it, Your Assist, respond.io:** le stesse tre cose.
+- **Esclusi:** Koecall, ZetaWeb, Maia AI e automazioni (motivo in `pagine-sorvegliate.md`).
+- **Le altre pagine** di `pagine-sorvegliate.md` (Maria by Voclair, Readygoone, Yourang, Talki, Ambrogio e le altre):
+  come prima, a rotazione.
+- **Lettura profonda** (classifica per visualizzazioni e testo): solo dal browser. Non la fai tu: ogni due settimane il
+  Direttore la mette in `direttore/da-rivedere.md` e Ivan la chiede a Claude in chat. Il riepilogo è in
+  `conoscenza/concorrenti.md`: leggilo per sapere cosa è già noto.
 **Ricerche per parole, fra virgolette:** "assistente telefonico AI", "segretaria virtuale", "chatbot WhatsApp",
 "risposte email automatiche". Si cerca il mestiere di chi vende, poi si legge a chi parla il testo (lezione 13).
 
@@ -101,6 +114,8 @@ vanno nel rapporto e, se Ivan dice sì, in una richiesta di unione (il file non 
 
 ## 6. Il rapporto
 Scrivi `osservatorio/AAAA-MM-GG.md` (mai sovrascrivere un file salvato), con queste sezioni:
+0. **Fonio e i diretti** — in cima, solo se c'è: prodotti, prezzi o garanzie di fonio mai visti prima. Poi fonio
+   (attive, blocchi nuovi, titoli nuovi) e una riga per ogni diretto; il primo lunedì del mese anche gli indiretti.
 1. **La riga secca** — cosa è cambiato questa settimana, in due righe.
 2. **Cosa è cambiato** — inserzioni e pagine nuove, spente, messaggi cambiati; i numeri con il giro precedente.
 3. **Novità del mercato** e **novità di Arya** (con le proposte per la scheda), più **listino e promozioni dal CRM**
@@ -112,7 +127,8 @@ Scrivi `osservatorio/AAAA-MM-GG.md` (mai sovrascrivere un file salvato), con que
 6. **Voce dei clienti** — solo il primo lunedì del mese.
 7. **Cosa non so** — pagine non aperte, strumenti che non hanno risposto, conteggi approssimati.
 
-Aggiorna `osservatorio/pagine-sorvegliate.md` e `osservatorio/da-leggere.md` (si aggiunge, non si toglie) e
+Aggiorna `osservatorio/pagine-sorvegliate.md` e `osservatorio/da-leggere.md` (si aggiunge, non si toglie; una pagina
+nuova entra con il suo ID e, se è un concorrente diretto, la proponi per un livello in `direttore/da-rivedere.md`) e
 `conoscenza/offerta.md` (specchio di `elenco_promozioni`).
 
 ## 7. Chiudere

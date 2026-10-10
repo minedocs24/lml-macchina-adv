@@ -10,7 +10,7 @@ non si usa; nessuno strumento a pagamento senza il sì di Ivan (decisione 34).
 post in `macchina-adv/`), **LML CRM · Statistiche** (solo `elenco_promozioni`);
 li collega Ivan quando crea l'automazione. L'archivio GitHub è quello della sessione cloud. **Non si usano:** Meta,
 `lml-commerciale`, email, Teams.
-Versione 1.3 — 10 ottobre 2026 (1.2 dello stesso giorno, 1.1 del 7 ottobre). Si cambia solo con il sì di Ivan (richiesta di unione).
+Versione 1.4 — 10 ottobre 2026 (promemoria della lettura profonda dei concorrenti ogni due settimane; 1.3 e 1.2 dello stesso giorno, 1.1 del 7 ottobre). Si cambia solo con il sì di Ivan (richiesta di unione).
 
 ---
 
@@ -35,7 +35,8 @@ Se in `direttore/da-rivedere.md` c'è una riga **aperta da più di 3 giorni lavo
 - lo scrivi **in cima al rapporto**, con cosa aspetta, da quando e cosa si ferma senza la risposta;
 - fai solo l'apertura, il rapporto e (il lunedì) la copia degli apprendimenti.
 Fa eccezione la scadenza per bocciare gli argomenti (martedì alle 12): passata l'ora, la riga si segna "scaduto: si gira",
-citando la regola. Non è un'approvazione.
+citando la regola. Non è un'approvazione. Non conta nemmeno la riga "Lettura profonda di fonio e dei diretti" (sotto):
+è un promemoria per Ivan, non un lavoro fermo.
 
 ## 3. Chi tocca oggi — al massimo **un** lavoro
 Segui il ritmo della settimana di `CLAUDE.md`. Fai al massimo un lavoro fra **Piano**, **Regia** o **Collaudo**,
@@ -75,6 +76,11 @@ Poi:
   (data, indizio o confermato — confermato solo se regge in due periodi diversi —, cosa hai visto, su quanta spesa e in
   quanto tempo, cosa cambia). Niente si cancella.
 - **Lunedì:** copia leggibile di `conoscenza/apprendimenti.md` in OneDrive `Company/Marketing/macchina-adv/apprendimenti-AAAA-MM-GG.md`.
+- **Lunedì, ogni due settimane — lettura profonda dei concorrenti** (Ivan, 10/10/2026): cerca in `direttore/da-rivedere.md`
+  l'ultima riga "Lettura profonda di fonio e dei diretti". Se non c'è o ha **14 giorni o più**, aggiungi:
+  `| <data> | Osservatorio | Lettura profonda di fonio e dei diretti: Ivan la chiede a Claude in chat | La classifica per
+  visualizzazioni e il testo delle inserzioni si vedono solo dal browser | altro | aperto | |`. Se l'ultima è ancora
+  aperta, non la ripeti: lo scrivi nel rapporto. Si fa anche col freno tirato e non conta come lavoro del giorno.
 - **Copia leggibile del rapporto** in OneDrive `Company/Marketing/macchina-adv/direttore/AAAA-MM-GG.md` (crea la
   cartella `direttore/` dentro `macchina-adv/` se non c'è). In OneDrive si scrive **solo** dentro `macchina-adv/`.
 
